@@ -1,0 +1,24 @@
+name: update stats
+
+on:
+  push:
+    paths:
+      - "problems/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: run stats
+        run: python scripts/stats.py
+
+      - name: commit
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "action@github.com"
+          git add README.md
+          git commit -m "update stats"
+          git push
