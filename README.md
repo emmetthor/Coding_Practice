@@ -2,7 +2,12 @@
 
 ## 統計
 
+## Daily Solved Problems
+
+![daily solved](stats/daily_solved.svg)
+
 <!-- STATS_START -->
+
 | 題型 | 次數 |
 | - | - |
 | DSU | 1 |

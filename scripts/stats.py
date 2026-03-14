@@ -25,7 +25,7 @@ end = "<!-- STATS_END -->"
 with open("README.md", encoding="utf-8") as f:
     readme = f.read()
 
-stats = "| 題型 | 次數 |\n| - | - |\n" + "\n".join(f"| {k} | {v} |" for k,v in sorted(tag_count.items()))
+stats = "\n| 題型 | 次數 |\n| - | - |\n" + "\n".join(f"| {k} | {v} |" for k,v in sorted(tag_count.items()))
 
 new = re.sub(
     f"{start}.*?{end}",
