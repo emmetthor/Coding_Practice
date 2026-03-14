@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: install python packages
+        run: pip install matplotlib
+  
       - uses: actions/checkout@v3
 
       - name: run stats
