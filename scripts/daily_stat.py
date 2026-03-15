@@ -10,6 +10,7 @@ problems_dir = Path("problems")
 daily = defaultdict(int)
 
 for cpp_file in problems_dir.rglob("*.cpp"):
+    print(cpp_file)
     with open(cpp_file, "r", encoding="utf-8") as f:
         content = f.read()
         match = re.search(r"Date:\s*(\d{4}-\d{2}-\d{2})", content)
