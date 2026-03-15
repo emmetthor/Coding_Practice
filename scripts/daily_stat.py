@@ -1,60 +1,83 @@
-import subprocess
+from pathlib import Path
 from collections import defaultdict
-from datetime import datetime
-import matplotlib.pyplot as plt
-import os
+import re
+from datetime import datetime, timedelta
 
-# 取得 git log
-log = subprocess.check_output(
-    [
-        "git",
-        "log",
-        "--diff-filter=A",
-        "--name-only",
-        "--pretty=format:%ad",
-        "--date=short",
-        "--",
-        "problems"
-    ]
-).decode()
-
+# ------------------------
+# 讀題目檔案裡的日期
+# ------------------------
+problems_dir = Path("problems")
 daily = defaultdict(int)
-current_date = None
 
-for line in log.splitlines():
-    line = line.strip()
+for cpp_file in problems_dir.rglob("*.cpp"):
+    with open(cpp_file, "r", encoding="utf-8") as f:
+        content = f.read()
+        match = re.search(r"Date:\s*(\d{4}-\d{2}-\d{2})", content)
+        if match:
+            date = match.group(1)
+            daily[date] += 1
 
-    # 日期行
-    if line.startswith("20"):
-        current_date = line
+# ------------------------
+# 日期範圍
+# ------------------------
+DAYS = 90
+today = datetime.today()
+dates = [today - timedelta(days=i) for i in range(DAYS)]
+dates.reverse()
 
-    # 新增題目檔案
-    elif line.endswith(".cpp"):
-        daily[current_date] += 1
+# ------------------------
+# SVG 參數
+# ------------------------
+square_size = 20
+padding = 2
+label_padding = 20
+right_padding = 100  # 右側留給總題數
+weeks = (DAYS + 6) // 7
+height = 7 * (square_size + padding) + label_padding
+width = weeks * (square_size + padding) + label_padding + right_padding
 
+svg = f'<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">\n'
 
-# 排序
-dates = sorted(daily.keys())
-counts = [daily[d] for d in dates]
+# 星期標籤
+weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+for i, wd in enumerate(weekdays):
+    y = label_padding + i * (square_size + padding) + square_size / 2 + 4
+    svg += f'  <text x="0" y="{y}" font-size="10" fill="black">{wd}</text>\n'
 
+# 顏色映射
+def get_color(n):
+    if n == 0: return "#ebedf0"
+    elif n == 1: return "#c6e48b"
+    elif n == 2: return "#7bc96f"
+    else: return "#196127"
 
-# 只顯示最近 30 天
-N = 30
-dates = dates[-N:]
-counts = counts[-N:]
+# 畫格子 + hover tooltip
+for idx, d in enumerate(dates):
+    week_idx = idx // 7
+    day_idx = d.weekday()
+    x = label_padding + week_idx * (square_size + padding)
+    y = label_padding + day_idx * (square_size + padding)
+    day_str = d.strftime("%Y-%m-%d")
+    count = daily.get(day_str, 0)
+    color = get_color(count)
+    svg += f'  <rect x="{x}" y="{y}" width="{square_size}" height="{square_size}" fill="{color}">\n'
+    svg += f'    <title>{day_str}: {count} problem(s)</title>\n'
+    svg += f'  </rect>\n'
 
+# ------------------------
+# 右側加總題數
+# ------------------------
+# 右側加總題數
+total_count = sum(daily.values())
+total_font_size = 16  # 原本 12 → 改大
+svg += f'  <text x="{width - right_padding + 5}" y="{height/2}" font-size="{total_font_size}" fill="black">Total: {total_count}</text>\n'
+svg += '</svg>'
 
-# 畫圖
-plt.figure(figsize=(8,4))
-plt.plot(dates, counts, marker="o")
+# ------------------------
+# 輸出
+# ------------------------
+Path("stats").mkdir(exist_ok=True)
+with open("stats/heatmap.svg", "w", encoding="utf-8") as f:
+    f.write(svg)
 
-plt.xticks(rotation=45)
-plt.xlabel("Date")
-plt.ylabel("Solved Problems")
-plt.title("Daily Solved Problems")
-
-plt.tight_layout()
-
-# 存成 SVG
-os.makedirs("stats", exist_ok=True)
-plt.savefig("stats/daily_solved.svg")
+print("SVG heatmap with total count saved at stats/heatmap.svg")

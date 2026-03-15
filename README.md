@@ -4,7 +4,7 @@
 
 ## Daily Solved Problems
 
-![daily solved](stats/daily_solved.svg)
+![daily solved](stats/heatmap.svg)
 
 ## 計畫
 

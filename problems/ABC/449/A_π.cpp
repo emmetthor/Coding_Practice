@@ -1,3 +1,4 @@
+// Date: 2026-03-14
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -17,16 +18,7 @@ using ull = unsigned ll;
 int main() {
     cin.tie(0) -> sync_with_stdio(0);
     
-    int h, w, q; cin >> h >> w >> q;
-
-    while (q--) {
-        int t, x; cin >> t >> x;
-        if (t == 1) {
-            cout << x * w << '\n';
-            h -= x;
-        } else {
-            cout << x * h << '\n';
-            w -= x;
-        }
-    }
+    double pi = 3.141592653589793;
+    double n; cin >> n;
+    cout << fixed << setprecision(20) << pi * (n / 2.0) * (n / 2.0);
 }
