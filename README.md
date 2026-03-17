@@ -59,6 +59,8 @@
 | BIT | 1 |
 | DSU | 1 |
 | LCA | 1 |
+| LIS | 1 |
+| dp記憶體優化 | 1 |
 | lower/upper_bound() | 1 |
 | 二元枚舉 | 1 |
 | 位元 | 1 |
