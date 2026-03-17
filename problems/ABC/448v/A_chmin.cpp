@@ -14,4 +14,14 @@ using ll = long long;
 int main() {
     cin.tie(0) -> sync_with_stdio(0);
     
+    int n, x; cin >> n >> x;
+    for (int i = 0; i < n; i++) {
+        int ai; cin >> ai;
+        if (ai < x) {
+            x = ai;
+            cout << 1 << '\n';
+        } else {
+            cout << 0 << '\n';
+        }
+    }
 }
