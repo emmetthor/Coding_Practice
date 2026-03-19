@@ -20,5 +20,4 @@ read -- "簡單題有解法" --> solve_easy --> read
 read -- "中等題有解法" --> solve_medium --> read
 read -- "(難題有解法)" --> solve_hard --> read
 read -- "可以快速實作的部分分" --> solve_easy_partial --> read
-
 ```
