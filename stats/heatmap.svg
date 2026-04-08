@@ -276,8 +276,8 @@
   <rect x="292" y="138" width="20" height="20" fill="#239a3b">
     <title>2026-04-04: 4 problem(s)</title>
   </rect>
-  <rect x="292" y="160" width="20" height="20" fill="#7bc96f">
-    <title>2026-04-05: 2 problem(s)</title>
+  <rect x="292" y="160" width="20" height="20" fill="#239a3b">
+    <title>2026-04-05: 5 problem(s)</title>
   </rect>
   <rect x="314" y="28" width="20" height="20" fill="#ebedf0">
     <title>2026-04-06: 0 problem(s)</title>
@@ -285,5 +285,8 @@
   <rect x="314" y="50" width="20" height="20" fill="#ebedf0">
     <title>2026-04-07: 0 problem(s)</title>
   </rect>
-  <text x="341" y="91.0" font-size="18" fill="black">Total: 36</text>
+  <rect x="314" y="72" width="20" height="20" fill="#ebedf0">
+    <title>2026-04-08: 0 problem(s)</title>
+  </rect>
+  <text x="341" y="91.0" font-size="18" fill="black">Total: 39</text>
 </svg>
