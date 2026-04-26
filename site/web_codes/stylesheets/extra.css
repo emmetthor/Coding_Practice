@@ -1,58 +1,44 @@
-/* === 全站背景 === */
-body {
-  background-color: #0d1117;   /* 深黑（GitHub dark） */
-  font-family: 
-    'JetBrains Mono', 
-    'Noto Sans TC', 
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    "Noto Sans TC",
-    "PingFang TC",
-    "Microsoft JhengHei",
-    sans-serif;
+/* 深色模式覆蓋 */
+[data-md-color-scheme="slate"] {
+
+  /* 背景 */
+  --md-default-bg-color: #131515;
+  --md-default-bg-color--light: #ff6200;
+
+  /* 文字 */
+  --md-default-fg-color: #e2eaf1;
+  --md-default-fg-color--light: #ecf1f4;
+  --md-default-fg-color--lighter: #7dc2fb;
+
+  /* header #1c1f1f */
+  --md-primary-fg-color: #1c1f1f;
+
+  /* accent */
+  --md-accent-fg-color: #5ca7e4;
+
+  /* code */
+  --md-code-bg-color: #0c0c0c;
+  --md-code-fg-color: #ffffff;
+
+  /* syntax highlight（這個超關鍵） */
+  --md-code-hl-keyword-color: #ff7b72;
+  --md-code-hl-string-color: #a5d6ff;
+  --md-code-hl-function-color: #d2a8ff;
+  --md-code-hl-number-color: #79c0ff;
+  --md-code-hl-comment-color: #8b949e;
 }
 
-/* === 內容區背景 === */
-.md-main {
-  background-color: #0d1117;
+/* 當前選中的項目 - */
+.md-sidebar .md-nav__link--active {
+  color: var(-md-accent-fg-color);
+  font-weight: bold;
 }
 
-/* === 文字顏色 === */
-.md-typeset {
-  color: #e1e7eb;  /* 亮灰 */
+/* 樹狀結構線 */
+.md-sidebar .md-nav__list {
+  border-left: 1px solid #262a2a;
 }
 
-/* === 標題 === */
-.md-typeset h1,
-.md-typeset h2,
-.md-typeset h3,
-.md-typesrt h4,
-.md-typeset h5 {
-  color: #ffffff;
-}
-
-/* === 導覽列 === */
-.md-header {
-  background-color: #161b22;
-}
-
-/* === 側邊欄 === */
-.md-sidebar {
-  background-color: #0d1117;
-}
-
-/* === 連結 === */
 .md-typeset a {
-  color: #58a6ff;
-}
-
-/* === code === */
-code {
-  color: #ffcc66;
-}
-
-/* === code block === */
-.md-typeset pre {
-  background-color: #161b22;
+  color: var(--md-default-fg-color--lighter);
 }

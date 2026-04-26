@@ -21,9 +21,12 @@ nav:
   - 實作技巧:
     - 實作規則: implementation/implementation_rule.md
   - 解題技巧:
+    - 總覽: techniques\index.md
     - 數學:
       - 取餘: techniques\math\modulo.md
       - 組合數: techniques\math\combinatorics.md
+      - 等價類計數: techniques\math\counting_equivalent_states.md
+      - 數學式化簡: techniques\math\equation_optimize.md
     - 前綴和與差分:
       - 前綴和: techniques\prefix_sum_and_difference\prefix_sum.md
       - 差分: techniques\prefix_sum_and_difference\difference.md
@@ -37,6 +40,11 @@ nav:
       - Floyd Warshall: techniques\shortest_path\floyd_warshall.md
     - 排序與交換:
       - 交換技巧: techniques\swap_linked_technique.md
+  - 解題筆記:
+    - 總覽: problem_solutions\index.md
+    - Atcoder Beginner Contest:
+      - ABC455:
+        - ABC455E: problem_solutions\ABC\455\ABC455E.md
   - 一頁式筆記: lite.md
 
 plugins:

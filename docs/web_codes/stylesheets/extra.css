@@ -30,7 +30,7 @@
 
 /* 當前選中的項目 - */
 .md-sidebar .md-nav__link--active {
-  color: var(-md-accent-fg-color);
+  color: var(--md-accent-fg-color);
   font-weight: bold;
 }
 
