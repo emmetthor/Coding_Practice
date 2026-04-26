@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -770,6 +775,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    數學式化簡
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -787,6 +812,97 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        核心知識點
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見模型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="常見模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pair" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        所有不重複 pair 的乘積
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見錯誤
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        代表題目
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent Prompt
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1565,9 +1681,34 @@
 
 
 
-  <h1>數學式化簡</h1>
-
-
+<h1 id="_1">數學式化簡<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">核心知識點<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>把數學式轉「<strong>可預先處理、可維護、可分開算</strong>」的形式。</p>
+<h2 id="_3">常見模型<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="pair">所有不重複 pair 的乘積<a class="headerlink" href="#pair" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[
+\sum_{i = 1}^{n} \sum_{j = i + 1}^{n} A_i A_j = \frac{(\sum_{i = 1}^{n} A_i)^2 - \sum_{i = 1}^{n} A_i ^ 2}{2}
+\]</div>
+<p>證明：</p>
+<p>不失一般性，考慮 <span class="arithmatex">\(A = [A_1, A_2, A_3, A_4]\)</span>，若把所有 (可重複) pair 的乘積寫下來，那會是：</p>
+<div class="highlight"><pre><span></span><code><span class="n">A_1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_1</span><span class="p">,</span><span class="w"> </span><span class="n">A_1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_2</span><span class="p">,</span><span class="w"> </span><span class="n">A_1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_3</span><span class="p">,</span><span class="w"> </span><span class="n">A_1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_4</span>
+<span class="n">A_2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_1</span><span class="p">,</span><span class="w"> </span><span class="n">A_2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_2</span><span class="p">,</span><span class="w"> </span><span class="n">A_2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_3</span><span class="p">,</span><span class="w"> </span><span class="n">A_2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_4</span>
+<span class="n">A_3</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_1</span><span class="p">,</span><span class="w"> </span><span class="n">A_3</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_2</span><span class="p">,</span><span class="w"> </span><span class="n">A_3</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_3</span><span class="p">,</span><span class="w"> </span><span class="n">A_3</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_4</span>
+<span class="n">A_4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_1</span><span class="p">,</span><span class="w"> </span><span class="n">A_4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_2</span><span class="p">,</span><span class="w"> </span><span class="n">A_4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_3</span><span class="p">,</span><span class="w"> </span><span class="n">A_4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_4</span>
+</code></pre></div>
+<p>則可以先去掉所有平方項 <span class="arithmatex">\(A_i^2\)</span>，再因為 <span class="arithmatex">\(A_iA_j = A_jA_i\)</span>，把剩下的 <span class="arithmatex">\(\div 2\)</span> 就是答案。</p>
+<p>TODO</p>
+<h2 id="_4">常見錯誤<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>TODO</p>
+<hr />
+<h2 id="_5">代表題目<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>TODO</p>
+<hr />
+<h2 id="agent-prompt">Agent Prompt<a class="headerlink" href="#agent-prompt" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>請你扮演這個知識點的老師，按照本文的介紹詮釋這個知識點。
+若本文知識點有誤，請點出錯誤的地方並予以修正。</p>
+</blockquote>
 
 
 
