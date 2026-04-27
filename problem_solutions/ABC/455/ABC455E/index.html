@@ -1739,12 +1739,12 @@
 <li>若要求出所有字母出現次數不同的子字串個數，可以轉換成 <strong>全部的子字串數量 - 有字母出現次數相同的子字串個數</strong>。</li>
 <li>有字母出現次數相同的子字串個數可用排容原理得出其個數為：<span class="arithmatex">\(n(A_{cnt} = B_{cnt}) + n(B_{cnt} = C_{cnt}) + n(C_{cnt} = A_{cnt}) - 3 \times n(A_{cnt} = B_{cnt} = C_{cnt}) + n(A_{cnt} = B_{cnt} = C_{cnt})\)</span>。此推論可見下圖。</li>
 <li>不失一般性，若要求出 <span class="arithmatex">\(n(A_{cnt} = B_{cnt} = C_{cnt})\)</span>，可以先用前綴和 <span class="arithmatex">\(A, B, C\)</span> 求出子字串中的字母個數。</li>
-<li>若子字串中的 <span class="arithmatex">\(A_r - A_l = B_r - B_l = C_r - C_l\)</span>，其實可以轉換成：<span class="arithmatex">\((A_r - B_r, A_r - C_r) = (A_l - B_l, A_l - C_l)\)</span> (請見 <a href="../../../../techniques/math/equation_optimize/">數學式化簡</a>)。</li>
-<li>而 <span class="arithmatex">\((A_r - B_r, A_r - C_r) = (A_l - B_l, A_l - C_l)\)</span> 其實可以透過 <a href="../../../../techniques/math/counting_equivalent_states/">等價類計數</a> 來計數，並貢獻答案為 <span class="arithmatex">\(\binom{cnt}{2}\)</span>。</li>
+<li>若子字串中的 <span class="arithmatex">\(A_r - A_l = B_r - B_l = C_r - C_l\)</span>，其實可以轉換成：<span class="arithmatex">\((A_r - B_r, A_r - C_r) = (A_l - B_l, A_l - C_l)\)</span> (請見 <a href="techniques/math/equation_optimize.md">數學式化簡</a>)。</li>
+<li>而 <span class="arithmatex">\((A_r - B_r, A_r - C_r) = (A_l - B_l, A_l - C_l)\)</span> 其實可以透過 <a href="techniques/math/counting_equivalent_states.md">等價類計數</a> 來計數，並貢獻答案為 <span class="arithmatex">\(\binom{cnt}{2}\)</span>。</li>
 <li>因此，計算出所有需要計算的個數後，就可以輸出答案。</li>
 </ol>
 <h2 id="_4">實作方法<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<p><a href="../../../../problems/ABC/455/E_Unbalanced_ABC_Substrings.cpp">程式碼</a></p>
+<p><a href="https://github.com/emmetthor/Coding_Practice/blob/main/problems/ABC/455/E_Unbalanced_ABC_Substrings.cpp">程式碼</a></p>
 <h2 id="agent-prompt">Agent Prompt<a class="headerlink" href="#agent-prompt" title="Permanent link">&para;</a></h2>
 <blockquote>
 <p>請你扮演出題者，把本文預期的作法或是原題解答，詮釋給問題者。</p>
