@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#counting-equivalent-states" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -770,6 +775,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    等價類計數
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -787,6 +812,169 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        核心知識點
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        介紹
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="介紹">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        等價類
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        計數
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見模型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="常見模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        找 key 等價
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        前綴和等價
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        相差等價
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        同餘等價
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見錯誤
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        代表題目
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent Prompt
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1707,9 +1895,57 @@
 
 
 
-  <h1>等價類計數</h1>
-
-
+<h1 id="counting-equivalent-states">等價類計數 Counting Equivalent States<a class="headerlink" href="#counting-equivalent-states" title="Permanent link">&para;</a></h1>
+<h2 id="_1">核心知識點<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>把「<strong>答案關心的特徵</strong>」的特定性質 (通常為<strong>個數</strong>) 記錄下來，再分別對每一類<strong>算貢獻</strong>，加回答案裡。</p>
+<hr />
+<h2 id="_2">介紹<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="_3">等價類<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p><a href="https://zh.wikipedia.org/zh-tw/%E7%AD%89%E4%BB%B7%E7%B1%BB">等價類</a>是數學上一個重要的觀念，對於原本的集合 <span class="arithmatex">\(S\)</span> 中，所有等價類 <span class="arithmatex">\(A_i \subseteq S\)</span> 中，必定滿足：</p>
+<div class="arithmatex">\[\bigcup_{i=1}^{n} A_i = S\]</div>
+<div class="arithmatex">\[\forall i \wedge \forall j \wedge i \not= j, A_i \cap A_j = \emptyset\]</div>
+<h3 id="_4">計數<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>通常這類問題在計算貢獻時，會使用到<strong>每一類的個數</strong>。少數情況使用最大值、最小值等。</p>
+<p>因此等價類計數問題<strong>常常與<a href="\Coding_Practice\techniques\math\combinatorics.md">組合數</a>有關</strong>。</p>
+<hr />
+<h2 id="_5">常見模型<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<h3 id="key">找 key 等價<a class="headerlink" href="#key" title="Permanent link">&para;</a></h3>
+<p>這類題目等價的性質會以 <code>pair</code> 或字串呈現， 因此可以使用 <code>unordered_map</code> 來記錄每一類的個數，最後貢獻答案。</p>
+<h3 id="_6">前綴和等價<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>若遇到「<strong>區間總和</strong>」有關的等價類計數題目，通常會在 <code>prefix_sum</code> 中找等價類。</p>
+<h3 id="_7">相差等價<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>若遇到「<strong>出現個數</strong>」有關的等價類計數題目，通常會在不同項目中，「<strong>出現個數的差</strong>」中找等價類。</p>
+<h3 id="_8">同餘等價<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>若遇到與餘式定理、因數倍數、有關的等價類計數題目，通常需要先取餘，並以以同餘等價來做 counting。</p>
+<hr />
+<h2 id="_9">常見錯誤<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p>TODO</p>
+<hr />
+<h2 id="_10">代表題目<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>題目</th>
+<th>重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="\Coding_Practice\problem_solutions\ABC\455\ABC455E.md">ABC445E Unbalanced ABC Substrings</a></td>
+<td>相差等價</td>
+</tr>
+<tr>
+<td><a href="\Coding_Practice\problem_solutions\LeetCode\LeetCode2033.md">LeetCode 2033 Minimum Operations to Make a Uni-Value Grid</a></td>
+<td>同餘等價</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="agent-prompt">Agent Prompt<a class="headerlink" href="#agent-prompt" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>請你扮演這個知識點的老師，按照本文的介紹詮釋這個知識點。
+若本文知識點有誤，請點出錯誤的地方並予以修正。</p>
+</blockquote>
 
 
 
