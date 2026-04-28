@@ -21,7 +21,7 @@ dp 是一種將**子問題的答案**紀錄下來以**解決大問題**的技巧
 
 > 若 DP 狀態有環出現，會使狀態更新時無法從現有的狀態得知，那其餘狀態更新時就必定錯。
 
-![非 DAG DP 示意圖](../../../img/dp_introduce_cycle.png)
+![非 DAG DP 示意圖](../../img/dp_introduce_cycle.png)
 
 ### 轉移
 
@@ -55,8 +55,8 @@ dp 是一種將**子問題的答案**紀錄下來以**解決大問題**的技巧
 | DP 模型 | 關鍵字 | 大致解法 |
 | - | - | - |
 | 背包問題 | 限制容量、項目填入 | TODO |
-| [二維地圖](/docs/technique/dp/path_on_grid.md) | 地圖、移動方向受限 | TODO |
-| [區間問題](/docs/technique/dp/range_dp.md) | 可以拆成連續子區間的子問題 | `dp[l][r] := 區間 [l, r] 的答案` |
+| [二維地圖](/Coding_Practice/techniques/dp/path_on_grid) | 地圖、移動方向受限 | TODO |
+| [區間問題](/Coding_Practice/techniques/dp/range_dp) | 可以拆成連續子區間的子問題 | `dp[l][r] := 區間 [l, r] 的答案` |
 
 ## 常見錯誤
 

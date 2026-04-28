@@ -26,11 +26,11 @@
 
 ### 恰好為 k 計數
 
-這類問題可以以差分的想法思考，也就是計算「所有 $< k$ 的個數」減去「所有 $\le k$的個數」。詳細請見[差分](../../../docs\techniques\prefix_sum_and_difference\difference.md)。
+這類問題可以以差分的想法思考，也就是計算「所有 $< k$ 的個數」減去「所有 $\le k$的個數」。詳細請見[差分](/Coding_Practice/techniques\prefix_sum_and_difference\difference)。
 
 ### 質因數、GCD、LCM 計數
 
-這類問題本質也是排容原理，請見[質數因數問題](../../../docs\techniques\math\prime_and_factor.md)。
+這類問題本質也是排容原理，請見[質數因數問題](/Coding_Practice/techniques\math\prime_and_factor)。
 
 ---
 
@@ -44,7 +44,7 @@ TODO
 
 | 題目 | 重點 |
 | --- | --- |
-| [ABC445E Unbalanced ABC Substrings](../../../docs\problem_solutions\ABC\455\ABC455E.md) | 把出現不同 -> 全部 - 出現相同，用文氏圖炸開排容。 |
+| [ABC445E Unbalanced ABC Substrings](/Coding_Practice/problem_solutions\ABC\455\ABC455E) | 把出現不同 -> 全部 - 出現相同，用文氏圖炸開排容。 |
 
 ---
 
