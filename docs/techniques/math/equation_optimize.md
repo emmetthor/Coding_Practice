@@ -4,6 +4,8 @@
 
 把數學式轉「**可預先處理、可維護、可分開算**」的形式。
 
+---
+
 ## 常見模型
 
 ### 所有不重複 pair 的乘積
@@ -25,7 +27,23 @@ A_4 * A_1, A_4 * A_2, A_4 * A_3, A_4 * A_4
 
 則可以先去掉所有平方項 $A_i^2$，再因為 $A_iA_j = A_jA_i$，把剩下的 $\div 2$ 就是答案。
 
-TODO
+### 同類項合併
+
+若遇到需要枚舉 $i \in [1, n], j \in [1, n]$ 的題型，通常可以藉由把**公式中的「`i` 與 `i` 項並一起， `j` 與 `j` 項並一起」**來把 $O(n^2)$ 枚舉降至 $O(n)$。
+
+### 餘式定理轉取餘
+
+通常與餘式定理與同餘相關的問題都可以轉成取餘的形式。詳細請見[取餘](\Coding_Practice\techniques\math\modulo.md)。
+
+### 取餘轉公式
+
+通常取餘可以轉成 $i \mod j = i - \lfloor \frac{i}{j} \rfloor$。詳細請見[取餘](\Coding_Practice\techniques\math\modulo.md)。
+
+### 操作轉排列組合
+
+有些複雜的數學公式可以轉成組合數的形式。詳細請見[組合數](\Coding_Practice\techniques\math\combinatorics.md)。
+
+---
 
 ## 常見錯誤
 
@@ -35,7 +53,9 @@ TODO
 
 ## 代表題目
 
-TODO
+| 題目 | 重點 |
+| --- | --- |
+| ABC452E You WILL Like Sigma Problem | TODO |
 
 ---
 
