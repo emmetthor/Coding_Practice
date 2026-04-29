@@ -890,13 +890,57 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        同類項合併
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        餘式定理轉取餘
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        取餘轉公式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        操作轉排列組合
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       
         常見錯誤
@@ -907,7 +951,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
         代表題目
@@ -1620,7 +1664,7 @@
   <span class="md-ellipsis">
     
   
-    ABC455
+    ABC452
   
 
     
@@ -1633,6 +1677,92 @@
         
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ABC452
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../problem_solutions/ABC/452/ABC452E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ABC452E
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_2" id="__nav_5_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ABC455
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_2">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1826,6 +1956,7 @@
 <h1 id="_1">數學式化簡<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <h2 id="_2">核心知識點<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>把數學式轉「<strong>可預先處理、可維護、可分開算</strong>」的形式。</p>
+<hr />
 <h2 id="_3">常見模型<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <h3 id="pair">所有不重複 pair 的乘積<a class="headerlink" href="#pair" title="Permanent link">&para;</a></h3>
 <div class="arithmatex">\[
@@ -1839,12 +1970,33 @@
 <span class="n">A_4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_1</span><span class="p">,</span><span class="w"> </span><span class="n">A_4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_2</span><span class="p">,</span><span class="w"> </span><span class="n">A_4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_3</span><span class="p">,</span><span class="w"> </span><span class="n">A_4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A_4</span>
 </code></pre></div>
 <p>則可以先去掉所有平方項 <span class="arithmatex">\(A_i^2\)</span>，再因為 <span class="arithmatex">\(A_iA_j = A_jA_i\)</span>，把剩下的 <span class="arithmatex">\(\div 2\)</span> 就是答案。</p>
-<p>TODO</p>
-<h2 id="_4">常見錯誤<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="_4">同類項合併<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>若遇到需要枚舉 <span class="arithmatex">\(i \in [1, n], j \in [1, n]\)</span> 的題型，通常可以藉由把<strong>公式中的「<code>i</code> 與 <code>i</code> 項並一起， <code>j</code> 與 <code>j</code> 項並一起」</strong>來把 <span class="arithmatex">\(O(n^2)\)</span> 枚舉降至 <span class="arithmatex">\(O(n)\)</span>。</p>
+<h3 id="_5">餘式定理轉取餘<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>通常與餘式定理與同餘相關的問題都可以轉成取餘的形式。詳細請見<a href="\Coding_Practice\techniques\math\modulo.md">取餘</a>。</p>
+<h3 id="_6">取餘轉公式<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>通常取餘可以轉成 <span class="arithmatex">\(i \mod j = i - \lfloor \frac{i}{j} \rfloor\)</span>。詳細請見<a href="\Coding_Practice\techniques\math\modulo.md">取餘</a>。</p>
+<h3 id="_7">操作轉排列組合<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>有些複雜的數學公式可以轉成組合數的形式。詳細請見<a href="\Coding_Practice\techniques\math\combinatorics.md">組合數</a>。</p>
+<hr />
+<h2 id="_8">常見錯誤<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <p>TODO</p>
 <hr />
-<h2 id="_5">代表題目<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p>TODO</p>
+<h2 id="_9">代表題目<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>題目</th>
+<th>重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ABC452E You WILL Like Sigma Problem</td>
+<td>取餘轉公式 + <span class="arithmatex">\(\sum\)</span></td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h2 id="agent-prompt">Agent Prompt<a class="headerlink" href="#agent-prompt" title="Permanent link">&para;</a></h2>
 <blockquote>
