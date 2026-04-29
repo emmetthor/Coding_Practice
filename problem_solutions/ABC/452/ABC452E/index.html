@@ -1933,7 +1933,7 @@ j = 4 | 0   0   0   1   1   1   1   2   ...
 <p>如果暴力算這些塊，那時間複雜度會是：$<span class="arithmatex">\(n + \frac{n}{2} + \frac{n}{3} + \cdots = \sum_{i=1}^{n} \frac{n}{i} \approx n \log n\)</span>$</p>
 </li>
 <li>
-<p>因此，可以欲處理：$<span class="arithmatex">\(\sum_{i=1}^{N} i \cdot A_i \text{ and } j \sum_{i=1}^{N} A_i \cdot \lfloor \frac{i}{j} \rfloor\)</span>$就可以在總複雜度為 <span class="arithmatex">\(O(n \log n)\)</span> 算出答案。</p>
+<p>因此，可以欲處理：<span class="arithmatex">\(\sum_{i=1}^{N} i \cdot A_i\)</span> 和 <span class="arithmatex">\(j \sum_{i=1}^{N} A_i \cdot \lfloor \frac{i}{j} \rfloor\)</span>就可以在總複雜度為 <span class="arithmatex">\(O(n \log n)\)</span> 算出答案。</p>
 </li>
 </ol>
 <h2 id="_5">實作方法<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
