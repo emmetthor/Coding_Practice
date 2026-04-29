@@ -55,7 +55,7 @@ TODO
 
 | 題目 | 重點 |
 | --- | --- |
-| ABC452E You WILL Like Sigma Problem | 取餘轉公式 + $\sum$ |
+| [ABC452E You WILL Like Sigma Problem](\Coding_Practice\problem_solutions\ABC\452\ABC452E.md) | 取餘轉公式 + $\sum$ |
 
 ---
 
