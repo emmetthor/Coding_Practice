@@ -45,9 +45,11 @@ nav:
   - 解題筆記:
     - 總覽: problem_solutions\index.md
     - Atcoder Beginner Contest:
+      - ABC452:
+        - ABC452E: problem_solutions\ABC\452\ABC452E.md
       - ABC455:
         - ABC455E: problem_solutions\ABC\455\ABC455E.md
-    - LeetCode:
+    - LeetCode: 
       - 2033: problem_solutions\LeetCode\LeetCode2033.md
   - 一頁式筆記: lite.md
 
