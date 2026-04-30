@@ -2005,12 +2005,12 @@
 </code></pre></div>
 <p>其原理為：<strong>枚舉所有質數，把這個質數的倍數都標記成合數</strong>，那剩下的就是質數了。時間複雜度為 <span class="arithmatex">\(O(n \sqrt n)\)</span></p>
 <blockquote>
-<p><strong>[問題]</strong> 為何質數 <span class="arithmatex">\(i\)</span> 只需枚舉 <span class="arithmatex">\(1 \sim \sqrt N\)</span> 就可以停下來？
-可以透過反證法：</p>
+<p><strong>[問題]</strong> 為何質數 <span class="arithmatex">\(i\)</span> 只需枚舉 <span class="arithmatex">\(1 \sim \sqrt N\)</span> 就可以停下來？\
+可以透過反證法：\</p>
 <blockquote>
-<p>若存在一個合數 <span class="arithmatex">\(\sqrt N &lt; m &lt;  N\)</span>，則此合數必定可以表示成 <span class="arithmatex">\(m = a \times b\)</span> 滿足 <span class="arithmatex">\(a \in \mathbb{N} \wedge b \in \mathbb{N}\)</span>。
-透過埃式篩，可知這時的 <span class="arithmatex">\(m\)</span> 沒有一個 <span class="arithmatex">\(\le \sqrt N\)</span> 的因數，因為<strong>這些因數都已經確認過了</strong>。
-所以 <span class="arithmatex">\(\sqrt N &lt; a, b\)</span>，故 <span class="arithmatex">\(m &gt; N\)</span>，產生矛盾。
+<p>若存在一個合數 <span class="arithmatex">\(\sqrt N &lt; m &lt;  N\)</span>，則此合數必定可以表示成 <span class="arithmatex">\(m = a \times b\)</span> 滿足 <span class="arithmatex">\(a \in \mathbb{N} \wedge b \in \mathbb{N}\)</span>。\
+透過埃式篩，可知這時的 <span class="arithmatex">\(m\)</span> 沒有一個 <span class="arithmatex">\(\le \sqrt N\)</span> 的因數，因為<strong>這些因數都已經確認過了</strong>。\
+所以 <span class="arithmatex">\(\sqrt N &lt; a, b\)</span>，故 <span class="arithmatex">\(m &gt; N\)</span>，產生矛盾。\
 因此命題為 <span class="arithmatex">\(F\)</span>。</p>
 </blockquote>
 </blockquote>
@@ -2074,8 +2074,8 @@
 <span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><strong>[問題]</strong> 為何時間複雜度會是 <span class="arithmatex">\(O(\log N)\)</span>？
-對於最差情況，也就是數字降低最慢的方式，就是當 <span class="arithmatex">\(N = 2^k\)</span> 時，每次都只能 <span class="arithmatex">\(\div 2\)</span>。
+<p><strong>[問題]</strong> 為何時間複雜度會是 <span class="arithmatex">\(O(\log N)\)</span>？\
+對於最差情況，也就是數字降低最慢的方式，就是當 <span class="arithmatex">\(N = 2^k\)</span> 時，每次都只能 <span class="arithmatex">\(\div 2\)</span>。\
 這時所需除法次數就會是：<span class="arithmatex">\(k = \log_2N\)</span>。</p>
 </blockquote>
 <hr />
