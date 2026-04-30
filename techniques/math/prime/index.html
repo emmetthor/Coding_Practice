@@ -23,7 +23,7 @@
     
     
       
-        <title>質數因數問題 - Emmetthor's Competitive Programming Skills</title>
+        <title>質數 - Emmetthor's Competitive Programming Skills</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#prime" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -105,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              質數因數問題
+              質數
             
           </span>
         </div>
@@ -714,6 +719,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    質數
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -722,7 +747,7 @@
   <span class="md-ellipsis">
     
   
-    質數因數問題
+    質數
   
 
     
@@ -731,6 +756,175 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        核心知識點
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        介紹
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="介紹">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        埃式篩法
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        質因數分解
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="質因數分解">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        詢問少，數字大
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        詢問多，數字小
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見模型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="常見模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        基礎知識應用
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lcm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        與 lcm 結合
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見錯誤
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        代表題目
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent Prompt
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1793,9 +1987,115 @@
 
 
 
-  <h1>質數因數問題</h1>
+<h1 id="prime">質數 Prime<a class="headerlink" href="#prime" title="Permanent link">&para;</a></h1>
+<h2 id="_1">核心知識點<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p><strong>埃式篩法</strong>和<strong>質因數分解</strong>非常重要！</p>
+<hr />
+<h2 id="_2">介紹<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="_3">埃式篩法<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>「<strong>篩法</strong>」就是篩選出質數的方法，而競程常用的篩法就是埃式篩法。</p>
+<p>埃式篩法的實作方式如下：</p>
+<div class="highlight"><pre><span></span><code><span class="n">vector</span><span class="o">&lt;</span><span class="kt">bool</span><span class="o">&gt;</span><span class="w"> </span><span class="n">prime</span><span class="p">(</span><span class="n">SZ</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+<span class="n">prime</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">prime</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">SZ</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">prime</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="k">continue</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">i</span><span class="p">;</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">SZ</span><span class="p">;</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="n">prime</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>其原理為：<strong>枚舉所有質數，把這個質數的倍數都標記成合數</strong>，那剩下的就是質數了。時間複雜度為 <span class="arithmatex">\(O(n \sqrt n)\)</span></p>
+<blockquote>
+<p><strong>[問題]</strong> 為何質數 <span class="arithmatex">\(i\)</span> 只需枚舉 <span class="arithmatex">\(1 \sim \sqrt N\)</span> 就可以停下來？
+可以透過反證法：</p>
+<blockquote>
+<p>若存在一個合數 <span class="arithmatex">\(\sqrt N &lt; m &lt;  N\)</span>，則此合數必定可以表示成 <span class="arithmatex">\(m = a \times b\)</span> 滿足 <span class="arithmatex">\(a \in \mathbb{N} \wedge b \in \mathbb{N}\)</span>。
+透過埃式篩，可知這時的 <span class="arithmatex">\(m\)</span> 沒有一個 <span class="arithmatex">\(\le \sqrt N\)</span> 的因數，因為<strong>這些因數都已經確認過了</strong>。
+所以 <span class="arithmatex">\(\sqrt N &lt; a, b\)</span>，故 <span class="arithmatex">\(m &gt; N\)</span>，產生矛盾。
+因此命題為 <span class="arithmatex">\(F\)</span>。</p>
+</blockquote>
+</blockquote>
+<h3 id="_4">質因數分解<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>競程中有時會需要進行質因數分解，可以分為兩種形式：</p>
+<h4 id="_5">詢問少，數字大<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<p>若數字可以大到 <span class="arithmatex">\(N \le 10^{12}\)</span>，可以使用類似埃式篩的想法，暴力將此數拆成所有質數相乘。時間複雜度為 <span class="arithmatex">\(O(\sqrt N)\)</span>。</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">cnt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">cnt</span><span class="o">++</span><span class="p">;</span>
+<span class="w">        </span><span class="n">n</span><span class="w"> </span><span class="o">/=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="c1">// 加入分解 i^cnt</span>
+<span class="w">    </span><span class="n">prime_factorization</span><span class="p">.</span><span class="n">emplace_back</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">cnt</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">// 特例處理</span>
+<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="n">prime_factorization</span><span class="p">.</span><span class="n">emplace_back</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+</code></pre></div>
+<h4 id="_6">詢問多，數字小<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
+<p>若詢問達到 <span class="arithmatex">\(Q \le 10^5\)</span>，但是數字卻 <span class="arithmatex">\(N \le 10^7\)</span>，這時需要使用 Smallest Prime Factor (SPF)，來把每次操作的時間複雜度降到 <span class="arithmatex">\(O(\log N)\)</span>。</p>
+<h5 id="spf">SPF 原理<a class="headerlink" href="#spf" title="Permanent link">&para;</a></h5>
+<p>SPF 會記錄所有數的最小質因數，這樣在拆分一數 <span class="arithmatex">\(N\)</span> 時就可以 <span class="arithmatex">\(N' = N \div spf[N]\)</span> 後遞迴至 <span class="arithmatex">\(N' = 1\)</span>。</p>
+<p>以 <span class="arithmatex">\(60\)</span> 舉例，<span class="arithmatex">\(60\)</span> 會經歷以下步驟被質因數分解：</p>
+<div class="arithmatex">\[\begin{aligned} 60 &amp;= 2 \times 30 \\ 30 &amp;= 2 \times 15 \\ 15 &amp;= 3 \times 5 \\ 5 &amp;= 5 \times 1\# \end{aligned}\]</div>
+<p>因此 <span class="arithmatex">\(60 = 2^2 \cdot 3 \cdot 5\)</span>。</p>
+<h5 id="_7">實作<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="k">struct</span><span class="w"> </span><span class="nc">SPF</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">ma</span><span class="p">;</span>
+<span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">spfList</span><span class="p">;</span>
 
+<span class="w">    </span><span class="n">SPF</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">maxNum</span><span class="p">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">spfList</span><span class="p">(</span><span class="n">maxNum</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">),</span><span class="w"> </span><span class="n">ma</span><span class="p">(</span><span class="n">maxNum</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">maxNum</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">spfList</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">maxNum</span><span class="p">;</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">spfList</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">spfList</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="n">array</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">prime_factorization</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">num</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">assert</span><span class="p">(</span><span class="n">num</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">ma</span><span class="p">);</span>
+<span class="w">        </span><span class="n">vector</span><span class="o">&lt;</span><span class="n">array</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">lstPrime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">spfList</span><span class="p">[</span><span class="n">num</span><span class="p">];</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">cnt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">num</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">spfList</span><span class="p">[</span><span class="n">num</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">lstPrime</span><span class="p">)</span><span class="w"> </span><span class="n">cnt</span><span class="o">++</span><span class="p">;</span>
+<span class="w">            </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="n">res</span><span class="p">.</span><span class="n">push_back</span><span class="p">({</span><span class="n">lstPrime</span><span class="p">,</span><span class="w"> </span><span class="n">cnt</span><span class="p">});</span>
+<span class="w">                </span><span class="n">cnt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">                </span><span class="n">lstPrime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">spfList</span><span class="p">[</span><span class="n">num</span><span class="p">];</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">            </span><span class="n">num</span><span class="w"> </span><span class="o">/=</span><span class="w"> </span><span class="n">spfList</span><span class="p">[</span><span class="n">num</span><span class="p">];</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">res</span><span class="p">.</span><span class="n">push_back</span><span class="p">({</span><span class="n">lstPrime</span><span class="p">,</span><span class="w"> </span><span class="n">cnt</span><span class="p">});</span>
+
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">};</span>
+</code></pre></div>
+<blockquote>
+<p><strong>[問題]</strong> 為何時間複雜度會是 <span class="arithmatex">\(O(\log N)\)</span>？
+對於最差情況，也就是數字降低最慢的方式，就是當 <span class="arithmatex">\(N = 2^k\)</span> 時，每次都只能 <span class="arithmatex">\(\div 2\)</span>。
+這時所需除法次數就會是：<span class="arithmatex">\(k = \log_2N\)</span>。</p>
+</blockquote>
+<hr />
+<h2 id="_8">常見模型<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<h3 id="_9">基礎知識應用<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<p>對，真的有題目就要直接找質數 / 質因數分解。</p>
+<h3 id="lcm">與 lcm 結合<a class="headerlink" href="#lcm" title="Permanent link">&para;</a></h3>
+<p>lcm 在計算時取的數會是：所有數質因數分解後，<strong>對於每個質數，取下「最大次方」並乘進 lcm result 裡</strong>。因此通常會使用質因數分解來輔助解題。</p>
+<hr />
+<h2 id="_10">常見錯誤<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<p>TODO</p>
+<hr />
+<h2 id="_11">代表題目<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<p>TODO</p>
+<hr />
+<h2 id="agent-prompt">Agent Prompt<a class="headerlink" href="#agent-prompt" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>請你扮演這個知識點的老師，按照本文的介紹詮釋這個知識點。
+若本文知識點有誤，請點出錯誤的地方並予以修正。</p>
+</blockquote>
 
 
 
