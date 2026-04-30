@@ -33,7 +33,7 @@ A_4 * A_1, A_4 * A_2, A_4 * A_3, A_4 * A_4
 
 ### 餘式定理轉取餘
 
-通常與餘式定理與同餘相關的問題都可以轉成取餘的形式。詳細請見[取餘](\Coding_Practice\techniques\math\modulo.md)。
+通常與餘式定理與同餘相關的問題都可以轉成取餘的形式。詳細請見[取餘](\Coding_Practice\techniques\math\modulo)。
 
 ### 取餘轉公式
 
@@ -41,7 +41,7 @@ A_4 * A_1, A_4 * A_2, A_4 * A_3, A_4 * A_4
 
 ### 操作轉排列組合
 
-有些複雜的數學公式可以轉成組合數的形式。詳細請見[組合數](\Coding_Practice\techniques\math\combinatorics.md)。
+有些複雜的數學公式可以轉成組合數的形式。詳細請見[組合數](\Coding_Practice\techniques\math\combinatorics)。
 
 ---
 
@@ -55,7 +55,7 @@ TODO
 
 | 題目 | 重點 |
 | --- | --- |
-| [ABC452E You WILL Like Sigma Problem](\Coding_Practice\problem_solutions\ABC\452\ABC452E.md) | 取餘轉公式 + $\sum$ |
+| [ABC452E You WILL Like Sigma Problem](\Coding_Practice\problem_solutions\ABC\452\ABC452E) | 取餘轉公式 + $\sum$ |
 
 ---
 

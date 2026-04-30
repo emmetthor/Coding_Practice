@@ -20,7 +20,7 @@ $$\forall i \wedge \forall j \wedge i \not= j, A_i \cap A_j = \emptyset$$
 
 通常這類問題在計算貢獻時，會使用到**每一類的個數**。少數情況使用最大值、最小值等。
 
-因此等價類計數問題**常常與[組合數](\Coding_Practice\techniques\math\combinatorics.md)有關**。
+因此等價類計數問題**常常與[組合數](\Coding_Practice\techniques\math\combinatorics)有關**。
 
 ---
 
@@ -54,8 +54,8 @@ TODO
 
 | 題目 | 重點 |
 | --- | --- |
-| [ABC445E Unbalanced ABC Substrings](\Coding_Practice\problem_solutions\ABC\455\ABC455E.md) | 相差等價 |
-| [LeetCode 2033 Minimum Operations to Make a Uni-Value Grid](\Coding_Practice\problem_solutions\LeetCode\LeetCode2033.md) | 同餘等價 |
+| [ABC445E Unbalanced ABC Substrings](\Coding_Practice\problem_solutions\ABC\455\ABC455E) | 相差等價 |
+| [LeetCode 2033 Minimum Operations to Make a Uni-Value Grid](\Coding_Practice\problem_solutions\LeetCode\LeetCode2033) | 同餘等價 |
 
 ---
 

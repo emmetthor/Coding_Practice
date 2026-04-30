@@ -30,7 +30,7 @@
 
 ### 質因數、GCD、LCM 計數
 
-這類問題本質也是排容原理，請見[質數因數問題](/Coding_Practice/techniques\math\prime_and_factor)。
+這類問題本質也是排容原理，請見[質數因數問題](/Coding_Practice/techniques\math\prime)。
 
 ---
 
