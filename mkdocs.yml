@@ -38,6 +38,9 @@ nav:
       - 背包問題: techniques/dp/knapsack.md
       - 二維地圖 dp: techniques/dp/path_on_grid.md
       - 區間 dp: techniques/dp/range_dp.md
+    - 圖論:
+      - 圖論建模: techniques\graph\graph_theory_modeling.md
+      - 找環: techniques\graph\graph_theory_modeling.md
     - 最短路:
       - Floyd Warshall: techniques\shortest_path\floyd_warshall.md
     - 排序與交換:
