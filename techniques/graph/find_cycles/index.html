@@ -2101,7 +2101,7 @@
 <h3 id="_5">有向圖找環<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
 <p>在有向圖找環時，因為邊有方向性，因此若找到之前拜訪過的點，不一定會是環。</p>
 <p>以下是一個反例：</p>
-<p><img alt="finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle" src="img\finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle.png" /></p>
+<p><img alt="finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle" src="../../finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle.png" /></p>
 <p>這時就必須使用一個 <code>stack</code> 來<strong>記錄目前的遞迴究竟拜訪的是哪些點，才能確定已拜訪過的點真的可以連回一個環</strong>。</p>
 <p>但這時，問題浮現：</p>
 <blockquote>
