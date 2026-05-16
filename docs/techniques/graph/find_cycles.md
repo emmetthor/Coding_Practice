@@ -41,7 +41,7 @@ void dfs(int x, int last) {
 
 以下是一個反例：
 
-![finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle](img\finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle.png)
+![finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle](../../finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle.png)
 
 這時就必須使用一個 `stack` 來**記錄目前的遞迴究竟拜訪的是哪些點，才能確定已拜訪過的點真的可以連回一個環**。
 
