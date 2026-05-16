@@ -25,6 +25,7 @@ nav:
     - 數學:
       - 取餘: techniques\math\modulo.md
       - 質數: techniques\math\prime.md
+      - 最大公因數與最小公倍數: techniques\math\gcd_lcm.md
       - 組合數: techniques\math\combinatorics.md
       - 等價類計數: techniques\math\counting_equivalent_states.md
       - 數學式化簡: techniques\math\equation_optimize.md
