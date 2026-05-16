@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../prime/">
+        <link rel="prev" href="../gcd_lcm/">
       
       
         <link rel="next" href="../counting_equivalent_states/">
@@ -738,6 +738,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../gcd_lcm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    最大公因數與最小公倍數
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -824,6 +852,67 @@
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見題型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="常見題型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        餘組合
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        巴斯卡定理
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        范德蒙恆等式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        整數分拆
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       
         題目
@@ -2018,7 +2107,21 @@ $<span class="arithmatex">\(\begin{array}{ccccccccc}
 \end{array}\)</span>$
 每一項都是上面相鄰兩項的和。</p>
 </blockquote>
-<h2 id="_3">題目<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h2 id="_3">常見題型<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="_4">餘組合<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[\binom{n}{k} = \binom{n}{n - k}\]</div>
+<h3 id="_5">巴斯卡定理<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[\binom{n}{k} + \binom{n}{k + 1} = \binom{n + 1}{k + 1}\]</div>
+<h3 id="_6">范德蒙恆等式<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>當注意到類似於以下的組合數公式，就可以用范德蒙恆等式化簡。</p>
+<div class="arithmatex">\[
+\sum_{i=0}^{n} \binom{m}{i} \binom{n}{n - i} = \binom{m + n}{n}
+\]</div>
+<p>可以想像成：從一組 <span class="arithmatex">\(m\)</span> 個東西的袋子與 <span class="arithmatex">\(n\)</span> 東西的袋子取出 <span class="arithmatex">\(n\)</span> 個東西，那若從 <span class="arithmatex">\(m\)</span> 袋取 <span class="arithmatex">\(x\)</span> 物與 <span class="arithmatex">\(n\)</span> 袋取 <span class="arithmatex">\(y\)</span> 物表示為 <span class="arithmatex">\((x, y)\)</span>，那所有取法有 <span class="arithmatex">\((0, n), (1,n - 1), (2, n - 2), \cdots, (n, 0)\)</span>，其實就是從 <span class="arithmatex">\(m + n\)</span> 的大袋中取 <span class="arithmatex">\(n\)</span> 個東西。</p>
+<p>此技巧常與<strong>整數分拆</strong>結合，畢竟 <span class="arithmatex">\(C^{n-1}_{k-1}\)</span> 可以透過餘組合轉成 <span class="arithmatex">\(C^{n-1}_{n-k}\)</span>。</p>
+<h3 id="_7">整數分拆<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>整數分拆可使用重複組合 <span class="arithmatex">\(H^n_k\)</span> 但限定 <span class="arithmatex">\(n \ge k\)</span>。可以視為有 <span class="arithmatex">\(n\)</span> 個東西，要用 <span class="arithmatex">\(k - 1\)</span> 個隔板隔開他們，那麼共有 <span class="arithmatex">\(n - 1\)</span> 個空格可以放入 <span class="arithmatex">\(k - 1\)</span> 個隔板，也就是<span class="arithmatex">\(C^{n - 1}_{k - 1}\)</span>。</p>
+<h2 id="_8">題目<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2030,6 +2133,10 @@ $<span class="arithmatex">\(\begin{array}{ccccccccc}
 <tr>
 <td><a href="https://cses.fi/problemset/task/1080">CSES Empty String</a></td>
 <td>TODO</td>
+</tr>
+<tr>
+<td>[]</td>
+<td></td>
 </tr>
 </tbody>
 </table>
