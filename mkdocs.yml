@@ -35,11 +35,15 @@ nav:
       - 前綴和: techniques\prefix_sum_and_difference\prefix_sum.md
       - 差分: techniques\prefix_sum_and_difference\difference.md
     - 動態規劃 dp:
-      - dp 初探: techniques/dp/dp_introduce.md
-      - dp 狀態設計: techniques/dp/dp_state_design.md
-      - 背包問題: techniques/dp/knapsack.md
-      - 二維地圖 dp: techniques/dp/path_on_grid.md
-      - 區間 dp: techniques/dp/range_dp.md
+      - dp 入門:
+        - dp 初探: techniques/dp/dp_introduce.md
+        - dp 狀態設計: techniques/dp/dp_state_design.md
+      - 基礎 dp:
+        - 背包問題: techniques/dp/knapsack.md
+        - 二維地圖 dp: techniques/dp/path_on_grid.md
+      - 進階 dp:
+        - 區間 dp: techniques/dp/range_dp.md
+        - 分段 dp: techniques\dp\partition_dp.md
     - 圖論:
       - 圖論建模: techniques\graph\graph_theory_modeling.md
       - 找環: techniques\graph\find_cycles.md
