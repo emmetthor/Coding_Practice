@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../equation_optimize/">
+        <link rel="prev" href="../inclusion_exclusion/">
       
       
-        <link rel="next" href="../median/">
+        <link rel="next" href="../../prefix_sum_and_difference/prefix_sum/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>排容原理 - Emmetthor's Competitive Programming Skills</title>
+        <title>中位數 - Emmetthor's Competitive Programming Skills</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#inclusion-exclusion" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              排容原理
+              中位數
             
           </span>
         </div>
@@ -850,6 +850,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../inclusion_exclusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    排容原理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -869,7 +897,7 @@
   <span class="md-ellipsis">
     
   
-    排容原理
+    中位數
   
 
     
@@ -887,7 +915,7 @@
   <span class="md-ellipsis">
     
   
-    排容原理
+    中位數
   
 
     
@@ -913,7 +941,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         核心知識點
@@ -924,7 +952,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         介紹
@@ -935,22 +963,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        常見模型
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="常見模型">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        基礎排容
+        常見題型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="常見題型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        動態中位數
       
     </span>
   </a>
@@ -958,21 +986,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#k" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        恰好為 k 計數
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gcdlcm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        質因數、GCD、LCM 計數
+        最小化曼哈頓距離
       
     </span>
   </a>
@@ -985,18 +1002,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        常見錯誤
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
         代表題目
@@ -1021,34 +1027,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../median/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    中位數
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -2314,28 +2292,39 @@
 
 
 
-<h1 id="inclusion-exclusion">排容原理 Inclusion Exclusion<a class="headerlink" href="#inclusion-exclusion" title="Permanent link">&para;</a></h1>
-<h2 id="_1">核心知識點<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>若要找到 <span class="arithmatex">\(A\)</span>，找 <span class="arithmatex">\(U\)</span> 使 <span class="arithmatex">\(A \subseteq U\)</span>，找 <span class="arithmatex">\(B = A'\)</span>，最後 <span class="arithmatex">\(n(U) - n(B) = n(A)\)</span>。</p>
+<h1 id="_1">中位數<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">核心知識點<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><strong>數列中正中間的數</strong>。<span class="arithmatex">\(\min \sum_{i=1}^{n} | a_i - x |\)</span> 中的 <span class="arithmatex">\(x\)</span> 就是中位數。</p>
 <hr />
-<h2 id="_2">介紹<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>排容原理，可以把原本難算的東西，<strong>拆成兩個或以上易算的集合，再去做排除與融合</strong>。</p>
-<p>這就和<strong>前綴和、差分技巧</strong>的思想是一樣的，排容甚至是這兩個技巧的始祖。</p>
-<p>通常可以使用<strong>文氏圖</strong>來輔助思考。</p>
+<h2 id="_3">介紹<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>中位數就是數列中正中間的數。若數列長為奇數，則 <span class="arithmatex">\(A_{\frac{n + 1}{2}}\)</span> 為中位數，反之則是 <span class="arithmatex">\(\frac{A_{\frac{n}{2}} + A_{\frac{n}{2} + 1}}{2}\)</span>。</p>
+<p>對於一維與二維曼哈頓距離，中位數其實就是 <span class="arithmatex">\(\min \sum_{i=1}^{n} | a_i - x |\)</span> 中的 <span class="arithmatex">\(x\)</span>。</p>
+<blockquote>
+<p><strong>[證明]</strong>
+<strong>[Lemma]</strong> 先考慮 <span class="arithmatex">\(g(x) = |x - l| + |x - r|\)</span>。
+對於所有 <span class="arithmatex">\(l \le r\)</span>，試證明 <span class="arithmatex">\(\min \arg g(x) \in [l, r]\)</span>。
+<span class="arithmatex">\(x &lt; l \Rightarrow g(x) = l - x + r - x = (l + r) - 2x\)</span>
+<span class="arithmatex">\(x &gt; r \Rightarrow g(x) = x - l + x - r = 2x - (l + r)\)</span>
+<span class="arithmatex">\(l \le x \le r \Rightarrow g(x) = x - l + r - x = r - l\)</span>
+<span class="arithmatex">\(r - l \ge (l + r) - 2x \wedge r - l \ge 2x - (l + r) \Rightarrow \min \arg g(x) \in [l, r] \#\)</span></p>
+<p><strong>[Proof]</strong> 回到原問題， <span class="arithmatex">\(f(x) = \sum_{i=1}^{n} | a_i - x |\)</span>。
+若我們有意識的把 <span class="arithmatex">\(a_i\)</span> 進行配對，配成 <span class="arithmatex">\((a_1, a_n), (a_2, a_{n-1}), \ldots\)</span>
+透過 Lemma 可知每一組 <span class="arithmatex">\(\min \arg |a_l - x| + |a_r - x|\)</span> 的解都 <span class="arithmatex">\(\in [a_l, a_r]\)</span>。
+把所有組的解取交集，答案就會是最中間配對的那組答案，也就會是中位數。</p>
+</blockquote>
 <hr />
-<h2 id="_3">常見模型<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<h3 id="_4">基礎排容<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<p>遇到「<strong>至少一個</strong>」的問題，可以使用 <span class="arithmatex">\(n(U) - n(None)\)</span> 來求。</p>
-<p>遇到「<strong>所有條件都不滿足</strong>」的問題，可以使用 <span class="arithmatex">\(n(U) - n(\bigcup_{i=1}^{n} A_i)\)</span> 來求。</p>
-<h3 id="k">恰好為 k 計數<a class="headerlink" href="#k" title="Permanent link">&para;</a></h3>
-<p>這類問題可以以差分的想法思考，也就是計算「所有 <span class="arithmatex">\(&lt; k\)</span> 的個數」減去「所有 <span class="arithmatex">\(\le k\)</span>的個數」。詳細請見<a href="/Coding_Practice/techniques\prefix_sum_and_difference\difference">差分</a>。</p>
-<h3 id="gcdlcm">質因數、GCD、LCM 計數<a class="headerlink" href="#gcdlcm" title="Permanent link">&para;</a></h3>
-<p>這類問題本質也是排容原理，請見<a href="/Coding_Practice/techniques\math\prime">質數因數問題</a>。</p>
+<h2 id="_4">常見題型<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="_5">動態中位數<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>這可以使用兩種實作方式解決：</p>
+<ol>
+<li>用 <code>set&lt;pair&lt;int, int&gt;&gt;</code> 的指標紀錄中位數位置。</li>
+<li>用兩個 <code>multiset&lt;int&gt;</code> 分別記錄前半的數與後半的數。</li>
+</ol>
+<h3 id="_6">最小化曼哈頓距離<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>這種題目可以直接套用中位數解題。
+只要看到類似 <span class="arithmatex">\(\sum_{i=1}^{n} |a_i - x|\)</span> 的式子，所有的 <span class="arithmatex">\(x\)</span> 都會是中位數。</p>
 <hr />
-<h2 id="_5">常見錯誤<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p>TODO</p>
-<hr />
-<h2 id="_6">代表題目<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h2 id="_7">代表題目<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2345,8 +2334,8 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="/Coding_Practice/problem_solutions\ABC\455\ABC455E">ABC445E Unbalanced ABC Substrings</a></td>
-<td>把出現不同 -&gt; 全部 - 出現相同，用文氏圖炸開排容。</td>
+<td>Atcoder Beginner Contest 458D Chalkboard Median</td>
+<td>動態中位數</td>
 </tr>
 </tbody>
 </table>
