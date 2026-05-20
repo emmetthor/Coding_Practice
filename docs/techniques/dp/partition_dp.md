@@ -35,12 +35,15 @@ TODO
 ## 常見錯誤
 
 - 不知道自己寫的程式碼有沒有空段轉移。
+- 不連續空段沒有用 `dp` 的初始值來確保。如果**初值不是極大 / 極小值**，答案可能會**包含不從頭開始的連續區間**。
 
 ## 代表題目
 
 | 題目 | 重點 |
 | --- | --- |
-| Leetcode 1043. Partition Array for Maximum Sum | 枚舉完成段落 |
+| Leetcode 1043 Partition Array for Maximum Sum | 枚舉完成段落 |
+| Leetcode 1278 Palindrome Partitioning III | 預處理回文 + 枚舉結尾段落 |
+| Leetcode 813 Largest Sum of Averages | 預處理平均值 + 枚舉結尾段落 |
 
 ## Agent Prompt
 

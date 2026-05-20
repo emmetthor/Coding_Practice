@@ -32,6 +32,8 @@ nav:
       - 數學式化簡: techniques\math\equation_optimize.md
       - 排容原理: techniques\math\inclusion_exclusion.md
       - 中位數: techniques\math\median.md
+    - 字串:
+      - 回文: techniques\strings\palindrome.md
     - 前綴和與差分:
       - 前綴和: techniques\prefix_sum_and_difference\prefix_sum.md
       - 差分: techniques\prefix_sum_and_difference\difference.md
