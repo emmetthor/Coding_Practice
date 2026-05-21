@@ -37,6 +37,9 @@ nav:
     - 前綴和與差分:
       - 前綴和: techniques\prefix_sum_and_difference\prefix_sum.md
       - 差分: techniques\prefix_sum_and_difference\difference.md
+    - 二分搜:
+      - 二分搜入門: techniques\binary_search\binary_search_introdution.md
+      - 二分搜 + 貪心: techniques\binary_search\binary_search_with_greedy.md
     - 動態規劃 dp:
       - dp 入門:
         - dp 初探: techniques/dp/dp_introduce.md
