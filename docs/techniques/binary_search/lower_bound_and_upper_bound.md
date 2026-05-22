@@ -6,13 +6,14 @@
 
 ## 使用時機
 
-$>, \ge, =, \le, <, \in [l, r], \in[l, r), \in (l, r], \in (l, r)$ 的數字個數，
+- $>, \ge, =, \le, <, \in [l, r], \in[l, r), \in (l, r], \in (l, r)$ 的數字個數。
+- 離散化。
 
 ## 核心想法
 
 `lower_bound(k)` 會求出第一個 $x \ge k$ 的位址。 `upper_bound(k)` 則是求出第一個 $x > k$。
 
-透過 `vector` 的 `std::random_access_iterator`，兩個函式的指標可以**相減求出距離**，也就是可以 `iter1 - iter2`。因而延伸出**可以計算特定項目個數**的能力。 
+透過 `vector` 的 `std::random_access_iterator`，兩個函式的指標可以**相減求出距離**，也就是可以 `iter1 - iter2`。因而延伸出**可以計算特定項目個數**的能力。
 
 ## 常見模型
 
@@ -50,6 +51,7 @@ auto get = [&](int x) -> int
 ## 代表題目
 
 | 題目 | 重點 |
+| --- | --- |
 
 ## Agent Prompt
 
