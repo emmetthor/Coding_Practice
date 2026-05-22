@@ -51,8 +51,8 @@ nav:
         - 區間 dp: techniques/dp/range_dp.md
         - 分段 dp: techniques\dp\partition_dp.md
     - 圖論:
-      - 圖論建模: techniques\graph\graph_theory_modeling.md
-      - 找環: techniques\graph\find_cycles.md
+      - 圖論建模: techniques\graph_algorithms\graph_theory_modeling.md
+      - 找環: techniques\graph_algorithms\find_cycles.md
     - 最短路:
       - Floyd Warshall: techniques\shortest_path\floyd_warshall.md
     - 排序與交換:
