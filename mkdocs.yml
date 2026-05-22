@@ -39,6 +39,7 @@ nav:
       - 差分: techniques\prefix_sum_and_difference\difference.md
     - 二分搜:
       - 二分搜入門: techniques\binary_search\binary_search_introdution.md
+      - lower_bound(), upper_bound(): techniques\binary_search\lower_bound_and_upper_bound.md
       - 二分搜 + 貪心: techniques\binary_search\binary_search_with_greedy.md
     - 動態規劃 dp:
       - dp 入門:
