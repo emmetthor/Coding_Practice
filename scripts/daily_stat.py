@@ -60,10 +60,14 @@ def get_color(n):
         return "#c6e48b"
     elif n == 2:
         return "#7bc96f"
-    elif n <= 5:
+    elif n == 3:
         return "#239a3b"
-    else:  # 6+
+    elif n == 4:
         return "#196127"
+    elif n <= 5:
+        return "#144A1F"
+    else:  # 6+
+        return "#0A2610"
 
 # 畫格子
 for d in dates:
