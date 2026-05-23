@@ -55,6 +55,8 @@ nav:
       - 找環: techniques\graph_algorithms\find_cycles.md
     - 最短路:
       - Floyd Warshall: techniques\shortest_path\floyd_warshall.md
+      - Dijkstra: techniques\shortest_path\dijkstra.md
+      - Bellman Ford: techniques\shortest_path\bellman_ford.md
     - 排序與交換:
       - 交換技巧: techniques\swap_linked_technique.md
   - 解題筆記:
