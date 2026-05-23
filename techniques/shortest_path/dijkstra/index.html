@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../math/median/">
+        <link rel="prev" href="../floyd_warshall/">
       
       
-        <link rel="next" href="../../prefix_sum_and_difference/prefix_sum/">
+        <link rel="next" href="../bellman_ford/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>回文 - Emmetthor's Competitive Programming Skills</title>
+        <title>Dijkstra - Emmetthor's Competitive Programming Skills</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#palindrome" class="md-skip">
+        <a href="#dijkstra" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              回文
+              Dijkstra
             
           </span>
         </div>
@@ -970,8 +970,6 @@
                 
   
   
-    
-  
   
   
     
@@ -982,11 +980,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
         
           
           <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
@@ -1007,7 +1005,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1022,37 +1020,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    回文
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../strings/palindrome/" class="md-nav__link">
         
   
   
@@ -1068,120 +1039,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#skill" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        這個 skill 解決什麼問題？
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        使用時機
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        核心想法
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        常見模型
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="常見模型">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        預處理回文個數 / 字母變更成回文數
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        常見錯誤
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        代表題目
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#agent-prompt" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Agent Prompt
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1941,6 +1798,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1951,11 +1810,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" checked>
         
           
           <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
@@ -1976,7 +1835,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1994,7 +1853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shortest_path/floyd_warshall/" class="md-nav__link">
+      <a href="../floyd_warshall/" class="md-nav__link">
         
   
   
@@ -2019,10 +1878,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../shortest_path/dijkstra/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dijkstra
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2038,6 +1924,164 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        這個 skill 解決什麼問題？
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        使用時機
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        核心想法
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        實作
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見模型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="常見模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        滿足最佳子結構的另類最短路
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第 k 短路
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        分層圖與圖論建模
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        多源最短路
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見錯誤
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        代表題目
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent Prompt
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2050,7 +2094,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shortest_path/bellman_ford/" class="md-nav__link">
+      <a href="../bellman_ford/" class="md-nav__link">
         
   
   
@@ -2617,21 +2661,94 @@
 
 
 
-<h1 id="palindrome">Palindrome 回文<a class="headerlink" href="#palindrome" title="Permanent link">&para;</a></h1>
+<h1 id="dijkstra">Dijkstra<a class="headerlink" href="#dijkstra" title="Permanent link">&para;</a></h1>
 <h2 id="skill">這個 skill 解決什麼問題？<a class="headerlink" href="#skill" title="Permanent link">&para;</a></h2>
-<p>與回文有關問題。</p>
+<p><strong>求出所有點到某點最短路的演算法</strong>。</p>
 <h2 id="_1">使用時機<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>回文，也就是 <span class="arithmatex">\(\forall (l, r) \wedge 1 \le l \le r \le n, s_l = s_r\)</span> 的字串。</p>
+<p>權重為正，可以 <span class="arithmatex">\(O(n \log n)\)</span> 的最短路題目。</p>
 <h2 id="_2">核心想法<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>每次看回文字串的<strong>兩端</strong>，再根據字母相同或不同做操作。</p>
-<h2 id="_3">常見模型<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<h3 id="_4">預處理回文個數 / 字母變更成回文數<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<p>可以使用<strong>漣漪枚舉法</strong>，從字串中<strong>每一個字母</strong>與<strong>每兩個相鄰字母</strong>開始，向外擴張看<strong>兩端</strong>，再做新增或計數。</p>
-<h2 id="_5">常見錯誤<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>Dijkstra 是 BFS 的變種， SPFA 的優化，是 <strong>BFS + 貪心 形成的演算法</strong>。</p>
+<blockquote>
+<p><strong>[證明]</strong> 每次 BFS 選擇距離出發點最近的點往下走必是最短路：
+假設目前已經經過的點都是最近的距離。
+若從現有<strong>距離原點最近的點</strong>繼續走，若權重都是正的，那麼這個點一定是最短路，因為其他點若要更新，要從<strong>距離原點較遠的點經過權重往下走</strong>，那肯定比這個點的距離還要遠。</p>
+</blockquote>
+<h2 id="_3">實作<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">struct</span><span class="w"> </span><span class="nc">Dijkstra</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">INF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span><span class="p">;</span>
+<span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">e</span><span class="p">;</span>
+<span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">dis</span><span class="p">;</span>
+<span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">visi</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+
+<span class="w">    </span><span class="c1">// 建構子初始化</span>
+<span class="w">    </span><span class="n">Dijkstra</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">_n</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_n</span><span class="p">;</span>
+<span class="w">        </span><span class="n">e</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+<span class="w">        </span><span class="n">dis</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+<span class="w">        </span><span class="n">visi</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="c1">// 新增正權邊</span>
+<span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">add_edge</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">v</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">e</span><span class="p">[</span><span class="n">x</span><span class="p">].</span><span class="n">push_back</span><span class="p">({</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">v</span><span class="p">});</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">shortest_path</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">st</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// pool 紀錄目前距離原點最近的點</span>
+<span class="w">        </span><span class="n">priority_queue</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;&gt;</span><span class="p">,</span><span class="w"> </span><span class="n">greater</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">pool</span><span class="p">;</span>
+<span class="w">        </span><span class="n">dis</span><span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">INF</span><span class="p">);</span>
+<span class="w">        </span><span class="n">visi</span><span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+
+<span class="w">        </span><span class="n">dis</span><span class="p">[</span><span class="n">st</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">        </span><span class="n">pool</span><span class="p">.</span><span class="n">push</span><span class="p">({</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">st</span><span class="p">});</span>
+<span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">pool</span><span class="p">.</span><span class="n">size</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">auto</span><span class="w"> </span><span class="p">[</span><span class="n">v</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pool</span><span class="p">.</span><span class="n">top</span><span class="p">();</span>
+<span class="w">            </span><span class="n">pool</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">visi</span><span class="p">[</span><span class="n">x</span><span class="p">])</span>
+<span class="w">                </span><span class="k">continue</span><span class="p">;</span>
+<span class="w">            </span><span class="n">visi</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">            </span><span class="c1">// 能夠進來這裡的都是最短路</span>
+
+<span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">auto</span><span class="w"> </span><span class="p">[</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">v2</span><span class="p">]</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">e</span><span class="p">[</span><span class="n">x</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">dis</span><span class="p">[</span><span class="n">y</span><span class="p">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">v</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">v2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="n">dis</span><span class="p">[</span><span class="n">y</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">v</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">v2</span><span class="p">;</span>
+<span class="w">                    </span><span class="n">pool</span><span class="p">.</span><span class="n">push</span><span class="p">({</span><span class="n">dis</span><span class="p">[</span><span class="n">y</span><span class="p">],</span><span class="w"> </span><span class="n">y</span><span class="p">});</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">dis</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">};</span>
+</code></pre></div>
+<h2 id="_4">常見模型<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="_5">滿足最佳子結構的另類最短路<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>Dijstra 不只能解最短路，如果運算式滿足<strong>最佳子結構（即最好的答案一定是從他之前的答案推得的）</strong> 就可以用 Dijkstra 解題。</p>
+<p>滿足最佳子結構的運算如下：</p>
+<ol>
+<li><span class="arithmatex">\(\max, \min\)</span></li>
+<li><span class="arithmatex">\(+, \times\)</span></li>
+<li>bitwise OR</li>
+</ol>
+<p>不滿足最佳子結構的運算如下：</p>
+<ol>
+<li><span class="arithmatex">\(\bmod\)</span></li>
+<li><span class="arithmatex">\(-, \div\)</span></li>
+<li>bitwise AND, XOR</li>
+</ol>
+<h3 id="k">第 k 短路<a class="headerlink" href="#k" title="Permanent link">&para;</a></h3>
+<p>如果 <code>dis[]</code> 陣列不只存最短的路徑長，還<strong>存前 k 短的所有路徑長</strong>，就可以算出前 k 短的所有路徑長。</p>
+<h3 id="_6">分層圖與圖論建模<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<h3 id="_7">多源最短路<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>如果<strong>從不同起點同時開始搜尋最短路</strong>，就是多源最短路的一種應用。</p>
+<h2 id="_8">常見錯誤<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <ul>
-<li>忘記 <code>...xx...</code> 是回文，沒有處理中間兩個字母相同的情況。</li>
+<li>未發現其實有<strong>負權邊</strong>。</li>
+<li>未發現圖<strong>不一定完全相連</strong> 或 未發現是多源最短路。</li>
 </ul>
-<h2 id="_6">代表題目<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h2 id="_9">代表題目<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2641,8 +2758,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Leetcode 1278 Palindrome Partitioning III</td>
-<td>預處理回文 + 分段 dp</td>
+<td>AtCoder xxx</td>
+<td>xxx</td>
+</tr>
+<tr>
+<td>USACO xxx</td>
+<td>xxx</td>
 </tr>
 </tbody>
 </table>

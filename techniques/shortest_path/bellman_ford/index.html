@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../math/median/">
+        <link rel="prev" href="../dijkstra/">
       
       
-        <link rel="next" href="../../prefix_sum_and_difference/prefix_sum/">
+        <link rel="next" href="../../swap_linked_technique/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>回文 - Emmetthor's Competitive Programming Skills</title>
+        <title>Bellman Ford - Emmetthor's Competitive Programming Skills</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#palindrome" class="md-skip">
+        <a href="#bellman-ford" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              回文
+              Bellman Ford
             
           </span>
         </div>
@@ -970,8 +970,6 @@
                 
   
   
-    
-  
   
   
     
@@ -982,11 +980,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
         
           
           <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
@@ -1007,7 +1005,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1022,37 +1020,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    回文
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../strings/palindrome/" class="md-nav__link">
         
   
   
@@ -1068,120 +1039,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#skill" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        這個 skill 解決什麼問題？
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        使用時機
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        核心想法
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        常見模型
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="常見模型">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        預處理回文個數 / 字母變更成回文數
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        常見錯誤
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        代表題目
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#agent-prompt" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Agent Prompt
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1941,6 +1798,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1951,11 +1810,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" checked>
         
           
           <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
@@ -1976,7 +1835,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1994,7 +1853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shortest_path/floyd_warshall/" class="md-nav__link">
+      <a href="../floyd_warshall/" class="md-nav__link">
         
   
   
@@ -2022,7 +1881,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shortest_path/dijkstra/" class="md-nav__link">
+      <a href="../dijkstra/" class="md-nav__link">
         
   
   
@@ -2047,10 +1906,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../shortest_path/bellman_ford/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bellman Ford
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2066,6 +1952,125 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        這個 skill 解決什麼問題？
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        使用時機
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        核心想法
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        實作
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見模型
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        找負環
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見錯誤
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        代表題目
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent Prompt
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2617,21 +2622,28 @@
 
 
 
-<h1 id="palindrome">Palindrome 回文<a class="headerlink" href="#palindrome" title="Permanent link">&para;</a></h1>
+<h1 id="bellman-ford">Bellman Ford<a class="headerlink" href="#bellman-ford" title="Permanent link">&para;</a></h1>
 <h2 id="skill">這個 skill 解決什麼問題？<a class="headerlink" href="#skill" title="Permanent link">&para;</a></h2>
-<p>與回文有關問題。</p>
+<p><strong>有負權重的最短路</strong>。</p>
 <h2 id="_1">使用時機<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>回文，也就是 <span class="arithmatex">\(\forall (l, r) \wedge 1 \le l \le r \le n, s_l = s_r\)</span> 的字串。</p>
+<p><strong>有負權重的最短路</strong>。</p>
 <h2 id="_2">核心想法<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>每次看回文字串的<strong>兩端</strong>，再根據字母相同或不同做操作。</p>
-<h2 id="_3">常見模型<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<h3 id="_4">預處理回文個數 / 字母變更成回文數<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<p>可以使用<strong>漣漪枚舉法</strong>，從字串中<strong>每一個字母</strong>與<strong>每兩個相鄰字母</strong>開始，向外擴張看<strong>兩端</strong>，再做新增或計數。</p>
-<h2 id="_5">常見錯誤<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>一般的 Dijkstra 至多對每個點做一次鬆弛，而 Bellman Ford 要對<strong>所有邊做 點數 - 1 輪的鬆弛</strong>。</p>
+<blockquote>
+<p><strong>[問題]</strong> 為何可以 / 一定要這麼做？
+因為每次更新時，若有負的權重，就會改變已經經過的點，因此，每種可能都要考慮到，才可以解出問題。
+<strong>[問題]</strong> 為何只需做 <span class="arithmatex">\(V - 1\)</span> 輪的鬆弛？
+由於一個最小值最多傳遞至除了自己之外所有的點，因此最多就是執行 <strong>點數 - 1</strong> 輪。</p>
+</blockquote>
+<h2 id="_3">實作<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h2 id="_4">常見模型<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h2 id="_5">找負環<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>要找出負環，要對鬆弛下手，如果在執行 Bellman Ford 時，可以進行第 <span class="arithmatex">\(V\)</span> 輪的鬆弛，就代表存在一個負環。</p>
+<h2 id="_6">常見錯誤<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <ul>
-<li>忘記 <code>...xx...</code> 是回文，沒有處理中間兩個字母相同的情況。</li>
+<li><strong>存在負環時，不能使用 Bellman Ford</strong>，因為鬆弛會一直執行下去讓所有點的最短路變成 <span class="arithmatex">\(-\infty\)</span>。</li>
 </ul>
-<h2 id="_6">代表題目<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h2 id="_7">代表題目<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2641,8 +2653,8 @@
 </thead>
 <tbody>
 <tr>
-<td>Leetcode 1278 Palindrome Partitioning III</td>
-<td>預處理回文 + 分段 dp</td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>

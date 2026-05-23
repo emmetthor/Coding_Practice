@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../math/median/">
+        <link rel="prev" href="../../dp/partition_dp/">
       
       
-        <link rel="next" href="../../prefix_sum_and_difference/prefix_sum/">
+        <link rel="next" href="../find_cycles/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>回文 - Emmetthor's Competitive Programming Skills</title>
+        <title>圖論建模 - Emmetthor's Competitive Programming Skills</title>
       
     
     
@@ -75,11 +75,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#palindrome" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -110,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              回文
+              圖論建模
             
           </span>
         </div>
@@ -970,8 +965,6 @@
                 
   
   
-    
-  
   
   
     
@@ -982,11 +975,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
         
           
           <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
@@ -1007,7 +1000,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1022,37 +1015,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    回文
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../strings/palindrome/" class="md-nav__link">
         
   
   
@@ -1068,120 +1034,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#skill" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        這個 skill 解決什麼問題？
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        使用時機
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        核心想法
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        常見模型
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="常見模型">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        預處理回文個數 / 字母變更成回文數
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        常見錯誤
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        代表題目
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#agent-prompt" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Agent Prompt
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1827,6 +1679,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1837,11 +1691,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" checked>
         
           
           <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
@@ -1862,7 +1716,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_7">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1877,10 +1731,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../graph_algorithms/graph_theory_modeling/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1896,6 +1757,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1908,7 +1770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../graph_algorithms/find_cycles/" class="md-nav__link">
+      <a href="../find_cycles/" class="md-nav__link">
         
   
   
@@ -2617,39 +2479,9 @@
 
 
 
-<h1 id="palindrome">Palindrome 回文<a class="headerlink" href="#palindrome" title="Permanent link">&para;</a></h1>
-<h2 id="skill">這個 skill 解決什麼問題？<a class="headerlink" href="#skill" title="Permanent link">&para;</a></h2>
-<p>與回文有關問題。</p>
-<h2 id="_1">使用時機<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>回文，也就是 <span class="arithmatex">\(\forall (l, r) \wedge 1 \le l \le r \le n, s_l = s_r\)</span> 的字串。</p>
-<h2 id="_2">核心想法<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>每次看回文字串的<strong>兩端</strong>，再根據字母相同或不同做操作。</p>
-<h2 id="_3">常見模型<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<h3 id="_4">預處理回文個數 / 字母變更成回文數<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<p>可以使用<strong>漣漪枚舉法</strong>，從字串中<strong>每一個字母</strong>與<strong>每兩個相鄰字母</strong>開始，向外擴張看<strong>兩端</strong>，再做新增或計數。</p>
-<h2 id="_5">常見錯誤<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<ul>
-<li>忘記 <code>...xx...</code> 是回文，沒有處理中間兩個字母相同的情況。</li>
-</ul>
-<h2 id="_6">代表題目<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>題目</th>
-<th>重點</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Leetcode 1278 Palindrome Partitioning III</td>
-<td>預處理回文 + 分段 dp</td>
-</tr>
-</tbody>
-</table>
-<h2 id="agent-prompt">Agent Prompt<a class="headerlink" href="#agent-prompt" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>請你扮演這個 skill 的教練，按照本文的思考流程分析題目。</p>
-</blockquote>
+  <h1>圖論建模</h1>
+
+
 
 
 

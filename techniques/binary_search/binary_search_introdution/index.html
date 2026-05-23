@@ -12,7 +12,7 @@
         <link rel="prev" href="../../prefix_sum_and_difference/difference/">
       
       
-        <link rel="next" href="../binary_search_with_greedy/">
+        <link rel="next" href="../lower_bound_and_upper_bound/">
       
       
         
@@ -1304,10 +1304,66 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="介紹">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        單調性
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        實作
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="實作">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        整數二分搜
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        浮點數二分搜
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
         常見模型
@@ -1315,10 +1371,71 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="常見模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lower_bound-upper_bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        lower_bound / upper_bound 應用
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        最大化最小值 / 最小化最大值
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第 k 小 / 大
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        中位數二分搜
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三分搜
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       
         常見錯誤
@@ -1329,7 +1446,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       
         代表題目
@@ -1366,14 +1483,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../binary_search_with_greedy/" class="md-nav__link">
+      <a href="../lower_bound_and_upper_bound/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    二分搜 + 貪心
+    lower_bound(), upper_bound()
   
 
     
@@ -1852,7 +1969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../graph/graph_theory_modeling/" class="md-nav__link">
+      <a href="../../graph_algorithms/graph_theory_modeling/" class="md-nav__link">
         
   
   
@@ -1880,7 +1997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../graph/find_cycles/" class="md-nav__link">
+      <a href="../../graph_algorithms/find_cycles/" class="md-nav__link">
         
   
   
@@ -1974,6 +2091,62 @@
     
   
     Floyd Warshall
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../shortest_path/dijkstra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dijkstra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../shortest_path/bellman_ford/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bellman Ford
   
 
     
@@ -2535,20 +2708,84 @@
 
 <h1 id="binary-search">二分搜 Binary Search<a class="headerlink" href="#binary-search" title="Permanent link">&para;</a></h1>
 <h2 id="_1">核心知識點<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>一句話寫出最關鍵的知識點。</p>
+<p>有單調性並要求極值，就可以設定上下界 <span class="arithmatex">\(O(\log n)\)</span> 快速搜出答案。</p>
 <hr />
 <h2 id="_2">介紹<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>介紹文在此。</p>
+<p>二分搜的前提是<strong>單調性</strong>的存在。</p>
+<h3 id="_3">單調性<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>在程式中，單調性可以有兩種形式。</p>
+<ol>
+<li>數學單調性。也就是<strong>一函數遞增或遞減</strong>。</li>
+<li>存在 <code>false, false, ..., false, true, true, ..., true</code>，可以明確給定搜索方向的序列。（也就是遇到 <code>false</code> 就往右找，遇到 <code>true</code> 就往左找。）</li>
+</ol>
 <hr />
-<h2 id="_3">常見模型<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<p>可列點，或是表格</p>
+<h2 id="_4">實作<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="_5">整數二分搜<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">low</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">hi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MAX</span><span class="p">;</span>
+<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">low</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">hi</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">low</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hi</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nb">true</span><span class="p">)</span>
+<span class="w">        </span><span class="n">low</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="k">else</span>
+<span class="w">        </span><span class="n">hi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">low</span><span class="p">;</span>
+</code></pre></div>
+<h3 id="_6">浮點數二分搜<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>由於浮點數精度不需太高，因此可以只跑六十次，直接暴力算出中位數。</p>
+<div class="highlight"><pre><span></span><code><span class="kt">double</span><span class="w"> </span><span class="n">low</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">hi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MAX</span><span class="p">;</span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">t</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">60</span><span class="p">;</span><span class="w"> </span><span class="n">t</span><span class="o">++</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">low</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hi</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nb">true</span><span class="p">)</span>
+<span class="w">        </span><span class="n">low</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
+<span class="w">    </span><span class="k">else</span>
+<span class="w">        </span><span class="n">hi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">low</span><span class="p">;</span>
+</code></pre></div>
 <hr />
-<h2 id="_4">常見錯誤<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h2 id="_7">常見模型<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<h3 id="lower_bound-upper_bound">lower_bound / upper_bound 應用<a class="headerlink" href="#lower_bound-upper_bound" title="Permanent link">&para;</a></h3>
+<p>請見 <a href="\techniques\binary_search\lower_bound_and_upper_bound">lower_bound 與 upper_bound</a>。</p>
+<h3 id="_8">最大化最小值 / 最小化最大值<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>只要看到題目出現「最大化最小值 / 最小化最大值」等字眼，第一步通常都是直接二分搜答案。</p>
+<blockquote>
+<p><strong>[證明]</strong> 最大化最小值 / 最小化最大值 一定可以二分搜
+不失一般性，最大化最小值為例。
+如果假設答案為 <span class="arithmatex">\(a\)</span>，則若以答案為 <span class="arithmatex">\(x\)</span> 驗證合法性時，會發現所有 <span class="arithmatex">\(x \ge a\)</span> 的情況，這個 <span class="arithmatex">\(x\)</span> 都必定能達成；反之 <span class="arithmatex">\(x &lt; a\)</span> 則不可能達成。
+這個特性正好符合第二種單調性：<code>false, false, ..., false, true, true, ..., true</code>，因此可以二分搜。</p>
+</blockquote>
+<h3 id="k">第 k 小 / 大<a class="headerlink" href="#k" title="Permanent link">&para;</a></h3>
+<p>若把二分搜搜尋的項目改成：</p>
+<blockquote>
+<p>猜測東西是 <span class="arithmatex">\(x\)</span>，有幾個東西會 <span class="arithmatex">\(\le x\)</span> 呢？</p>
+</blockquote>
+<p>如果 <span class="arithmatex">\(\le x\)</span> 的數量至少有 <span class="arithmatex">\(k\)</span> 個，代表第 <span class="arithmatex">\(k\)</span> 小必定 <span class="arithmatex">\(\le x\)</span>。這便可以二分搜。</p>
+<p>(### 門檻二分搜)</p>
+<h3 id="_9">中位數二分搜<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<p>若要搜尋中位數 <span class="arithmatex">\(x\)</span>，可以把序列轉換成：
+$$
+a_i =
+\begin{cases}
++1 &amp; \text{if } a_i \ge x\
+-1 &amp; \text{if } a_i &lt; x
+\end{cases}
+$$
+則若有某區間總和 <span class="arithmatex">\(\ge 0\)</span>，就代表 <span class="arithmatex">\(\ge x\)</span> 的數字個數至少有一半以上，則中位數也就必須 <span class="arithmatex">\(\le x\)</span>。</p>
+<h3 id="_10">三分搜<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<hr />
+<h2 id="_11">常見錯誤<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>未確認適當的最小值與最大值</strong>，導致計算時出現非法的數值。</li>
+<li>計算 <code>mid</code> 時未注意可能有負數出現。應使用 <code>low + (hi - low) / 2</code>。</li>
+<li>計算 <code>mid</code> 時 <code>integer overflow</code>。</li>
 </ul>
 <hr />
-<h2 id="_5">代表題目<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<h2 id="_12">代表題目<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2558,12 +2795,8 @@
 </thead>
 <tbody>
 <tr>
-<td>AtCoder xxx</td>
-<td>xxx</td>
-</tr>
-<tr>
-<td>USACO xxx</td>
-<td>xxx</td>
+<td>CSES Array Division</td>
+<td>剛好 k 塊 = 至多 k 塊</td>
 </tr>
 </tbody>
 </table>

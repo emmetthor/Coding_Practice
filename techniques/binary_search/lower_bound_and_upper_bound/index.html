@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../dp/partition_dp/">
+        <link rel="prev" href="../binary_search_introdution/">
       
       
-        <link rel="next" href="../find_cycles/">
+        <link rel="next" href="../../dp/dp_introduce/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>圖論建模 - Emmetthor's Competitive Programming Skills</title>
+        <title>lower_bound(), upper_bound() - Emmetthor's Competitive Programming Skills</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#lower_bound-upper_bound" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -105,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              圖論建模
+              lower_bound(), upper_bound()
             
           </span>
         </div>
@@ -1165,6 +1170,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1175,11 +1182,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" checked>
         
           
           <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
@@ -1200,7 +1207,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1218,7 +1225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../binary_search/binary_search_introdution/" class="md-nav__link">
+      <a href="../binary_search_introdution/" class="md-nav__link">
         
   
   
@@ -1243,17 +1250,44 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../binary_search/binary_search_with_greedy/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    lower_bound(), upper_bound()
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    二分搜 + 貪心
+    lower_bound(), upper_bound()
   
 
     
@@ -1262,6 +1296,131 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        這個 skill 解決什麼問題？
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        使用時機
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        核心想法
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見模型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="常見模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#l-r-l-r-l-r-l-r" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        求出 \([l, r], [l, r), (l, r], (l, r)\) 中的數字個數
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        離散化
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見錯誤
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        代表題目
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent Prompt
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1679,8 +1838,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1691,11 +1848,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
         
           
           <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
@@ -1716,7 +1873,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_7">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1731,17 +1888,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../graph_algorithms/graph_theory_modeling/" class="md-nav__link">
         
   
   
@@ -1757,7 +1907,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1770,7 +1919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../find_cycles/" class="md-nav__link">
+      <a href="../../graph_algorithms/find_cycles/" class="md-nav__link">
         
   
   
@@ -1864,6 +2013,62 @@
     
   
     Floyd Warshall
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../shortest_path/dijkstra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dijkstra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../shortest_path/bellman_ford/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bellman Ford
   
 
     
@@ -2423,9 +2628,60 @@
 
 
 
-  <h1>圖論建模</h1>
+<h1 id="lower_bound-upper_bound">lower_bound() 與 upper_bound()<a class="headerlink" href="#lower_bound-upper_bound" title="Permanent link">&para;</a></h1>
+<h2 id="skill">這個 skill 解決什麼問題？<a class="headerlink" href="#skill" title="Permanent link">&para;</a></h2>
+<p>和 <code>lower_bound()</code> 與 <code>upper_bound()</code> 有關的問題。</p>
+<h2 id="_1">使用時機<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><span class="arithmatex">\(&gt;, \ge, =, \le, &lt;, \in [l, r], \in[l, r), \in (l, r], \in (l, r)\)</span> 的數字個數。</li>
+<li>離散化。</li>
+</ul>
+<h2 id="_2">核心想法<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><code>lower_bound(k)</code> 會求出第一個 <span class="arithmatex">\(x \ge k\)</span> 的位址。 <code>upper_bound(k)</code> 則是求出第一個 <span class="arithmatex">\(x &gt; k\)</span>。</p>
+<p>透過 <code>vector</code> 的 <code>std::random_access_iterator</code>，兩個函式的指標可以<strong>相減求出距離</strong>，也就是可以 <code>iter1 - iter2</code>。因而延伸出<strong>可以計算特定項目個數</strong>的能力。</p>
+<h2 id="_3">常見模型<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="l-r-l-r-l-r-l-r">求出 <span class="arithmatex">\([l, r], [l, r), (l, r], (l, r)\)</span> 中的數字個數<a class="headerlink" href="#l-r-l-r-l-r-l-r" title="Permanent link">&para;</a></h3>
+<p>可以使用前綴和的方式思考，若把所有 <span class="arithmatex">\(\le, &lt; r\)</span> 的數字個數減去 <span class="arithmatex">\(\le, &lt; l\)</span> 的數字個數，就可以求出  <span class="arithmatex">\([l, r], [l, r), (l, r], (l, r)\)</span> 中的數字個數。</p>
+<p>以 <span class="arithmatex">\([l, r)\)</span> 為例，則可以使用 <code>lower_bound(r) - lower_bound(l)</code> 求出所有 <span class="arithmatex">\(\in [l, r)\)</span> 的數字個數。</p>
+<h3 id="_4">離散化<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>如果只需要知道<strong>資料間的大小</strong>關係，但是數字極大時，可以<strong>使用離散化技巧，把數字壓成排名</strong>。</p>
+<p>利用 <code>lower_bound()</code> 與 <code>unique()</code>，便可以寫出離散化的模板。</p>
+<div class="highlight"><pre><span></span><code><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">ori</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
 
+<span class="c1">// 先排序</span>
+<span class="n">sort</span><span class="p">(</span><span class="n">all</span><span class="p">(</span><span class="n">ori</span><span class="p">));</span>
+<span class="c1">// 再用 unique 去重, erase 刪去多餘項目</span>
+<span class="n">ori</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">unique</span><span class="p">(</span><span class="n">all</span><span class="p">(</span><span class="n">ori</span><span class="p">)),</span><span class="w"> </span><span class="n">ori</span><span class="p">.</span><span class="n">end</span><span class="p">());</span>
 
+<span class="k">auto</span><span class="w"> </span><span class="n">get</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="o">&amp;</span><span class="p">](</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="kt">int</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="c1">// 利用 std::random_access_iterator 做距離相減，也就是名次</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">all</span><span class="p">(</span><span class="n">ori</span><span class="p">),</span><span class="w"> </span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">ori</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<h2 id="_5">常見錯誤<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<ul>
+<li>使用關聯容器時未使用內建 <code>lower_bound(), upper_bound()</code> 導致時間複雜度 <span class="arithmatex">\(O(1) \rightarrow O(\log n)\)</span> 而超時。</li>
+</ul>
+<h2 id="_6">代表題目<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>題目</th>
+<th>重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="agent-prompt">Agent Prompt<a class="headerlink" href="#agent-prompt" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>請你扮演這個 skill 的教練，按照本文的思考流程分析題目。</p>
+</blockquote>
 
 
 
