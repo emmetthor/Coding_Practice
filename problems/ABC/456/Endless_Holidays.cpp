@@ -1,4 +1,11 @@
 // Date: 2026-05-02
+/*
+Tags: find_cycle, dfs
+Independent: 5
+Understanding: 4
+Implementation: 4
+Recognition: 5
+*/
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>
 using namespace std;

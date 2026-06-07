@@ -126,7 +126,8 @@
     "equation_optimize",
     "inclusion_exclusion",
     "modulo",
-    "prime"
+    "prime",
+    "geometry"
   ],
 
   "ordering": [
@@ -137,5 +138,10 @@
 
   "string": [
     "palindrome_problems"
+  ],
+
+  "unclassified": [
+    "2d_map_implementation",
+    "custom_containers"
   ]
 }

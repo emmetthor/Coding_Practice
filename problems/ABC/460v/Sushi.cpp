@@ -1,4 +1,11 @@
 // Date: 2026-05-31
+/*
+Tags: same_side_two_pointer
+Independent: 5
+Understanding: 5
+Implementation: 5
+Recognition: 5
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

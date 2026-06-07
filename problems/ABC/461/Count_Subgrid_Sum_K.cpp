@@ -1,7 +1,7 @@
 /*
-Date: 2026-06-07
+Date: 2026-06-06
 
-Tags: 2d_prefix_sum, 1d_prefix_sum
+Tags: 2d_prefix_sum, 1d_prefix_sum, 2d_map_implementation
 Independent: 1
 Understanding: 2
 Implementation: 2

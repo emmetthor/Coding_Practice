@@ -1,4 +1,11 @@
 // Date: 2026-05-02
+/*
+Tags: dp
+Independent: 5
+Understanding: 5
+Implementation: 5
+Recognition: 5
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

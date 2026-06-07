@@ -1,6 +1,14 @@
 // Date: 2026-05-31
+/*
+Tags: geometry
+Independent: 5
+Understanding: 5
+Implementation: 4
+Recognition: 5
+
+Mistakes: integer_overflow
+*/
 #include <bits/stdc++.h>
-#include <iomanip>
 using namespace std;
 
 #ifdef LOCAL

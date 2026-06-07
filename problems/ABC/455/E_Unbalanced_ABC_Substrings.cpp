@@ -1,5 +1,4 @@
 // original code
-// // Date: 2026-04-25
 // #include <bits/stdc++.h>
 // using namespace std;
 
@@ -82,6 +81,13 @@
 
 // better code
 // Date: 2026-04-26
+/*
+Tags: inclusion_exclusion, associative_containers, counting_equivalent_states
+Independent: 3
+Understanding: 5
+Implementation: 5
+Recognition: 4
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

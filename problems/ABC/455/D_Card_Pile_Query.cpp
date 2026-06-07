@@ -1,4 +1,11 @@
 // Date: 2026-04-25
+/*
+Tags: custom_containers
+Independent: 5
+Understanding: 5
+Implementation: 5
+Recognition: 5
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

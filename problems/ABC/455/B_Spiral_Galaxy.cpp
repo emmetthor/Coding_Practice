@@ -1,4 +1,11 @@
 // Date: 2026-04-25
+/*
+Tags: 2d_map_implementation
+Independent: 5
+Understanding: 4
+Implementation: 5
+Recognition: 5
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

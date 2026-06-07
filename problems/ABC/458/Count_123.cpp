@@ -1,3 +1,14 @@
+/*
+Date: 2026-05-16
+
+Tags: combinatorics
+Independent: 1
+Understanding: 2
+Implementation: 2
+Recognition: 4
+
+Mistakes: not_learned
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
