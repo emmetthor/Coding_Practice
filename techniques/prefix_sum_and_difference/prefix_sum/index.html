@@ -1220,6 +1220,56 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常見題型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="常見題型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        連續區間和
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二維前綴和壓縮
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        題目
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2608,6 +2658,43 @@ prefix[i] = prefix[i - 1] \oplus a[i]\\
 <div class="arithmatex">\[
 ans = prefix[r] \oplus prefix[l - 1]
 \]</div>
+<h2 id="_4">常見題型<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="_5">連續區間和<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>當題目想要快速求<strong>共有幾個連續區間和 = k</strong>，可以轉換一維前綴和的數學式：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+prefix[r] - prefix[l - 1] &amp;= k \\
+prefix[r] - k &amp;= prefix[l - 1]
+\end{aligned}\]</div>
+<p>就可以紀錄 <span class="arithmatex">\(prefix[l - 1]\)</span> 的出現次數，直接做答案貢獻。</p>
+<div class="highlight"><pre><span></span><code><span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cnt</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">prefix</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="n">cnt</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="n">prefix</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+<span class="w">    </span><span class="n">ans</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">cnt</span><span class="p">[</span><span class="n">prefix</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">k</span><span class="p">];</span>
+<span class="w">    </span><span class="n">cnt</span><span class="p">[</span><span class="n">prefix</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="_6">二維前綴和壓縮<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>當題目想要快速求<strong>共有幾個矩形的和 = k</strong>，由於二維前綴和無法快速求，因此要<strong>固定上下界</strong>，轉化為<strong>一維前綴和</strong>才能做<strong>連續區間和</strong>。</p>
+<h2 id="_7">題目<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>題目</th>
+<th>詳解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://atcoder.jp/contests/abc461/tasks/abc461_d">ABC461D Count Subgrid Sum = K</a></td>
+<td>二維前綴和壓縮</td>
+</tr>
+</tbody>
+</table>
 
 
 
