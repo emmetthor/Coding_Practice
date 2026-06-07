@@ -1,4 +1,14 @@
-// Date: 2026-06-07
+/*
+Date: 2026-06-07
+
+Tags: 2d_prefix_sum, 1d_prefix_sum
+Independent: 1
+Understanding: 2
+Implementation: 2
+Recognition: 4
+
+Mistakes: not_learned
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

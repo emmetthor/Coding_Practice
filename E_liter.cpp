@@ -35,11 +35,43 @@ public:
         }
         return res;
     }
+
+    T sum_range(int l, int r) {
+        return sum(r) - sum(l - 1);
+    }
 };
 
 int main() {
     cin.tie(0) -> sync_with_stdio(0);
     
     int n, q; cin >> n >> q;
-    BIT<int> black(n + 1), white(n + 1);
+    vector<BIT<int>> bit(2);
+    vector<int> lastRow(n + 1, -1), lastCol(n + 1, -1);
+
+    ll ans = 0;
+    int index = 1;
+    while (q--)
+    {
+        int type, x; cin >> type >> x;
+
+        if (type == 1) // black
+        {
+            if (lastRow[x] == -1)
+            {
+                ans += n;
+                continue;
+            }
+
+            ans += bit[0].sum_range(lastRow[x] + 1, index - 1);
+
+            bit[1].upd(x, -1);
+        }
+        else if (type == 2) // white
+        {
+
+        }
+        else assert(0);
+
+        cout << ans << '\n';
+    }
 }
