@@ -51,3 +51,40 @@ $$
 $$
 ans = prefix[r] \oplus prefix[l - 1]
 $$
+
+## 常見題型
+
+### 連續區間和
+
+當題目想要快速求**共有幾個連續區間和 = k**，可以轉換一維前綴和的數學式：
+
+$$
+\begin{aligned}
+prefix[r] - prefix[l - 1] &= k \\
+prefix[r] - k &= prefix[l - 1]
+\end{aligned}$$
+
+就可以紀錄 $prefix[l - 1]$ 的出現次數，直接做答案貢獻。
+
+```c++
+unordered_map<int, int> cnt;
+int prefix = 0;
+cnt[0]++;
+
+for (int i = 0; i < n; i++)
+{
+    prefix += a[i];
+    ans += cnt[prefix - k];
+    cnt[prefix]++;
+}
+```
+
+### 二維前綴和壓縮
+
+當題目想要快速求**共有幾個矩形的和 = k**，由於二維前綴和無法快速求，因此要**固定上下界**，轉化為**一維前綴和**才能做**連續區間和**。
+
+## 題目
+
+| 題目 | 詳解 |
+| - | - |
+| [ABC461D Count Subgrid Sum = K](https://atcoder.jp/contests/abc461/tasks/abc461_d) | 二維前綴和壓縮 |
