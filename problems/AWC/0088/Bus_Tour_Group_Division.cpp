@@ -1,5 +1,11 @@
 /*
 Date: 2026-06-10
+
+Tags: greedy
+Independent: 5
+Understanding: 5
+Implementation: 5
+Recognition: 5
 */
 #include <bits/stdc++.h>
 using namespace std;
