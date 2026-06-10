@@ -1,4 +1,11 @@
 // Date: 2026-04-18
+/*
+Tags: monotonic_sequence
+Independent: 5
+Understanding: 5
+Implementation: 4
+Recognition: 5
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

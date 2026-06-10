@@ -3,8 +3,7 @@
     "1d_prefix_sum",
     "2d_prefix_sum",
     "difference",
-    "prefix_xor",
-    "difference_on_tree"
+    "prefix_xor"
   ],
 
   "bit_and_state": [
@@ -48,15 +47,14 @@
     "binary_tree",
     "binary_lifting",
     "lca",
-    "tree_dp",
-    "subtree_merge_dp",
     "difference_on_tree"
   ],
 
   "graph_traversal": [
     "dfs",
     "bfs",
-    "multi_source_bfs"
+    "multi_source_bfs",
+    "graph_modeling"
   ],
 
   "shortest_path": [

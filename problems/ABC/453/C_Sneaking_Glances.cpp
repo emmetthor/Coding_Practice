@@ -1,4 +1,11 @@
 // Date: 2026-04-11
+/*
+Tags: bit_enumeration
+Independent: 5
+Understanding: 5
+Implementation: 5
+Recognition: 5
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

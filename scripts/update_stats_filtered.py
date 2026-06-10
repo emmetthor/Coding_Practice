@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 from collections import defaultdict
 from datetime import date, datetime
@@ -13,6 +14,7 @@ from typing import Any
 
 PROBLEMS_DIR = Path("problems")
 README_PATH = Path("README.md")
+KNOWLEDGE_PATH = Path("stats/skillmap.json")
 
 STATS_START = "<!-- STATS_START -->"
 STATS_END = "<!-- STATS_END -->"
@@ -192,16 +194,113 @@ def parse_problem(path: Path) -> dict[str, Any] | None:
     }
 
 
+
+# =========================
+# Skill 白名單
+# =========================
+
+def load_valid_skills() -> set[str]:
+    """
+    從 knowledge_points.json 載入合法 skill。
+
+    支援以下兩種 JSON 格式：
+
+    1. 依分類整理：
+       {
+         "prefix_sum": ["1d_prefix_sum", "2d_prefix_sum"],
+         "graph": ["bfs", "dfs"]
+       }
+
+    2. 純陣列：
+       [
+         "1d_prefix_sum",
+         "2d_prefix_sum",
+         "bfs"
+       ]
+
+    回傳所有合法 skill 的集合。
+    """
+
+    if not KNOWLEDGE_PATH.exists():
+        raise FileNotFoundError(
+            f"找不到 skill 清單：{KNOWLEDGE_PATH}"
+        )
+
+    with KNOWLEDGE_PATH.open(encoding="utf-8") as file:
+        raw_data = json.load(file)
+
+    valid_skills: set[str] = set()
+
+    if isinstance(raw_data, dict):
+        for category, skills in raw_data.items():
+            if not isinstance(skills, list):
+                raise ValueError(
+                    f"{KNOWLEDGE_PATH} 中分類 {category!r} "
+                    "的內容必須是陣列"
+                )
+
+            for skill in skills:
+                if not isinstance(skill, str):
+                    raise ValueError(
+                        f"{KNOWLEDGE_PATH} 中出現非字串 skill："
+                        f"{skill!r}"
+                    )
+
+                normalized = normalize_name(skill)
+
+                if normalized:
+                    if normalized in valid_skills:
+                        raise ValueError(
+                            f"skill 重複出現在 JSON 中：{normalized}"
+                        )
+
+                    valid_skills.add(normalized)
+
+    elif isinstance(raw_data, list):
+        for skill in raw_data:
+            if not isinstance(skill, str):
+                raise ValueError(
+                    f"{KNOWLEDGE_PATH} 中出現非字串 skill："
+                    f"{skill!r}"
+                )
+
+            normalized = normalize_name(skill)
+
+            if normalized:
+                if normalized in valid_skills:
+                    raise ValueError(
+                        f"skill 重複出現在 JSON 中：{normalized}"
+                    )
+
+                valid_skills.add(normalized)
+
+    else:
+        raise ValueError(
+            f"{KNOWLEDGE_PATH} 最外層必須是物件或陣列"
+        )
+
+    if not valid_skills:
+        raise ValueError(
+            f"{KNOWLEDGE_PATH} 中沒有任何合法 skill"
+        )
+
+    return valid_skills
+
+
 # =========================
 # 收集所有資料
 # =========================
 
 def collect_statistics() -> tuple[dict, dict]:
     """
+    只統計 knowledge_points.json 中有登記的 skill。
+
     回傳：
         tag_statistics
         mistake_statistics
     """
+
+    valid_skills = load_valid_skills()
 
     tag_statistics = defaultdict(
         lambda: {
@@ -234,12 +333,37 @@ def collect_statistics() -> tuple[dict, dict]:
         if problem is None:
             continue
 
+        # 只保留 JSON 白名單中的 skill
+        problem_skills = {
+            tag
+            for tag in problem["tags"]
+            if tag in valid_skills
+        }
+
+        # 顯示被忽略的未登記 Tag，方便找拼字錯誤
+        ignored_tags = sorted(
+            set(problem["tags"]) - problem_skills
+        )
+
+        for tag in ignored_tags:
+            print(
+                f"[忽略] {path} 中未登記的 Tag：{tag}"
+            )
+
+        # 這題沒有任何合法 skill，就完全不納入統計
+        if not problem_skills:
+            print(
+                f"[跳過] {path} 沒有任何 JSON 中登記的 skill"
+            )
+            continue
+
+        # 錯誤統計只計算至少含一個合法 skill 的題目
         for mistake in set(problem["mistakes"]):
             mistake_statistics[mistake] += 1
 
-        # 同一題同一個 tag 只計算一次
-        for tag in set(problem["tags"]):
-            data = tag_statistics[tag]
+        # 同一題同一個 skill 只計算一次
+        for skill in problem_skills:
+            data = tag_statistics[skill]
             data["problem_count"] += 1
 
             all_scores_exist = all(

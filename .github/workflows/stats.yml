@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: run stats
-        run: python scripts/stats.py
+        run: python scripts/update_stats_filtered.py
       - name: generate svg
         run: python scripts/daily_stat.py
 
