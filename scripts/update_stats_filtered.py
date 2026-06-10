@@ -14,7 +14,7 @@ from typing import Any
 
 PROBLEMS_DIR = Path("problems")
 README_PATH = Path("README.md")
-KNOWLEDGE_PATH = Path("stats/skillmap.json")
+KNOWLEDGE_PATH = Path("data/knowledge_points.json")
 
 STATS_START = "<!-- STATS_START -->"
 STATS_END = "<!-- STATS_END -->"
@@ -302,8 +302,10 @@ def collect_statistics() -> tuple[dict, dict]:
 
     valid_skills = load_valid_skills()
 
-    tag_statistics = defaultdict(
-        lambda: {
+    # 先替 JSON 中的所有 skill 建立空資料。
+    # 如此從未在任何題目中出現的 skill 也能顯示在 README。
+    tag_statistics = {
+        skill: {
             "problem_count": 0,
             "evaluated_count": 0,
             "independent": [],
@@ -313,7 +315,8 @@ def collect_statistics() -> tuple[dict, dict]:
             "mistakes": defaultdict(int),
             "last_date": None,
         }
-    )
+        for skill in valid_skills
+    }
 
     mistake_statistics = defaultdict(int)
 
@@ -525,7 +528,11 @@ def build_tag_table(tag_statistics: dict) -> str:
                     data["recognition"]
                 ),
                 "mastery": mastery,
-                "level": get_mastery_level(mastery),
+                "level": (
+                    "尚未使用"
+                    if data["problem_count"] == 0
+                    else get_mastery_level(mastery)
+                ),
                 "mistakes": mistakes_text,
                 "last_date": (
                     data["last_date"].isoformat()
@@ -535,9 +542,13 @@ def build_tag_table(tag_statistics: dict) -> str:
             }
         )
 
-    # 熟練度高的排前面
+    # 排序規則：
+    # 1. 完全沒有使用過的 skill 排最前面，提醒補題。
+    # 2. 已使用的 skill 依熟練度由高到低排列。
+    # 3. 熟練度相同時，題數較多的排前面。
     rows.sort(
         key=lambda row: (
+            0 if row["problem_count"] == 0 else 1,
             -(
                 row["mastery"]
                 if row["mastery"] is not None
