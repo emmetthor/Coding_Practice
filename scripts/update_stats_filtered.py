@@ -14,7 +14,7 @@ from typing import Any
 
 PROBLEMS_DIR = Path("problems")
 README_PATH = Path("README.md")
-KNOWLEDGE_PATH = Path("data/knowledge_points.json")
+KNOWLEDGE_PATH = Path("stats/skillmap.json")
 
 STATS_START = "<!-- STATS_START -->"
 STATS_END = "<!-- STATS_END -->"
