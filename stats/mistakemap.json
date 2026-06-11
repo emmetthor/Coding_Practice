@@ -1,0 +1,176 @@
+{
+    "not_learned": {
+    "name_zh": "尚未學過",
+    "category": "knowledge_gap",
+    "severity": 5,
+    "description": "遇到題目時，核心知識點尚未正式學過或沒有建立基本模型。"
+    },
+    "forgot_knowledge": {
+    "name_zh": "知識遺忘",
+    "category": "knowledge_gap",
+    "severity": 4,
+    "description": "曾經學過，但解題時忘記定義、公式、模板或典型轉化。"
+    },
+    "wrong_recognition": {
+    "name_zh": "題型辨識錯誤",
+    "category": "recognition",
+    "severity": 5,
+    "description": "沒有看出題目應該使用的演算法、資料結構或數學模型。"
+    },
+    "wrong_idea": {
+    "name_zh": "解法方向錯誤",
+    "category": "thinking",
+    "severity": 5,
+    "description": "選擇了錯誤的整體策略，例如把 DP 題想成貪心，或把離線題想成線上模擬。"
+    },
+    "wrong_proof": {
+    "name_zh": "證明或推理錯誤",
+    "category": "thinking",
+    "severity": 4,
+    "description": "直覺上以為成立，但沒有正確證明，或忽略反例。"
+    },
+    "wrong_formula": {
+    "name_zh": "公式錯誤",
+    "category": "math",
+    "severity": 4,
+    "description": "公式、轉移式、同餘變形、組合計數或推導式寫錯。"
+    },
+    "wrong_transition": {
+    "name_zh": "DP 轉移錯誤",
+    "category": "dp",
+    "severity": 5,
+    "description": "DP 狀態定義或狀態轉移不正確。"
+    },
+    "wrong_state_definition": {
+    "name_zh": "狀態定義錯誤",
+    "category": "dp",
+    "severity": 5,
+    "description": "DP、搜尋、圖上狀態或資料結構維護的狀態沒有定義清楚。"
+    },
+    "wrong_greedy_choice": {
+    "name_zh": "貪心選擇錯誤",
+    "category": "greedy",
+    "severity": 5,
+    "description": "選擇了看似合理但不具交換論證或結構保證的貪心策略。"
+    },
+    "wrong_complexity": {
+    "name_zh": "複雜度估計錯誤",
+    "category": "complexity",
+    "severity": 4,
+    "description": "低估時間或空間複雜度，導致 TLE、MLE 或選錯演算法。"
+    },
+    "tle": {
+    "name_zh": "時間超限",
+    "category": "complexity",
+    "severity": 4,
+    "description": "演算法複雜度過高，或實作常數過大導致時間超限。"
+    },
+    "mle": {
+    "name_zh": "記憶體超限",
+    "category": "complexity",
+    "severity": 4,
+    "description": "資料結構、DP 陣列或圖儲存方式使用過多記憶體。"
+    },
+    "wrong_implementation": {
+    "name_zh": "實作錯誤",
+    "category": "implementation",
+    "severity": 3,
+    "description": "想法正確，但程式碼實作與想法不一致。"
+    },
+    "boundary_error": {
+    "name_zh": "邊界錯誤",
+    "category": "implementation",
+    "severity": 3,
+    "description": "區間開閉、起點終點、空集合、長度為 1、N 的上下界等處理錯誤。"
+    },
+    "index_error": {
+    "name_zh": "索引錯誤",
+    "category": "implementation",
+    "severity": 3,
+    "description": "0-index / 1-index 混用，或陣列下標位移錯誤。"
+    },
+    "overflow": {
+    "name_zh": "溢位",
+    "category": "implementation",
+    "severity": 3,
+    "description": "使用 int 導致溢位，或乘法、累加、位移時沒有轉成 long long。"
+    },
+    "initialization_error": {
+    "name_zh": "初始化錯誤",
+    "category": "implementation",
+    "severity": 3,
+    "description": "DP 初值、距離陣列、答案初始值、資料結構初始狀態設定錯誤。"
+    },
+    "update_order_error": {
+    "name_zh": "更新順序錯誤",
+    "category": "implementation",
+    "severity": 4,
+    "description": "DP、貪心、雙指標、資料結構更新順序錯誤，導致使用到已被污染的狀態。"
+    },
+    "off_by_one": {
+    "name_zh": "差一錯誤",
+    "category": "implementation",
+    "severity": 3,
+    "description": "迴圈範圍、區間長度、前綴和位置或二分邊界差一。"
+    },
+    "input_output_error": {
+    "name_zh": "輸入輸出錯誤",
+    "category": "implementation",
+    "severity": 2,
+    "description": "讀錯輸入格式、輸出格式錯誤、漏換行或多印內容。"
+    },
+    "careless": {
+    "name_zh": "粗心錯誤",
+    "category": "habit",
+    "severity": 2,
+    "description": "非主要觀念問題，屬於打錯變數、漏改名稱、複製貼上錯誤等。"
+    },
+    "debugging_slow": {
+    "name_zh": "除錯過慢",
+    "category": "habit",
+    "severity": 2,
+    "description": "錯誤本身可能不難，但定位問題花太久。"
+    },
+    "reading_misunderstanding": {
+    "name_zh": "題意誤解",
+    "category": "reading",
+    "severity": 4,
+    "description": "看錯條件、目標、操作規則或輸出要求。"
+    },
+    "english_reading": {
+    "name_zh": "英文閱讀卡住",
+    "category": "reading",
+    "severity": 3,
+    "description": "因英文敘述、專有名詞或長句導致理解題目變慢或錯誤。"
+    },
+    "missed_constraint": {
+    "name_zh": "忽略限制條件",
+    "category": "reading",
+    "severity": 4,
+    "description": "沒有利用或看漏 N、Q、值域、圖性質、排序性、單調性等關鍵限制。"
+    },
+    "template_not_familiar": {
+    "name_zh": "模板不熟",
+    "category": "fluency",
+    "severity": 3,
+    "description": "知道要用某演算法，但模板或常見寫法不夠熟，導致實作慢或錯。"
+    },
+    "too_slow_solving": {
+    "name_zh": "解題速度過慢",
+    "category": "fluency",
+    "severity": 2,
+    "description": "最後能解出，但思考、實作或除錯時間過長。"
+    },
+    "overcomplicated_solution": {
+    "name_zh": "解法過度複雜",
+    "category": "thinking",
+    "severity": 4,
+    "description": "沒有把題目轉化成最簡單的模型，使用了過重、過繞或不必要的演算法，導致解法複雜化。"
+    },
+    "special_case_not_found": {
+    "name_zh": "未找到特例",
+    "category": "thinking",
+    "severity": 5,
+    "description": "沒有想到特例，導致部分演算法錯誤。"
+    }
+}

@@ -53,7 +53,6 @@
   "graph_traversal": [
     "dfs",
     "bfs",
-    "multi_source_bfs",
     "graph_modeling"
   ],
 
@@ -66,7 +65,8 @@
     "kth_shortest_path",
     "steiner_tree",
     "bellman_ford",
-    "negative_cycle"
+    "negative_cycle",
+    "muiti_source"
   ],
 
   "connectivity": [
