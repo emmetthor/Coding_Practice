@@ -1,4 +1,4 @@
-# Weighted Interval Scheduling dp 加權區間排程 dp 
+# Weighted Interval Scheduling dp 加權區間排程 dp
 
 ## 這個 skill 解決什麼問題？
 
