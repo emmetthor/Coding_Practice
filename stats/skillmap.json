@@ -44,6 +44,7 @@
   ],
 
   "tree": [
+    "tree",
     "binary_tree",
     "binary_lifting",
     "lca",
@@ -112,7 +113,8 @@
     "lcs",
     "cycle_dp",
     "tree_dp",
-    "subtree_merge_dp"
+    "subtree_merge_dp",
+    "weighted_interval_scheduling_dp"
   ],
 
   "mathematics": [
@@ -141,5 +143,10 @@
   "unclassified": [
     "2d_map_implementation",
     "custom_containers"
+  ],
+
+  "implementation": [
+    "implementation",
+    "complicated_implementation"
   ]
 }
