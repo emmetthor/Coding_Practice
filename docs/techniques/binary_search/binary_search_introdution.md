@@ -61,7 +61,7 @@ cout << low;
 
 ### lower_bound / upper_bound 應用
 
-請見 [lower_bound 與 upper_bound](\techniques\binary_search\lower_bound_and_upper_bound)。
+請見 [lower_bound 與 upper_bound](../binary_search/lower_bound_and_upper_bound.md)。
 
 ### 最大化最小值 / 最小化最大值
 

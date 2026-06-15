@@ -29,13 +29,14 @@
 
 4. 發現隨著 $i$ 增加，$\lfloor \frac{i}{j} \rfloor$ 會成塊狀 (每 i 項一組) 變成 `[0, 0, ..., 0][1, 1, ..., 1][2, 2, ..., 2], ...` 的形式。
 
-5. 如果暴力算這些塊，那時間複雜度會是：$$n + \frac{n}{2} + \frac{n}{3} + \cdots = \sum_{i=1}^{n} \frac{n}{i} \approx n \log n$$
+5. 如果暴力算這些塊，那時間複雜度會是：
+$$n + \frac{n}{2} + \frac{n}{3} + \cdots = \sum_{i=1}^{n} \frac{n}{i} \approx n \log n$$
 
-6. 因此，可以欲處理：$\sum_{i=1}^{N} i \cdot A_i$ 和 $j \sum_{i=1}^{N} A_i \cdot \lfloor \frac{i}{j} \rfloor$就可以在總複雜度為 $O(n \log n)$ 算出答案。
+6. 因此，可以預處理：$\sum_{i=1}^{N} i \cdot A_i$ 和 $j \sum_{i=1}^{N} A_i \cdot \lfloor \frac{i}{j} \rfloor$就可以在總複雜度為 $O(n \log n)$ 算出答案。
 
 ## 實作方法
 
-- [程式碼](https://github.com/emmetthor/Coding_Practice/blob/main/problems/ABC/452/E_You_WILL_Like_Sigma_Problem.cpp)
+<<< @/../problems/ABC/452/E_You_WILL_Like_Sigma_Problem.cpp
 
 ## Agent Prompt
 

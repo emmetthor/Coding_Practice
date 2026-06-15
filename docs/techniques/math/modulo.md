@@ -6,7 +6,7 @@
 
 ### 基本定義
 
-若 $i \bmod j \equiv r$，則也可以寫成： 
+若 $i \bmod j \equiv r$，則也可以寫成：
 $$i - j \times \lfloor \frac{i}{j} \rfloor = r$$
 
 寫成這樣的好處是：
@@ -36,8 +36,11 @@ $$\text{if } a - b = mq \Longrightarrow a \equiv b \pmod m$$
 
 只有**加、減、乘**具有分配律。
 
-> **[注意]**\
-> 如果在處理減法時出現**負數**，應該要**加回模數**，因為模運算的結果必定 $ans \in [0, \text{MOD}]$。
+::: warning 注意
+
+如果在處理減法時出現**負數**，應該要**加回模數**，因為模運算的結果必定 $ans \in [0, \text{MOD}]$。
+
+:::
 
 ---
 
