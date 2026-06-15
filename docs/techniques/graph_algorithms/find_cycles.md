@@ -9,7 +9,7 @@
 
 ## 介紹
 
-「找環」通常涉及**循找循環**。通常題目會要找出循環、重複的條件，這時就可以使用[圖論建模](\Coding_Practice\techniques\graph\graph_theory_modeling)技巧，再加上找環技巧解題。
+「找環」通常涉及**循找循環**。通常題目會要找出循環、重複的條件，這時就可以使用[圖論建模](./graph_theory_modeling.md)技巧，再加上找環技巧解題。
 
 ### 無向圖找環
 
@@ -41,7 +41,7 @@ void dfs(int x, int last) {
 
 以下是一個反例：
 
-![finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle](../../finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle.png)
+![finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle](../../img/finding_a_visited_node_in_a_direct_graph_is_not_always_a_cycle.png)
 
 這時就必須使用一個 `stack` 來**記錄目前的遞迴究竟拜訪的是哪些點，才能確定已拜訪過的點真的可以連回一個環**。
 

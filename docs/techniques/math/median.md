@@ -12,18 +12,29 @@
 
 對於一維與二維曼哈頓距離，中位數其實就是 $\min \sum_{i=1}^{n} | a_i - x |$ 中的 $x$。
 
-> **[證明]**
-> **[Lemma]** 先考慮 $g(x) = |x - l| + |x - r|$。
-> 對於所有 $l \le r$，試證明 $\min \arg g(x) \in [l, r]$。
-> $x < l \Rightarrow g(x) = l - x + r - x = (l + r) - 2x$
-> $x > r \Rightarrow g(x) = x - l + x - r = 2x - (l + r)$
-> $l \le x \le r \Rightarrow g(x) = x - l + r - x = r - l$
-> $r - l \ge (l + r) - 2x \wedge r - l \ge 2x - (l + r) \Rightarrow \min \arg g(x) \in [l, r] \#$
->
-> **[Proof]** 回到原問題， $f(x) = \sum_{i=1}^{n} | a_i - x |$。
-> 若我們有意識的把 $a_i$ 進行配對，配成 $(a_1, a_n), (a_2, a_{n-1}), \ldots$
-> 透過 Lemma 可知每一組 $\min \arg |a_l - x| + |a_r - x|$ 的解都 $\in [a_l, a_r]$。
-> 把所有組的解取交集，答案就會是最中間配對的那組答案，也就會是中位數。
+::: info 證明
+
+先考慮 $g(x) = |x - l| + |x - r|$。
+
+對於所有 $l \le r$，試證明 $\min \arg g(x) \in [l, r]$。
+
+$x < l \Rightarrow g(x) = l - x + r - x = (l + r) - 2x$
+
+$x > r \Rightarrow g(x) = x - l + x - r = 2x - (l + r)$
+
+$l \le x \le r \Rightarrow g(x) = x - l + r - x = r - l$
+
+$r - l \ge (l + r) - 2x \wedge r - l \ge 2x - (l + r) \Rightarrow \min \arg g(x) \in [l, r] \#$
+
+回到原問題， $f(x) = \sum_{i=1}^{n} | a_i - x |$。
+
+若我們有意識的把 $a_i$ 進行配對，配成 $(a_1, a_n), (a_2, a_{n-1}), \ldots$
+
+透過 Lemma 可知每一組 $\min \arg |a_l - x| + |a_r - x|$ 的解都 $\in [a_l, a_r]$。
+
+把所有組的解取交集，答案就會是最中間配對的那組答案，也就會是中位數。
+
+:::
 
 ---
 

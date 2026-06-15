@@ -4,22 +4,23 @@ layout: home
 
 hero:
   name: "Emmetthor's Competitive Programming Skills"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "我的競程知識庫"
+  tagline: "比賽策略、實作技巧、知識與題解"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 解題知識
+      link: techniques/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: https://github.com/emmetthor/Coding_Practice
+
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 比賽策略&實作技巧
+    details: 有了比賽策略與實作技巧，更能在比賽時把握時間解出最多題。
+  - title: 知識庫
+    details: 藉由知識庫複習，並學習新的知識寫入知識庫裡。
+  - title: 題解
+    details: 對難題撰寫題解，之後複習時更有效率。
 ---
 
