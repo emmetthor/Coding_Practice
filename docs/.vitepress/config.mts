@@ -82,6 +82,14 @@ export default defineConfig({
             },
 
             {
+              text: '貪心',
+              collapsed: true,
+              items: [
+                { text: '難找的貪心', link: 'techniques/greedy/hard_to_prove_greedy' },
+              ]
+            },
+
+            {
               text: '動態規劃',
               collapsed: true,
               items: [
