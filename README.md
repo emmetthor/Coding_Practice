@@ -75,11 +75,12 @@
 | `structural_bounds` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `subsequence_greedy` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `subtree_merge_dp` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
+| `swap_linked_technique` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `ternary_search` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `topological_sort` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `tree_dp` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
+| `bit_enumeration` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-01 |
 | `bfs` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-05-31 |
-| `bit_enumeration` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-04-11 |
 | `custom_containers` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-04-25 |
 | `dijkstra` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | reading_misunderstanding(1), template_not_familiar(1) | 2026-06-11 |
 | `graph_modeling` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-04-11 |
@@ -89,11 +90,11 @@
 | `difference` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 4.0/5 | 96.0% | 精通 | overcomplicated_solution(1) | 2026-06-13 |
 | `lower_upper_bound` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 4.0/5 | 96.0% | 精通 | - | 2026-06-13 |
 | `same_side_two_pointer` | 2 | 2 | 5.0/5 | 4.5/5 | 5.0/5 | 4.5/5 | 95.5% | 精通 | overcomplicated_solution(1), wrong_idea(1) | 2026-06-11 |
+| `dfs` | 5 | 5 | 5.0/5 | 4.6/5 | 4.4/5 | 5.0/5 | 95.0% | 精通 | reading_misunderstanding(1) | 2026-07-01 |
 | `geometry` | 1 | 1 | 5.0/5 | 5.0/5 | 4.0/5 | 5.0/5 | 95.0% | 精通 | integer_overflow(1) | 2026-05-31 |
 | `monotonic_sequence` | 1 | 1 | 5.0/5 | 5.0/5 | 4.0/5 | 5.0/5 | 95.0% | 精通 | - | 2026-04-18 |
-| `dfs` | 4 | 4 | 5.0/5 | 4.5/5 | 4.2/5 | 5.0/5 | 93.8% | 精通 | reading_misunderstanding(1) | 2026-06-12 |
 | `associative_containers` | 3 | 3 | 4.3/5 | 4.7/5 | 4.7/5 | 4.7/5 | 91.3% | 精通 | - | 2026-05-16 |
-| `greedy` | 3 | 3 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | special_case_not_found(1) | 2026-06-11 |
+| `greedy` | 4 | 4 | 5.0/5 | 4.2/5 | 4.0/5 | 5.0/5 | 91.2% | 精通 | debugging_slow(1), special_case_not_found(1) | 2026-07-01 |
 | `find_cycle` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | - | 2026-05-02 |
 | `implementation` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | reading_misunderstanding(1) | 2026-06-12 |
 | `dp` | 2 | 2 | 4.0/5 | 5.0/5 | 5.0/5 | 3.0/5 | 86.0% | 熟練 | not_learned(1), overcomplicated_solution(1) | 2026-06-12 |
@@ -102,8 +103,8 @@
 | `counting_equivalent_states` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 4.0/5 | 84.0% | 熟練 | - | 2026-04-26 |
 | `inclusion_exclusion` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 4.0/5 | 84.0% | 熟練 | - | 2026-04-26 |
 | `2d_map_implementation` | 4 | 4 | 4.0/5 | 4.0/5 | 4.0/5 | 4.8/5 | 83.0% | 熟練 | not_learned(1), overcomplicated_solution(1) | 2026-06-13 |
+| `1d_prefix_sum` | 3 | 3 | 3.7/5 | 3.7/5 | 3.7/5 | 4.3/5 | 76.0% | 熟練 | debugging_slow(1), not_learned(1), overcomplicated_solution(1) | 2026-07-01 |
 | `weighted_interval_scheduling_dp` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 1.0/5 | 72.0% | 可使用 | not_learned(1), overcomplicated_solution(1) | 2026-06-12 |
-| `1d_prefix_sum` | 2 | 2 | 3.0/5 | 3.0/5 | 3.5/5 | 4.0/5 | 66.5% | 可使用 | not_learned(1), overcomplicated_solution(1), wrong_idea(1) | 2026-06-11 |
 | `2d_prefix_sum` | 1 | 1 | 1.0/5 | 2.0/5 | 2.0/5 | 4.0/5 | 42.0% | 學習中 | not_learned(1) | 2026-06-06 |
 | `combinatorics` | 1 | 1 | 1.0/5 | 2.0/5 | 2.0/5 | 4.0/5 | 42.0% | 學習中 | not_learned(1) | 2026-05-16 |
 
@@ -116,6 +117,7 @@
 | `overcomplicated_solution` | 4 |
 | `not_learned` | 3 |
 | `reading_misunderstanding` | 3 |
+| `debugging_slow` | 1 |
 | `integer_overflow` | 1 |
 | `special_case_not_found` | 1 |
 | `template_not_familiar` | 1 |
