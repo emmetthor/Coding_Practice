@@ -147,6 +147,7 @@
 
   "implementation": [
     "implementation",
-    "complicated_implementation"
+    "complicated_implementation",
+    "swap_linked_technique"
   ]
 }
