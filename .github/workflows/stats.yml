@@ -23,7 +23,7 @@ jobs:
       - name: run stats
         run: python scripts/update_stats_filtered.py
       - name: generate svg
-        run: python scripts/daily_stat.py
+        run: python scripts/daily_stats.py
 
       - name: commit
         run: |
