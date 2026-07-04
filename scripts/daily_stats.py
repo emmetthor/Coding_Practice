@@ -55,7 +55,7 @@ for i, wd in enumerate(weekdays):
 # 顏色映射
 def get_color(n):
     if n == 0:
-        return "#1F1F1F"
+        return "#1D2320"
     elif n == 1:
         return "#223400"
     elif n == 2:
