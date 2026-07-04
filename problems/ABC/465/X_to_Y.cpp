@@ -5,7 +5,7 @@ Tags: lca
 Independent: 5
 Understanding: 3
 Implementation: 5
-Recognition: 0
+Recognition: 1
 
 Mistakes: wrong_recognition
 */
