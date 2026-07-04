@@ -55,19 +55,27 @@ for i, wd in enumerate(weekdays):
 # 顏色映射
 def get_color(n):
     if n == 0:
-        return "#ebedf0"
+        return "#000000"
     elif n == 1:
-        return "#c6e48b"
+        return "#223400"
     elif n == 2:
-        return "#7bc96f"
+        return "#13490b"
     elif n == 3:
-        return "#239a3b"
+        return "#116522"
     elif n == 4:
-        return "#196127"
+        return "#1C9434"
     elif n <= 5:
-        return "#144A1F"
-    else:  # 6+
-        return "#0A2610"
+        return "#3BCB58"
+    elif n <= 6:
+        return "#46CA63"
+    elif n <= 7:
+        return "#61CD7F"
+    elif n <= 8:
+        return "#8CD2A0"
+    elif n <= 9:
+        return "#B5DFC0"
+    else:
+        return "#FFFFFF"
 
 # 畫格子
 for d in dates:
