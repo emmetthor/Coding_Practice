@@ -96,7 +96,6 @@
 | `associative_containers` | 3 | 3 | 4.3/5 | 4.7/5 | 4.7/5 | 4.7/5 | 91.3% | 精通 | - | 2026-05-16 |
 | `find_cycle` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | - | 2026-05-02 |
 | `implementation` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | reading_misunderstanding(1) | 2026-06-12 |
-| `lca` | 1 | 0 | 5.0/5 | 3.0/5 | 5.0/5 | - | 87.5% | 熟練 | wrong_recognition(1) | 2026-07-04 |
 | `complicated_implementation` | 1 | 1 | 5.0/5 | 4.0/5 | 3.0/5 | 5.0/5 | 85.0% | 熟練 | reading_misunderstanding(1) | 2026-06-12 |
 | `tree` | 1 | 1 | 5.0/5 | 4.0/5 | 3.0/5 | 5.0/5 | 85.0% | 熟練 | reading_misunderstanding(1) | 2026-06-12 |
 | `counting_equivalent_states` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 4.0/5 | 84.0% | 熟練 | - | 2026-04-26 |
@@ -104,6 +103,7 @@
 | `2d_map_implementation` | 4 | 4 | 4.0/5 | 4.0/5 | 4.0/5 | 4.8/5 | 83.0% | 熟練 | not_learned(1), overcomplicated_solution(1) | 2026-06-13 |
 | `dp` | 3 | 3 | 4.3/5 | 4.3/5 | 4.3/5 | 3.0/5 | 81.3% | 熟練 | not_learned(1), overcomplicated_solution(1), wrong_idea(1) | 2026-07-02 |
 | `1d_prefix_sum` | 3 | 3 | 3.7/5 | 3.7/5 | 3.7/5 | 4.3/5 | 76.0% | 熟練 | debugging_slow(1), not_learned(1), overcomplicated_solution(1) | 2026-07-01 |
+| `lca` | 1 | 1 | 5.0/5 | 3.0/5 | 5.0/5 | 1.0/5 | 74.0% | 可使用 | wrong_recognition(1) | 2026-07-04 |
 | `weighted_interval_scheduling_dp` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 1.0/5 | 72.0% | 可使用 | not_learned(1), overcomplicated_solution(1) | 2026-06-12 |
 | `2d_prefix_sum` | 1 | 1 | 1.0/5 | 2.0/5 | 2.0/5 | 4.0/5 | 42.0% | 學習中 | not_learned(1) | 2026-06-06 |
 | `combinatorics` | 1 | 1 | 1.0/5 | 2.0/5 | 2.0/5 | 4.0/5 | 42.0% | 學習中 | not_learned(1) | 2026-05-16 |
