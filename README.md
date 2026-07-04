@@ -25,7 +25,6 @@
 | `bitwise_operators` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `cycle_dp` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `difference_on_tree` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
-| `different_side_two_pointer` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `discretization` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `distinct_value_queries` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `divide_and_conquer` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
@@ -38,7 +37,6 @@
 | `knapsack_problems` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `kth_extremum` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `kth_shortest_path` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
-| `lca` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `lcm` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `lcs` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `matrix` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
@@ -80,6 +78,7 @@
 | `bit_enumeration` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-01 |
 | `bfs` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-05-31 |
 | `custom_containers` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-04-25 |
+| `different_side_two_pointer` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-04 |
 | `dijkstra` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | reading_misunderstanding(1), template_not_familiar(1) | 2026-06-11 |
 | `equation_optimize` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-02 |
 | `graph_modeling` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-04-11 |
@@ -97,6 +96,7 @@
 | `associative_containers` | 3 | 3 | 4.3/5 | 4.7/5 | 4.7/5 | 4.7/5 | 91.3% | 精通 | - | 2026-05-16 |
 | `find_cycle` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | - | 2026-05-02 |
 | `implementation` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | reading_misunderstanding(1) | 2026-06-12 |
+| `lca` | 1 | 0 | 5.0/5 | 3.0/5 | 5.0/5 | - | 87.5% | 熟練 | wrong_recognition(1) | 2026-07-04 |
 | `complicated_implementation` | 1 | 1 | 5.0/5 | 4.0/5 | 3.0/5 | 5.0/5 | 85.0% | 熟練 | reading_misunderstanding(1) | 2026-06-12 |
 | `tree` | 1 | 1 | 5.0/5 | 4.0/5 | 3.0/5 | 5.0/5 | 85.0% | 熟練 | reading_misunderstanding(1) | 2026-06-12 |
 | `counting_equivalent_states` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 4.0/5 | 84.0% | 熟練 | - | 2026-04-26 |
@@ -123,5 +123,6 @@
 | `special_case_not_found` | 1 |
 | `template_not_familiar` | 1 |
 | `wrong_greedy_choice` | 1 |
+| `wrong_recognition` | 1 |
 
 <!-- MISTAKES_END -->
