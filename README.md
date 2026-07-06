@@ -4,7 +4,7 @@
 
 ## Daily Solved Problems
 
-![daily solved](stats/heatmap.svg)
+![daily solved](docs/heatmap.svg)
 
 預期題數： $38 \times (7 + 5) = 456$
 

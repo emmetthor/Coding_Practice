@@ -6,6 +6,8 @@ hero:
   name: "Emmetthor's Competitive Programming Skills"
   text: "我的競程知識庫"
   tagline: "比賽策略、實作技巧、知識與題解"
+  image:
+    src: /heatmap.svg
   actions:
     - theme: brand
       text: 解題知識

@@ -121,8 +121,8 @@ svg += '</svg>'
 # ------------------------
 # 輸出
 # ------------------------
-Path("stats").mkdir(exist_ok=True)
-with open("stats/heatmap.svg", "w", encoding="utf-8") as f:
+Path("docs").mkdir(exist_ok=True)
+with open("docs/heatmap.svg", "w", encoding="utf-8") as f:
     f.write(svg)
 
-print("SVG heatmap saved at stats/heatmap.svg")
+print("SVG heatmap saved at docs/heatmap.svg")
