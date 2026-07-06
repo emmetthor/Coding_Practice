@@ -8,6 +8,7 @@ hero:
   tagline: "比賽策略、實作技巧、知識與題解"
   image:
     src: /heatmap.svg
+    alt: HeatMap
   actions:
     - theme: brand
       text: 解題知識
