@@ -95,7 +95,7 @@ for d in dates:
 
 # 總題數
 total_count = sum(daily.values())
-svg += f'  <text x="{width - right_padding + 5}" y="{height/2}" font-size="18" fill="black">Total: {total_count}</text>\n'
+svg += f'  <text x="{width - right_padding + 5}" y="{height/2}" font-size="18" fill="white">Total: {total_count}</text>\n'
 
 svg += '</svg>'
 
