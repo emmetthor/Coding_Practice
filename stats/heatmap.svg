@@ -24,6 +24,7 @@
   <rect x="28" y="138" width="20" height="20" fill="#46CA63">
     <title>2026-04-11: 6 problem(s)</title>
   </rect>
+  <text x="38.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">6</text>
   <rect x="28" y="160" width="20" height="20" fill="#1D2320">
     <title>2026-04-12: 0 problem(s)</title>
   </rect>
@@ -33,9 +34,11 @@
   <rect x="50" y="50" width="20" height="20" fill="#223400">
     <title>2026-04-14: 1 problem(s)</title>
   </rect>
+  <text x="60.0" y="61.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
   <rect x="50" y="72" width="20" height="20" fill="#223400">
     <title>2026-04-15: 1 problem(s)</title>
   </rect>
+  <text x="60.0" y="83.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
   <rect x="50" y="94" width="20" height="20" fill="#1D2320">
     <title>2026-04-16: 0 problem(s)</title>
   </rect>
@@ -45,6 +48,7 @@
   <rect x="50" y="138" width="20" height="20" fill="#3BCB58">
     <title>2026-04-18: 5 problem(s)</title>
   </rect>
+  <text x="60.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">5</text>
   <rect x="50" y="160" width="20" height="20" fill="#1D2320">
     <title>2026-04-19: 0 problem(s)</title>
   </rect>
@@ -66,9 +70,11 @@
   <rect x="72" y="138" width="20" height="20" fill="#1C9434">
     <title>2026-04-25: 4 problem(s)</title>
   </rect>
+  <text x="82.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">4</text>
   <rect x="72" y="160" width="20" height="20" fill="#223400">
     <title>2026-04-26: 1 problem(s)</title>
   </rect>
+  <text x="82.0" y="171.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
   <rect x="94" y="28" width="20" height="20" fill="#1D2320">
     <title>2026-04-27: 0 problem(s)</title>
   </rect>
@@ -87,6 +93,7 @@
   <rect x="94" y="138" width="20" height="20" fill="#3BCB58">
     <title>2026-05-02: 5 problem(s)</title>
   </rect>
+  <text x="104.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">5</text>
   <rect x="94" y="160" width="20" height="20" fill="#1D2320">
     <title>2026-05-03: 0 problem(s)</title>
   </rect>
@@ -129,6 +136,7 @@
   <rect x="138" y="138" width="20" height="20" fill="#3BCB58">
     <title>2026-05-16: 5 problem(s)</title>
   </rect>
+  <text x="148.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">5</text>
   <rect x="138" y="160" width="20" height="20" fill="#1D2320">
     <title>2026-05-17: 0 problem(s)</title>
   </rect>
@@ -138,21 +146,26 @@
   <rect x="160" y="50" width="20" height="20" fill="#223400">
     <title>2026-05-19: 1 problem(s)</title>
   </rect>
+  <text x="170.0" y="61.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
   <rect x="160" y="72" width="20" height="20" fill="#13490b">
     <title>2026-05-20: 2 problem(s)</title>
   </rect>
+  <text x="170.0" y="83.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">2</text>
   <rect x="160" y="94" width="20" height="20" fill="#223400">
     <title>2026-05-21: 1 problem(s)</title>
   </rect>
+  <text x="170.0" y="105.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
   <rect x="160" y="116" width="20" height="20" fill="#1D2320">
     <title>2026-05-22: 0 problem(s)</title>
   </rect>
   <rect x="160" y="138" width="20" height="20" fill="#FFFFFF">
     <title>2026-05-23: 10 problem(s)</title>
   </rect>
+  <text x="170.0" y="149.0" font-size="10" fill="#000000" text-anchor="middle" dominant-baseline="middle" pointer-events="none">10</text>
   <rect x="160" y="160" width="20" height="20" fill="#13490b">
     <title>2026-05-24: 2 problem(s)</title>
   </rect>
+  <text x="170.0" y="171.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">2</text>
   <rect x="182" y="28" width="20" height="20" fill="#1D2320">
     <title>2026-05-25: 0 problem(s)</title>
   </rect>
@@ -165,6 +178,7 @@
   <rect x="182" y="94" width="20" height="20" fill="#223400">
     <title>2026-05-28: 1 problem(s)</title>
   </rect>
+  <text x="192.0" y="105.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
   <rect x="182" y="116" width="20" height="20" fill="#1D2320">
     <title>2026-05-29: 0 problem(s)</title>
   </rect>
@@ -174,6 +188,7 @@
   <rect x="182" y="160" width="20" height="20" fill="#1C9434">
     <title>2026-05-31: 4 problem(s)</title>
   </rect>
+  <text x="192.0" y="171.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">4</text>
   <rect x="204" y="28" width="20" height="20" fill="#1D2320">
     <title>2026-06-01: 0 problem(s)</title>
   </rect>
@@ -192,6 +207,7 @@
   <rect x="204" y="138" width="20" height="20" fill="#1C9434">
     <title>2026-06-06: 4 problem(s)</title>
   </rect>
+  <text x="214.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">4</text>
   <rect x="204" y="160" width="20" height="20" fill="#1D2320">
     <title>2026-06-07: 0 problem(s)</title>
   </rect>
@@ -204,15 +220,19 @@
   <rect x="226" y="72" width="20" height="20" fill="#116522">
     <title>2026-06-10: 3 problem(s)</title>
   </rect>
+  <text x="236.0" y="83.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">3</text>
   <rect x="226" y="94" width="20" height="20" fill="#1C9434">
     <title>2026-06-11: 4 problem(s)</title>
   </rect>
+  <text x="236.0" y="105.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">4</text>
   <rect x="226" y="116" width="20" height="20" fill="#1C9434">
     <title>2026-06-12: 4 problem(s)</title>
   </rect>
+  <text x="236.0" y="127.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">4</text>
   <rect x="226" y="138" width="20" height="20" fill="#3BCB58">
     <title>2026-06-13: 5 problem(s)</title>
   </rect>
+  <text x="236.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">5</text>
   <rect x="226" y="160" width="20" height="20" fill="#1D2320">
     <title>2026-06-14: 0 problem(s)</title>
   </rect>
@@ -267,20 +287,26 @@
   <rect x="292" y="72" width="20" height="20" fill="#61CD7F">
     <title>2026-07-01: 7 problem(s)</title>
   </rect>
+  <text x="302.0" y="83.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">7</text>
   <rect x="292" y="94" width="20" height="20" fill="#8CD2A0">
     <title>2026-07-02: 8 problem(s)</title>
   </rect>
+  <text x="302.0" y="105.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">8</text>
   <rect x="292" y="116" width="20" height="20" fill="#1C9434">
     <title>2026-07-03: 4 problem(s)</title>
   </rect>
+  <text x="302.0" y="127.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">4</text>
   <rect x="292" y="138" width="20" height="20" fill="#1C9434">
     <title>2026-07-04: 4 problem(s)</title>
   </rect>
+  <text x="302.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">4</text>
   <rect x="292" y="160" width="20" height="20" fill="#61CD7F">
     <title>2026-07-05: 7 problem(s)</title>
   </rect>
+  <text x="302.0" y="171.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">7</text>
   <rect x="314" y="28" width="20" height="20" fill="#116522">
     <title>2026-07-06: 3 problem(s)</title>
   </rect>
+  <text x="324.0" y="39.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">3</text>
   <text x="341" y="91.0" font-size="18" fill="white">Total: 141</text>
 </svg>

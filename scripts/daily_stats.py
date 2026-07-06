@@ -77,6 +77,12 @@ def get_color(n):
     else:
         return "#FFFFFF"
 
+def get_text_color(n):
+    if n >= 9:
+        return "#000000"  # 淺色格子用黑字
+    else:
+        return "white"    # 深色格子用白字
+
 # 畫格子
 for d in dates:
     week_idx = (d - grid_start).days // 7
@@ -88,10 +94,23 @@ for d in dates:
     day_str = d.strftime("%Y-%m-%d")
     count = daily.get(day_str, 0)
     color = get_color(count)
+    text_color = get_text_color(count)
 
     svg += f'  <rect x="{x}" y="{y}" width="{square_size}" height="{square_size}" fill="{color}">\n'
     svg += f'    <title>{day_str}: {count} problem(s)</title>\n'
     svg += f'  </rect>\n'
+
+    # 在方框中央標題數
+    if count != 0: 
+        svg += (
+            f'  <text x="{x + square_size / 2}" '
+            f'y="{y + square_size / 2 + 1}" '
+            f'font-size="10" '
+            f'fill="{text_color}" '
+            f'text-anchor="middle" '
+            f'dominant-baseline="middle" '
+            f'pointer-events="none">{count}</text>\n'
+        )
 
 # 總題數
 total_count = sum(daily.values())
