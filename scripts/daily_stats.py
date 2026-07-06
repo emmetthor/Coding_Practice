@@ -50,7 +50,7 @@ svg = f'<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg
 weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 for i, wd in enumerate(weekdays):
     y = label_padding + i * (square_size + padding) + square_size / 2 + 4
-    svg += f'  <text x="0" y="{y}" font-size="12" fill="black">{wd}</text>\n'
+    svg += f'  <text x="0" y="{y}" font-size="12" fill="white">{wd}</text>\n'
 
 # 顏色映射
 def get_color(n):
