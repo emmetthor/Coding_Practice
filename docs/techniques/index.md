@@ -13,12 +13,12 @@ import ZoomableSvg from '../.vitepress/theme/components/ZoomableSvg.vue'
 </script>
 
 <ClientOnly>
-  <ZoomableSvg src="../img/skill_tree.svg" alt="競程技能樹" />
+  <ZoomableSvg src="../skill_tree.svg" alt="競程技能樹" />
 </ClientOnly>
 
 ::: details 原圖
 
-![skill_tree](../img/skill_tree.svg)
+![skill_tree](/skill_tree.svg)
 
 :::
 
