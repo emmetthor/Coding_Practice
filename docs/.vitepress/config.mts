@@ -100,6 +100,7 @@ export default defineConfig({
                 { text: '二維地圖 dp', link: '/techniques/dp/path_on_grid' },
                 { text: '區間 dp', link: '/techniques/dp/range_dp' },
                 { text: '加權區間排程 dp', link: '/techniques/dp/weighted_interval_scheduling_dp' },
+                { text: '數位 dp', link: '/techniques/dp/digit_dp' },
               ]
             },
 
