@@ -1,0 +1,411 @@
+digraph CompetitiveProgrammingSkillTree {
+  graph [
+    rankdir=LR,
+    bgcolor="transparent",
+    splines=ortho,
+    nodesep=0.55,
+    ranksep=1.0,
+    pad=0.35,
+    compound=true
+  ];
+
+  node [
+    shape=rect,
+    fontname="Microsoft JhengHei",
+    fontsize=15,
+    margin="0.18,0.10",
+    penwidth=1.6,
+    color="#7A8A99",
+    fontcolor="#ffffff"
+  ];
+
+  edge [
+    color="#94A3B8",
+    arrowsize=0.65,
+    penwidth=1.2
+  ];
+
+  subgraph cluster_cp_entry {
+    label="競程入門";
+    color="#86efac";
+    fillcolor="#052e16";
+    fontname="Microsoft JhengHei";
+    fontcolor="#dcfce7";
+    fontsize=18;
+
+    root1 [label="競程", fillcolor="#0f172a", color="#0f172a"];
+    core1 [label="基礎語法", fillcolor="#166534", color="#166534"];
+    core2 [label="陣列", fillcolor="#166534", color="#166534"];
+    core3 [label="基礎 STL 工具", fillcolor="#166534", color="#166534"];
+  }
+
+  subgraph cluster_sort {
+    label="排序問題";
+    color="#86efac";
+    fillcolor="#052e16";
+    fontname="Microsoft JhengHei";
+    fontcolor="#dcfce7";
+    fontsize=18;
+
+    node [fillcolor="#15803d", color="#86efac"];
+    sort1 [label="排序問題"];
+    sort2 [label="交換問題"];
+    sort3 [label="拓撲排序"];
+    sort4 [label="單調隊列"];
+  }
+
+  subgraph cluster_impl {
+    label="實作題";
+    color="#fdba74";
+    fillcolor="#431407";
+    fontname="Microsoft JhengHei";
+    fontcolor="#ffedd5";
+    fontsize=18;
+
+    node [fillcolor="#c2410c", color="#fdba74"];
+    impl1 [label="實作題"];
+    impl2 [label="二維地圖實作"];
+    impl3 [label="字串問題"];
+  }
+
+  subgraph cluster_count {
+    label="計數問題";
+    color="#fcd34d";
+    fillcolor="#422006";
+    fontname="Microsoft JhengHei";
+    fontcolor="#fef3c7";
+    fontsize=18;
+
+    node [fillcolor="#b45309", color="#fcd34d"];
+    count1 [label="計數問題"];
+    count2 [label="等價類計數問題"];
+    count3 [label="排容原理"];
+    count4 [label="掃描線"];
+    count5 [label="拆分子問題法"];
+    div1 [label="分治"];
+  }
+
+  subgraph cluster_dp {
+    label="動態規劃";
+    color="#c4b5fd";
+    fillcolor="#2e1065";
+    fontname="Microsoft JhengHei";
+    fontcolor="#ede9fe";
+    fontsize=18;
+
+    node [fillcolor="#7c3aed", color="#c4b5fd"];
+    dp1 [label="動態規劃"];
+  }
+
+  subgraph cluster_graph {
+    label="圖論問題";
+    color="#93c5fd";
+    fillcolor="#172554";
+    fontname="Microsoft JhengHei";
+    fontcolor="#dbeafe";
+    fontsize=18;
+
+    node [fillcolor="#2563eb", color="#93c5fd"];
+    g1 [label="圖論問題"];
+    g2 [label="BFS"];
+    g3 [label="DFS"];
+    g4 [label="圖論建模"];
+  }
+
+  subgraph cluster_shortest_path {
+    label="最短路問題";
+    color="#bfdbfe";
+    fillcolor="#1e3a8a";
+    fontname="Microsoft JhengHei";
+    fontcolor="#dbeafe";
+    fontsize=18;
+
+    node [fillcolor="#1d4ed8", color="#bfdbfe"];
+    sp1 [label="最短路問題"];
+    sp2 [label="Dijkstra"];
+    sp3 [label="Bellman Ford"];
+    sp4 [label="Floyd Warshall"];
+  }
+
+  subgraph cluster_tree {
+    label="樹論";
+    color="#a5b4fc";
+    fillcolor="#312e81";
+    fontname="Microsoft JhengHei";
+    fontcolor="#e0e7ff";
+    fontsize=18;
+
+    node [fillcolor="#4f46e5", color="#a5b4fc"];
+    tree1 [label="樹論"];
+    tree2 [label="BFS 樹"];
+    tree3 [label="DFS 樹"];
+    tree4 [label="前中後序"];
+    tree5 [label="二分樹"];
+    tree6 [label="更難的樹論問題"];
+    tree7 [label="樹壓平"];
+    tree8 [label="樹上差分"];
+    tree9 [label="LCA"];
+  }
+
+  subgraph cluster_number {
+    label="數論問題";
+    color="#fde68a";
+    fillcolor="#451a03";
+    fontname="Microsoft JhengHei";
+    fontcolor="#fef3c7";
+    fontsize=18;
+
+    node [fillcolor="#d97706", color="#fde68a"];
+    num1 [label="數論問題"];
+    num2 [label="取餘"];
+    num3 [label="篩法"];
+    num4 [label="質因數分解"];
+    num5 [label="因數倍數問題"];
+    num6 [label="進制系統"];
+    num7 [label="大數運算"];
+    math1 [label="數學式化簡"];
+  }
+
+  subgraph cluster_greedy {
+    label="貪心問題";
+    color="#86efac";
+    fillcolor="#052e16";
+    fontname="Microsoft JhengHei";
+    fontcolor="#dcfce7";
+    fontsize=18;
+
+    node [fillcolor="#16a34a", color="#86efac"];
+    gr1 [label="貪心問題"];
+    gr2 [label="貪心基本思維"];
+    gr3 [label="貪心證明"];
+    gr4 [label="區間貪心"];
+    gr5 [label="構造上下界問題"];
+    gr6 [label="子序列貪心"];
+    gr7 [label="配對問題"];
+  }
+
+  subgraph cluster_sequence {
+    label="序列問題";
+    color="#67e8f9";
+    fillcolor="#164e63";
+    fontname="Microsoft JhengHei";
+    fontcolor="#cffafe";
+    fontsize=18;
+
+    node [fillcolor="#0891b2", color="#67e8f9"];
+    seq1 [label="序列問題"];
+    seq2 [label="雙指標"];
+    seq3 [label="前綴和"];
+    seq4 [label="差分"];
+  }
+
+  subgraph cluster_ds {
+    label="資料結構";
+    color="#f9a8d4";
+    fillcolor="#500724";
+    fontname="Microsoft JhengHei";
+    fontcolor="#fce7f3";
+    fontsize=18;
+
+    node [fillcolor="#db2777", color="#f9a8d4"];
+    ds1 [label="資料結構"];
+    ds2 [label="序列容器"];
+    ds3 [label="關聯容器"];
+    ds4 [label="哈希表"];
+    ds5 [label="更複雜的資料結構"];
+    ds6 [label="樹狀陣列"];
+    ds7 [label="稀疏表"];
+    ds8 [label="線段樹"];
+    ds9 [label="樹狀陣列上二分搜"];
+    ds10 [label="稀疏表上二分搜"];
+  }
+
+  subgraph cluster_enum {
+    label="枚舉問題";
+    color="#fdba74";
+    fillcolor="#431407";
+    fontname="Microsoft JhengHei";
+    fontcolor="#ffedd5";
+    fontsize=18;
+
+    node [fillcolor="#ea580c", color="#fdba74"];
+    enum1 [label="枚舉問題"];
+    enum2 [label="暴力枚舉"];
+    enum3 [label="二元枚舉"];
+    enum4 [label="全排列枚舉"];
+    enum5 [label="聰明的枚舉"];
+    enum6 [label="更難的枚舉問題"];
+    enum7 [label="遞迴枚舉"];
+    enum8 [label="折半枚舉"];
+    enum9 [label="剪枝"];
+    enum10 [label="枚舉倍數"];
+  }
+
+  subgraph cluster_bit {
+    label="位元問題";
+    color="#c084fc";
+    fillcolor="#3b0764";
+    fontname="Microsoft JhengHei";
+    fontcolor="#f3e8ff";
+    fontsize=18;
+
+    node [fillcolor="#9333ea", color="#c084fc"];
+    bit1 [label="位元問題"];
+    bit2 [label="位元"];
+    bit3 [label="OR"];
+    bit4 [label="AND"];
+    bit5 [label="XOR"];
+    bit6 [label="NOT"];
+    bit7 [label="位元左移"];
+    bit8 [label="位元右移"];
+    bit9 [label="位元函式"];
+    bit10 [label="狀態壓縮"];
+  }
+
+  subgraph cluster_search {
+    label="搜尋問題";
+    color="#fca5a5";
+    fillcolor="#450a0a";
+    fontname="Microsoft JhengHei";
+    fontcolor="#fee2e2";
+    fontsize=18;
+
+    node [fillcolor="#dc2626", color="#fca5a5"];
+    search1 [label="搜尋問題"];
+    search2 [label="二分搜"];
+    search3 [label="lower / upper bound"];
+    search4 [label="三分搜"];
+  }
+
+  subgraph cluster_geometry {
+    label="幾何問題";
+    color="#d9f99d";
+    fillcolor="#1a2e05";
+    fontname="Microsoft JhengHei";
+    fontcolor="#ecfccb";
+    fontsize=18;
+
+    node [fillcolor="#65a30d", color="#d9f99d"];
+    geo1 [label="幾何問題"];
+  }
+
+  root1 -> core1;
+  core1 -> core2;
+  core2 -> core3;
+
+  core3 -> sort1;
+  core3 -> impl1;
+  core3 -> count1;
+  core3 -> g1;
+  core3 -> num1;
+  core3 -> gr1;
+  core3 -> seq1;
+  core3 -> ds1;
+  core3 -> enum1;
+  core3 -> bit1;
+  core3 -> search1;
+
+  sort1 -> sort2;
+  sort2 -> sort3;
+  sort2 -> sort4;
+
+  impl1 -> impl2;
+  impl1 -> impl3;
+
+  count1 -> count2;
+  count2 -> count3;
+  count3 -> count4;
+  count3 -> count5;
+  count5 -> dp1;
+  count5 -> div1;
+
+  g1 -> g2;
+  g1 -> g3;
+  g2 -> sp1;
+  g2 -> tree1;
+  g3 -> tree1;
+
+  sp1 -> sp2;
+  sp1 -> sp3;
+  sp1 -> sp4;
+  sp2 -> g4;
+  sp3 -> g4;
+  sp4 -> g4;
+
+  tree1 -> tree2;
+  tree1 -> tree3;
+  tree1 -> tree4;
+  tree1 -> tree5;
+  tree2 -> tree6;
+  tree3 -> tree6;
+  tree4 -> tree6;
+  tree5 -> tree6;
+  tree6 -> tree7;
+  tree6 -> tree8;
+  tree6 -> tree9;
+
+  num1 -> num2;
+  num1 -> num3;
+  num1 -> num4;
+  num1 -> num5;
+  num1 -> num6;
+  num1 -> num7;
+  num2 -> math1;
+  num3 -> math1;
+  num4 -> math1;
+  num5 -> math1;
+  num6 -> math1;
+  num7 -> math1;
+
+  gr1 -> gr2;
+  gr1 -> gr3;
+  gr2 -> gr4;
+  gr2 -> gr5;
+  gr2 -> gr6;
+  gr2 -> gr7;
+
+  seq1 -> seq2;
+  seq1 -> seq3;
+  seq1 -> seq4;
+
+  ds1 -> ds2;
+  ds1 -> ds3;
+  ds2 -> ds5;
+  ds3 -> ds4;
+  ds5 -> ds6;
+  ds5 -> ds7;
+  ds5 -> ds8;
+  ds6 -> ds9;
+  ds7 -> ds10;
+
+  enum1 -> enum2;
+  enum2 -> enum3;
+  enum2 -> enum4;
+  enum2 -> enum5;
+  enum3 -> enum6;
+  enum4 -> enum6;
+  enum5 -> enum6;
+  enum6 -> enum7;
+  enum6 -> enum8;
+  enum6 -> enum10;
+  enum7 -> enum9;
+
+  bit1 -> bit2;
+  bit2 -> bit3;
+  bit2 -> bit4;
+  bit2 -> bit5;
+  bit2 -> bit6;
+  bit2 -> bit7;
+  bit2 -> bit8;
+  bit3 -> bit9;
+  bit4 -> bit9;
+  bit5 -> bit9;
+  bit6 -> bit9;
+  bit7 -> bit9;
+  bit8 -> bit9;
+  bit9 -> bit10;
+
+  search1 -> search2;
+  search2 -> search3;
+  search2 -> search4;
+}

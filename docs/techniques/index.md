@@ -8,9 +8,17 @@
 
 ## 所有知識
 
-::: details 知識列表
+<script setup>
+import ZoomableSvg from '../.vitepress/theme/components/ZoomableSvg.vue'
+</script>
 
-<<< @/../stats/skillmap.json
+<ClientOnly>
+  <ZoomableSvg src="../img/skill_tree.svg" alt="競程技能樹" />
+</ClientOnly>
+
+::: details 原圖
+
+![skill_tree](../img/skill_tree.svg)
 
 :::
 
