@@ -27,7 +27,8 @@
     "sequence_containers",
     "dynamic_kth_extremum",
     "order_statistic_tree",
-    "distinct_value_queries"
+    "distinct_value_queries",
+    "hash_table"
   ],
 
   "range_query": [
