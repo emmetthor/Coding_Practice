@@ -114,7 +114,8 @@
     "cycle_dp",
     "tree_dp",
     "subtree_merge_dp",
-    "weighted_interval_scheduling_dp"
+    "weighted_interval_scheduling_dp",
+    "digit_dp"
   ],
 
   "mathematics": [
