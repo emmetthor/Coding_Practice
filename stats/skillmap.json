@@ -53,6 +53,7 @@
   ],
 
   "graph_traversal": [
+    "graph",
     "dfs",
     "bfs",
     "graph_modeling"
@@ -151,6 +152,7 @@
   "implementation": [
     "implementation",
     "complicated_implementation",
-    "swap_linked_technique"
+    "swap_linked_technique",
+    "interactive"
   ]
 }
