@@ -18,17 +18,7 @@
 
 ### 立方體階梯的二維投影
 
-![立方體階梯的二維投影](https://i-blog.csdnimg.cn/blog_migrate/b577a20715a82f8202a8f75bff428127.png#pic_center)
-
-這個立方體階梯投影成二維會變成：
-
-![轉換 gif](https://i-blog.csdnimg.cn/blog_migrate/89c9ca8d0a80eb57da0f64cb293de427.gif#pic_center)
-
-因此，每個網格上的座標可以看成：
-
-![網格上的座標](https://i-blog.csdnimg.cn/blog_migrate/037d094ad686c91226432d6939e12639.gif#pic_center)
-
-並且 $x, y, z$ 滿足 $x + y + z = 0$。
+請上 [Hexagonal Grids](https://www.redblobgames.com/grids/hexagons/) 自行嘗試。
 
 ### Axial 座標系
 

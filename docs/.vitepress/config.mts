@@ -125,10 +125,11 @@ export default defineConfig({
             },
 
             {
-              text: '字串',
+              text: '實作',
               collapsed: true,
               items: [
-                { text: '回文', link: '/techniques/strings/palindrome' },
+                { text: '回文', link: '/techniques/implementation/palindrome' },
+                { text: '六邊形網格', link: '/techniques/implementation/hexagonal_grid' },
               ]
             },
           ]
