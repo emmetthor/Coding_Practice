@@ -11,6 +11,7 @@ digraph CompetitiveProgrammingSkillTree {
 
   node [
     shape=rect,
+    style=filled,
     fontname="Microsoft JhengHei",
     fontsize=15,
     margin="0.18,0.10",
@@ -20,7 +21,7 @@ digraph CompetitiveProgrammingSkillTree {
   ];
 
   edge [
-    color="#94A3B8",
+    color="#bacae0",
     arrowsize=0.65,
     penwidth=1.2
   ];
@@ -33,10 +34,11 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#dcfce7";
     fontsize=18;
 
-    root1 [label="競程", fillcolor="#0f172a", color="#0f172a"];
-    core1 [label="基礎語法", fillcolor="#166534", color="#166534"];
-    core2 [label="陣列", fillcolor="#166534", color="#166534"];
-    core3 [label="基礎 STL 工具", fillcolor="#166534", color="#166534"];
+    node [fillcolor="transparent", color="#166534"]
+    root1 [label="競程"];
+    core1 [label="基礎語法\n[✪]"];
+    core2 [label="陣列\n[✪]"];
+    core3 [label="基礎 STL 工具\n[✪]"];
   }
 
   subgraph cluster_sort {
@@ -47,11 +49,11 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#dcfce7";
     fontsize=18;
 
-    node [fillcolor="#15803d", color="#86efac"];
-    sort1 [label="排序問題"];
-    sort2 [label="交換問題"];
-    sort3 [label="拓撲排序"];
-    sort4 [label="單調隊列"];
+    node [fillcolor="transparent", color="#86efac"];
+    sort1 [label="排序問題\n[✔]"];
+    sort2 [label="交換問題\n[!?]", style="dashed"];
+    sort3 [label="拓撲排序\n[?]", style="dotted"];
+    sort4 [label="單調隊列\n[!?]", style="dashed"];
   }
 
   subgraph cluster_impl {
@@ -62,10 +64,10 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#ffedd5";
     fontsize=18;
 
-    node [fillcolor="#c2410c", color="#fdba74"];
-    impl1 [label="實作題"];
-    impl2 [label="二維地圖實作"];
-    impl3 [label="字串問題"];
+    node [fillcolor="transparent", color="#fdba74"];
+    impl1 [label="實作題\n[✔]"];
+    impl2 [label="二維地圖實作\n[✔]"];
+    impl3 [label="字串問題\n[!?]", style="dashed"];
   }
 
   subgraph cluster_count {
@@ -76,13 +78,13 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#fef3c7";
     fontsize=18;
 
-    node [fillcolor="#b45309", color="#fcd34d"];
-    count1 [label="計數問題"];
-    count2 [label="等價類計數問題"];
-    count3 [label="排容原理"];
-    count4 [label="掃描線"];
-    count5 [label="拆分子問題法"];
-    div1 [label="分治"];
+    node [fillcolor="transparent", color="#fcd34d"];
+    count1 [label="計數問題\n[✔]"];
+    count2 [label="等價類計數問題\n[!?]", style="dashed"];
+    count3 [label="排容原理\n[✔]"];
+    count4 [label="掃描線\n[?]", style="dotted"];
+    count5 [label="拆分子問題法\n[✔]"];
+    div1 [label="分治\n[?]", style="dotted"];
   }
 
   subgraph cluster_dp {
@@ -93,9 +95,39 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#ede9fe";
     fontsize=18;
 
-    node [fillcolor="#7c3aed", color="#c4b5fd"];
-    dp1 [label="動態規劃"];
+    node [fillcolor="transparent", color="#c4b5fd"];
+    dp1 [label="動態規劃\n[✔]"];
+    dp2 [label="背包問題\n[!?]", style="dashed"];
+    dp3 [label="分段 dp\n[✔]"];
+    dp4 [label="二維地圖 dp\n[✔]"];
+    dp5 [label="區間 dp\n[?]", style="dotted"];
+    dp6 [label="賽局 dp\n[?]", style="dotted"];
+    dp7 [label="狀態壓縮 dp\n[?]", style="dotted"];
+    dp8 [label="記憶化搜索\n[✔]"];
+    dp9 [label="LCS\n[!?]", style="dashed"];
+    dp10 [label="環狀 dp\n[!?]", style="dashed"];
+    dp11 [label="樹 dp\n[?]", style="dotted"];
+    dp12 [label="子樹合併 dp\n[?]", style="dotted"];
+    dp13 [label="有權區間排程 dp\n[!?]", style="dashed"];
+    dp14 [label="數位 dp\n[!?]", style="dashed"];
+    dp15 [label="dp 狀態設計\n[✔]"];
+    dp16 [label="dp 優化\n[?]", style="dotted"];
   }
+
+  dp1 -> dp8;
+  dp1 -> dp15;
+  dp8 -> dp11;
+  dp8 -> dp14;
+  dp8 -> dp5;
+  dp8 -> dp7;
+  dp15 -> dp2;
+  dp15 -> dp3;
+  dp15 -> dp4;
+  dp15 -> dp9;
+  dp15 -> dp10;
+  dp15 -> dp13;
+  dp5 -> dp6;
+  dp11 -> dp12;
 
   subgraph cluster_graph {
     label="圖論問題";
@@ -105,11 +137,11 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#dbeafe";
     fontsize=18;
 
-    node [fillcolor="#2563eb", color="#93c5fd"];
-    g1 [label="圖論問題"];
-    g2 [label="BFS"];
-    g3 [label="DFS"];
-    g4 [label="圖論建模"];
+    node [fillcolor="transparent", color="#93c5fd"];
+    g1 [label="圖論問題\n[✔]"];
+    g2 [label="BFS\n[✔]"];
+    g3 [label="DFS\n[✔]"];
+    g4 [label="圖論建模\n[!?]", style="dashed"];
   }
 
   subgraph cluster_shortest_path {
@@ -120,11 +152,11 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#dbeafe";
     fontsize=18;
 
-    node [fillcolor="#1d4ed8", color="#bfdbfe"];
-    sp1 [label="最短路問題"];
-    sp2 [label="Dijkstra"];
-    sp3 [label="Bellman Ford"];
-    sp4 [label="Floyd Warshall"];
+    node [fillcolor="transparent", color="#bfdbfe"];
+    sp1 [label="最短路問題\n[✔]"];
+    sp2 [label="Dijkstra\n[✔]"];
+    sp3 [label="Bellman Ford\n[!?]", style="dashed"];
+    sp4 [label="Floyd Warshall\n[✔]"];
   }
 
   subgraph cluster_tree {
@@ -135,16 +167,16 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#e0e7ff";
     fontsize=18;
 
-    node [fillcolor="#4f46e5", color="#a5b4fc"];
-    tree1 [label="樹論"];
-    tree2 [label="BFS 樹"];
-    tree3 [label="DFS 樹"];
-    tree4 [label="前中後序"];
-    tree5 [label="二分樹"];
-    tree6 [label="更難的樹論問題"];
-    tree7 [label="樹壓平"];
-    tree8 [label="樹上差分"];
-    tree9 [label="LCA"];
+    node [fillcolor="transparent", color="#a5b4fc"];
+    tree1 [label="樹論\n[✔]"];
+    tree2 [label="BFS 樹\n[!?]", style="dashed"];
+    tree3 [label="DFS 樹\n[!?]", style="dashed"];
+    tree4 [label="前中後序\n[!?]", style="dashed"];
+    tree5 [label="二分樹\n[✔]"];
+    tree6 [label="更難的樹論問題\n[!?]", style="dashed"];
+    tree7 [label="樹壓平\n[!?]", style="dashed"];
+    tree8 [label="樹上差分\n[?]", style="dotted"];
+    tree9 [label="LCA\n[!?]", style="dashed"];
   }
 
   subgraph cluster_number {
@@ -155,15 +187,15 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#fef3c7";
     fontsize=18;
 
-    node [fillcolor="#d97706", color="#fde68a"];
-    num1 [label="數論問題"];
-    num2 [label="取餘"];
-    num3 [label="篩法"];
-    num4 [label="質因數分解"];
-    num5 [label="因數倍數問題"];
-    num6 [label="進制系統"];
-    num7 [label="大數運算"];
-    math1 [label="數學式化簡"];
+    node [fillcolor="transparent", color="#fde68a"];
+    num1 [label="數論問題\n[✔]"];
+    num2 [label="取餘\n[✔]"];
+    num3 [label="篩法\n[✔]"];
+    num4 [label="質因數分解\n[!?]", style="dashed"];
+    num5 [label="因數倍數問題\n[✔]"];
+    num6 [label="進制系統\n[?]", style="dotted"];
+    num7 [label="大數運算\n[?]", style="dotted"];
+    math1 [label="數學式化簡\n[✔]"];
   }
 
   subgraph cluster_greedy {
@@ -174,14 +206,14 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#dcfce7";
     fontsize=18;
 
-    node [fillcolor="#16a34a", color="#86efac"];
-    gr1 [label="貪心問題"];
-    gr2 [label="貪心基本思維"];
-    gr3 [label="貪心證明"];
-    gr4 [label="區間貪心"];
-    gr5 [label="構造上下界問題"];
-    gr6 [label="子序列貪心"];
-    gr7 [label="配對問題"];
+    node [fillcolor="transparent", color="#86efac"];
+    gr1 [label="貪心問題\n[✔]"];
+    gr2 [label="貪心基本思維\n[✔]"];
+    gr3 [label="貪心證明\n[!?]", style="dashed"];
+    gr4 [label="區間貪心\n[?]", style="dotted"];
+    gr5 [label="構造上下界問題\n[!?]", style="dashed"];
+    gr6 [label="子序列貪心\n[?]", style="dotted"];
+    gr7 [label="配對問題\n[!?]", style="dashed"];
   }
 
   subgraph cluster_sequence {
@@ -192,11 +224,11 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#cffafe";
     fontsize=18;
 
-    node [fillcolor="#0891b2", color="#67e8f9"];
+    node [fillcolor="transparent", color="#67e8f9"];
     seq1 [label="序列問題"];
-    seq2 [label="雙指標"];
-    seq3 [label="前綴和"];
-    seq4 [label="差分"];
+    seq2 [label="雙指標\n[✔]"];
+    seq3 [label="前綴和\n[✔]"];
+    seq4 [label="差分\n[✔]"];
   }
 
   subgraph cluster_ds {
@@ -207,17 +239,17 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#fce7f3";
     fontsize=18;
 
-    node [fillcolor="#db2777", color="#f9a8d4"];
-    ds1 [label="資料結構"];
-    ds2 [label="序列容器"];
-    ds3 [label="關聯容器"];
-    ds4 [label="哈希表"];
-    ds5 [label="更複雜的資料結構"];
-    ds6 [label="樹狀陣列"];
-    ds7 [label="稀疏表"];
-    ds8 [label="線段樹"];
-    ds9 [label="樹狀陣列上二分搜"];
-    ds10 [label="稀疏表上二分搜"];
+    node [fillcolor="transparent", color="#f9a8d4"];
+    ds1 [label="資料結構\n[✔]"];
+    ds2 [label="序列容器\n[✔]"];
+    ds3 [label="關聯容器\n[✔]"];
+    ds4 [label="哈希表\n[!?]", style="dashed"];
+    ds5 [label="更複雜的資料結構\n[?]", style="dotted"];
+    ds6 [label="樹狀陣列\n[?]", style="dotted"];
+    ds7 [label="稀疏表\n[?]", style="dotted"];
+    ds8 [label="線段樹\n[?]", style="dotted"];
+    ds9 [label="樹狀陣列上二分搜\n[?]", style="dotted"];
+    ds10 [label="稀疏表上二分搜\n[?]", style="dotted"];
   }
 
   subgraph cluster_enum {
@@ -228,17 +260,17 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#ffedd5";
     fontsize=18;
 
-    node [fillcolor="#ea580c", color="#fdba74"];
-    enum1 [label="枚舉問題"];
-    enum2 [label="暴力枚舉"];
-    enum3 [label="二元枚舉"];
-    enum4 [label="全排列枚舉"];
-    enum5 [label="聰明的枚舉"];
-    enum6 [label="更難的枚舉問題"];
-    enum7 [label="遞迴枚舉"];
-    enum8 [label="折半枚舉"];
-    enum9 [label="剪枝"];
-    enum10 [label="枚舉倍數"];
+    node [fillcolor="transparent", color="#fdba74"];
+    enum1 [label="枚舉問題\n[✔]"];
+    enum2 [label="暴力枚舉\n[✔]"];
+    enum3 [label="二元枚舉\n[✔]"];
+    enum4 [label="全排列枚舉\n[✔]"];
+    enum5 [label="聰明的枚舉\n[!?]", style="dashed"];
+    enum6 [label="更難的枚舉問題\n[✔]"];
+    enum7 [label="遞迴枚舉\n[✔]"];
+    enum8 [label="折半枚舉\n[!?]", style="dashed"];
+    enum9 [label="剪枝\n[!?]", style="dashed"];
+    enum10 [label="枚舉倍數\n[!?]", style="dashed"];
   }
 
   subgraph cluster_bit {
@@ -249,17 +281,17 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#f3e8ff";
     fontsize=18;
 
-    node [fillcolor="#9333ea", color="#c084fc"];
-    bit1 [label="位元問題"];
-    bit2 [label="位元"];
-    bit3 [label="OR"];
-    bit4 [label="AND"];
-    bit5 [label="XOR"];
-    bit6 [label="NOT"];
-    bit7 [label="位元左移"];
-    bit8 [label="位元右移"];
-    bit9 [label="位元函式"];
-    bit10 [label="狀態壓縮"];
+    node [fillcolor="transparent", color="#c084fc"];
+    bit1 [label="位元問題\n[✔]"];
+    bit2 [label="位元\n[✔]"];
+    bit3 [label="OR\n[✔]"];
+    bit4 [label="AND\n[✔]"];
+    bit5 [label="XOR\n[✔]"];
+    bit6 [label="NOT\n[✔]"];
+    bit7 [label="位元左移\n[✔]"];
+    bit8 [label="位元右移\n[✔]"];
+    bit9 [label="位元函式\n[!?]", style="dashed"];
+    bit10 [label="狀態壓縮\n[!?]", style="dashed"];
   }
 
   subgraph cluster_search {
@@ -270,11 +302,11 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#fee2e2";
     fontsize=18;
 
-    node [fillcolor="#dc2626", color="#fca5a5"];
-    search1 [label="搜尋問題"];
-    search2 [label="二分搜"];
-    search3 [label="lower / upper bound"];
-    search4 [label="三分搜"];
+    node [fillcolor="transparent", color="#fca5a5"];
+    search1 [label="搜尋問題\n[✔]"];
+    search2 [label="二分搜\n[✔]"];
+    search3 [label="lower / upper bound\n[✔]"];
+    search4 [label="三分搜\n[!?]", style="dashed"];
   }
 
   subgraph cluster_geometry {
@@ -285,8 +317,8 @@ digraph CompetitiveProgrammingSkillTree {
     fontcolor="#ecfccb";
     fontsize=18;
 
-    node [fillcolor="#65a30d", color="#d9f99d"];
-    geo1 [label="幾何問題"];
+    node [fillcolor="transparent", color="#d9f99d"];
+    geo1 [label="幾何問題\n[?]", style="dotted"];
   }
 
   root1 -> core1;
@@ -328,9 +360,6 @@ digraph CompetitiveProgrammingSkillTree {
   sp1 -> sp2;
   sp1 -> sp3;
   sp1 -> sp4;
-  sp2 -> g4;
-  sp3 -> g4;
-  sp4 -> g4;
 
   tree1 -> tree2;
   tree1 -> tree3;
