@@ -70,7 +70,7 @@ function reset() {
 }
 
 .stage {
-  height: 150vh;
+  height: 100vh;
   overflow: hidden;
   background: var(--vp-c-bg);
   cursor: grab;
