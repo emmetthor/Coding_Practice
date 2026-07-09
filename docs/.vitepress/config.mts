@@ -131,6 +131,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '回文', link: '/techniques/implementation/palindrome' },
+                { text: '正方形網格', link: '/techniques/implementation/square_grid' },
                 { text: '六邊形網格', link: '/techniques/implementation/hexagonal_grid' },
               ]
             },
