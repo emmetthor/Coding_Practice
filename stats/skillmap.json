@@ -144,8 +144,13 @@
     "palindrome_problems"
   ],
 
+  "scan_line": [
+    "micro_scan_line"
+  ],
+
   "unclassified": [
     "2d_map_implementation",
+    "hex_map_implementation",
     "custom_containers"
   ],
 

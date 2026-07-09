@@ -68,7 +68,10 @@ digraph CompetitiveProgrammingSkillTree {
     impl1 [label="實作題\n[✔]"];
     impl2 [label="二維地圖實作\n[✔]"];
     impl3 [label="字串問題\n[!?]", style="dashed"];
+    impl4 [label="六邊形地圖實作\n[✔]"]
   }
+
+  impl2 -> impl4;
 
   subgraph cluster_count {
     label="計數問題";
@@ -80,12 +83,14 @@ digraph CompetitiveProgrammingSkillTree {
 
     node [fillcolor="transparent", color="#fcd34d"];
     count1 [label="計數問題\n[✔]"];
+    count4 [label="微掃描線問題\n[✔]"];
     count2 [label="等價類計數問題\n[!?]", style="dashed"];
     count3 [label="排容原理\n[✔]"];
-    count4 [label="掃描線\n[?]", style="dotted"];
     count5 [label="拆分子問題法\n[✔]"];
     div1 [label="分治\n[?]", style="dotted"];
   }
+
+  count1 -> count4;
 
   subgraph cluster_dp {
     label="動態規劃";
@@ -319,7 +324,10 @@ digraph CompetitiveProgrammingSkillTree {
 
     node [fillcolor="transparent", color="#d9f99d"];
     geo1 [label="幾何問題\n[?]", style="dotted"];
+    geo2 [label="掃描線\n[?]", style="dotted"];
   }
+
+  geo1 -> geo2;
 
   root1 -> core1;
   core1 -> core2;
@@ -346,7 +354,6 @@ digraph CompetitiveProgrammingSkillTree {
 
   count1 -> count2;
   count2 -> count3;
-  count3 -> count4;
   count3 -> count5;
   count5 -> dp1;
   count5 -> div1;

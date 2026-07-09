@@ -59,6 +59,7 @@ export default defineConfig({
                 { text: '雙指標', link: '/techniques/sequence_algorithms/two_pointer' },
                 { text: '單調隊列', link: '/techniques/sequence_algorithms/monotonic_sequence' },
                 { text: '交換問題', link: '/techniques/sequence_algorithms/swap_linked_technique' },
+                { text: '微掃描線', link: '/techniques/sequence_algorithms/micro_scan_line'},
               ]
             },
 

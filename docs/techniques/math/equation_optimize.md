@@ -49,6 +49,10 @@ A_4 * A_1, A_4 * A_2, A_4 * A_3, A_4 * A_4
 
 $$\lfloor \frac{114514}{10} \rfloor = 11451$$
 
+### 上取整函數
+
+若有 $\lceil \frac{x}{K} \rceil$，可以轉成下取整函數 $\lfloor \frac{x + K - 1}{K} \rfloor$。
+
 ---
 
 ## 常見錯誤
