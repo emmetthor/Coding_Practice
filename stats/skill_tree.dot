@@ -200,8 +200,15 @@ digraph CompetitiveProgrammingSkillTree {
     num5 [label="因數倍數問題\n[✔]"];
     num6 [label="進制系統\n[?]", style="dotted"];
     num7 [label="大數運算\n[?]", style="dotted"];
+    num8 [label="機率\n[!?]", style="dashed"];
+    num9 [label="期望值\n[!?]", style="dashed"];
     math1 [label="數學式化簡\n[✔]"];
   }
+
+  num1 -> num8;
+  num1 -> num9;
+  num8 -> math1;
+  num9 -> math1;
 
   subgraph cluster_greedy {
     label="貪心問題";

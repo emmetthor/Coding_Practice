@@ -22,7 +22,7 @@ $$
 \because \begin{cases}
 a = mq_1 + r\\
 b = mq_2 + r
-\end{cases} 
+\end{cases}
 \Longrightarrow a - b = m (q_1 - q_2) \Longleftrightarrow a - b = mq\\
 \therefore a \equiv b \pmod m $$
 
@@ -67,6 +67,16 @@ $$
 \frac{b}{a} = b \times a^{-1} \equiv b \times a^{p-2} \pmod{p}
 $$
 因此，除法 $b \div a$ 可表示成 $b \times a^{MOD - 2}$ 若模數為質數。
+
+::: tip 分數與小數的模運算
+
+分數可以寫成 $\frac{P}{Q} = P \times Q^{MOD - 2}$。
+
+而有限小數可以寫成分數。
+
+:::
+
+---
 
 ### 轉換
 

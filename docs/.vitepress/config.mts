@@ -48,7 +48,8 @@ export default defineConfig({
                 { text: '等價類計數', link: '/techniques/math/counting_equivalent_states' },
                 { text: '數學式化簡', link: '/techniques/math/equation_optimize' },
                 { text: '排容原理', link: '/techniques/math/inclusion_exclusion' },
-                { text: '中位數', link: '/techniques/math/median' }
+                { text: '中位數', link: '/techniques/math/median' },
+                { text: '機率與期望值', link: '/techniques/math/probability_and_expected_value' },
               ]
             },
 

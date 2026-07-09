@@ -131,7 +131,9 @@
     "modulo",
     "prime",
     "geometry",
-    "carry_system"
+    "carry_system",
+    "probability",
+    "expected_value"
   ],
 
   "ordering": [
