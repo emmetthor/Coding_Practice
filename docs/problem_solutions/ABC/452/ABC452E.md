@@ -36,7 +36,7 @@ $$n + \frac{n}{2} + \frac{n}{3} + \cdots = \sum_{i=1}^{n} \frac{n}{i} \approx n 
 
 ## 實作方法
 
-<<< @/../problems/ABC/452/E_You_WILL_Like_Sigma_Problem.cpp
+<<< @/problems/ABC/452/E_You_WILL_Like_Sigma_Problem.cpp
 
 ## Agent Prompt
 

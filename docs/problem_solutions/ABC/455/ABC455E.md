@@ -22,7 +22,7 @@
 
 ## 實作方法
 
-<<< @/../problems/ABC/455/E_Unbalanced_ABC_Substrings.cpp
+<<< @/problems/ABC/455/E_Unbalanced_ABC_Substrings.cpp
 
 ## Agent Prompt
 
