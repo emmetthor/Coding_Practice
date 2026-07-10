@@ -127,6 +127,14 @@ export default defineConfig({
             },
 
             {
+              text: '資料結構',
+              collapsed: true,
+              items: [
+                { text: '線段樹', link: '/techniques/data_structures/segment_tree' },
+              ]
+            },
+
+            {
               text: '實作',
               collapsed: true,
               items: [
