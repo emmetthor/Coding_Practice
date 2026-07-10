@@ -1,15 +1,14 @@
 /*
 Date: 2026-07-10
 
-Tags:
-Independent:
-Understanding:
-Implementation:
-Recognition:
-
-Mistakes:
+Tags: segment_tree
+Independent: 3
+Understanding: 5
+Implementation: 5
+Recognition: 5
 */
 #include <bits/stdc++.h>
+#include <type_traits>
 using namespace std;
 
 #ifdef LOCAL
@@ -68,7 +67,7 @@ struct SegTree {
         node.assign(2 * n, e());
     }
 
-    void set(int p, T &x)
+    void set(int p, T x)
     {
         set(0, n, 1, p, x);
     }
@@ -80,20 +79,42 @@ struct SegTree {
     }
 };
 
-int op(int a, int b) { return min(a, b); }
-int e() { return 1e9; }
+struct State
+{
+    ll max_prefix_sum;
+    ll sum;
+};
+
+State op(const State st1, const State st2)
+{
+    State res;
+    res.sum = st1.sum + st2.sum;
+    res.max_prefix_sum = max(st1.max_prefix_sum, st1.sum + st2.max_prefix_sum);
+
+    return res;
+}
+
+State e()
+{
+    return {0, 0};
+}
+
+State make_state(ll num)
+{
+    return {max(0ll, num), num};
+}
 
 int main() {
     cin.tie(0) -> sync_with_stdio(0);
     
     int n, q; cin >> n >> q;
 
-    SegTree<int, op, e> seg(n);
+    SegTree<State, op, e> seg(n);
 
     for (int i = 0; i < n; i++)
     {
-        int ai; cin >> ai;
-        seg.set(i, ai);
+        ll ai; cin >> ai;
+        seg.set(i, make_state(ai));
     }
 
     while (q--)
@@ -101,13 +122,13 @@ int main() {
         int type; cin >> type;
         if (type == 1)
         {
-            int k, u; cin >> k >> u;
-            seg.set(--k, u);
+            int k; ll u; cin >> k >> u;
+            seg.set(--k, make_state(u));
         }
         else
         {
             int l, r; cin >> l >> r;
-            cout << seg.get(--l, r) << '\n';
+            cout << seg.get(--l, r).max_prefix_sum << '\n';
         }
     }
 }

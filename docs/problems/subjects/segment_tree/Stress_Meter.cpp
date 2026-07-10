@@ -1,16 +1,15 @@
 /*
 Date: 2026-07-10
 
-Tags:
-Independent:
-Understanding:
-Implementation:
-Recognition:
-
-Mistakes:
+Tags: segment_tree
+Independent: 3
+Understanding: 5
+Implementation: 5
+Recognition: 5
 */
 #include <bits/stdc++.h>
-#include <type_traits>
+#include <cerrno>
+#include <vector>
 using namespace std;
 
 #ifdef LOCAL
@@ -22,7 +21,7 @@ using namespace std;
 using ll = long long;
 #define cerr if(debug_mode) cerr
 
-template<class T, T (*op)(T, T), T (*e)()>
+template<class T, T (*op)(const T&, const T&), T (*e)()>
 struct SegTree {
 
     int n;
@@ -69,7 +68,7 @@ struct SegTree {
         node.assign(2 * n, e());
     }
 
-    void set(int p, T x)
+    void set(int p, T &x)
     {
         set(0, n, 1, p, x);
     }
@@ -81,56 +80,76 @@ struct SegTree {
     }
 };
 
+const int MAX_K = 300 + 5;
+
 struct State
 {
-    ll max_prefix_sum;
-    ll sum;
+    int stress[MAX_K] = {};
+    int counter[MAX_K] = {};
+
+    // 從 [i] stress 開始的 stress[i] 與 counter[i]
 };
 
-State op(const State st1, const State st2)
+State op(const State &st1, const State &st2)
 {
     State res;
-    res.sum = st1.sum + st2.sum;
-    res.max_prefix_sum = max(st1.max_prefix_sum, st1.sum + st2.max_prefix_sum);
+    for (int i = 0; i < MAX_K; i++)
+    {
+        res.stress[i] = st2.stress[st1.stress[i]];
+        res.counter[i] = st1.counter[i] + st2.counter[st1.stress[i]];
+    }
 
     return res;
 }
 
 State e()
 {
-    return {0, 0};
-}
+    State res{};
 
-State make_state(ll num)
-{
-    return {max(0ll, num), num};
+    for (int i = 0; i < MAX_K; i++)
+    {
+        res.stress[i] = i;
+        res.counter[i] = 0;
+    }
+
+    return res;
 }
 
 int main() {
     cin.tie(0) -> sync_with_stdio(0);
     
-    int n, q; cin >> n >> q;
+    int n, k, q; cin >> n >> k >> q;
 
     SegTree<State, op, e> seg(n);
 
     for (int i = 0; i < n; i++)
     {
-        ll ai; cin >> ai;
-        seg.set(i, make_state(ai));
+        int ai, bi; cin >> ai >> bi;
+
+        State res = {};
+        
+        for (int s = 0; s < k; s++)
+        {
+            int changed_stress = max(0, s + ai - bi);
+            if (changed_stress >= k)
+            {
+                res.counter[s]++;
+                res.stress[s] = 0;
+            }
+            else res.stress[s] = changed_stress;
+
+            cerr << i << ' ' << s << ' ' << (changed_stress >= k ? 0 : changed_stress) << '\n';
+        }
+
+        seg.set(i, res);
     }
 
     while (q--)
     {
-        int type; cin >> type;
-        if (type == 1)
-        {
-            int k; ll u; cin >> k >> u;
-            seg.set(--k, make_state(u));
-        }
-        else
-        {
-            int l, r; cin >> l >> r;
-            cout << seg.get(--l, r).max_prefix_sum << '\n';
-        }
+        int l, r; cin >> l >> r;
+
+        auto res = seg.get(--l, r);
+
+        cout << res.counter[0] << ' ' << res.stress[0] << '\n';
     }
 }
