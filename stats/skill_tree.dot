@@ -262,7 +262,12 @@ digraph CompetitiveProgrammingSkillTree {
     ds8 [label="線段樹\n[?]", style="dotted"];
     ds9 [label="樹狀陣列上二分搜\n[?]", style="dotted"];
     ds10 [label="稀疏表上二分搜\n[?]", style="dotted"];
+    ds11 [label="堆疊\n[✔]"];
+    ds12 [label="優先序列\n[✔]"];
   }
+
+  ds2 -> ds11;
+  ds2 -> ds12;
 
   subgraph cluster_enum {
     label="枚舉問題";

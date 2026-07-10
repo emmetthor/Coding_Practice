@@ -28,7 +28,9 @@
     "dynamic_kth_extremum",
     "order_statistic_tree",
     "distinct_value_queries",
-    "hash_table"
+    "hash_table",
+    "priority_queue",
+    "stack"
   ],
 
   "range_query": [
