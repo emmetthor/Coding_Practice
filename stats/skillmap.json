@@ -135,7 +135,8 @@
     "geometry",
     "carry_system",
     "probability",
-    "expected_value"
+    "expected_value",
+    "parity"
   ],
 
   "ordering": [
