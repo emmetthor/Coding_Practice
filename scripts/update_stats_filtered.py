@@ -12,7 +12,7 @@ from typing import Any
 # 基本設定
 # =========================
 
-PROBLEMS_DIR = Path("problems")
+PROBLEMS_DIR = Path("docs/problems")
 README_PATH = Path("README.md")
 KNOWLEDGE_PATH = Path("stats/skillmap.json")
 
