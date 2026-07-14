@@ -103,6 +103,7 @@ export default defineConfig({
                 { text: '區間 dp', link: '/techniques/dp/range_dp' },
                 { text: '加權區間排程 dp', link: '/techniques/dp/weighted_interval_scheduling_dp' },
                 { text: '數位 dp', link: '/techniques/dp/digit_dp' },
+                { text: '定和賽局', link: '/techniques/dp/constant_sum_game' },
               ]
             },
 
