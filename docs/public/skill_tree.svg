@@ -481,16 +481,16 @@
 <!-- dp5 -->
 <g id="node23" class="node">
 <title>dp5</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="1,5" points="1963.87,-3777.2 1884.7,-3777.2 1884.7,-3720.8 1963.87,-3720.8 1963.87,-3777.2"/>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1963.87,-3777.2 1884.7,-3777.2 1884.7,-3720.8 1963.87,-3720.8 1963.87,-3777.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3755.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">區間 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp6 -->
 <g id="node24" class="node">
 <title>dp6</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="1,5" points="2160.04,-3777.2 2080.87,-3777.2 2080.87,-3720.8 2160.04,-3720.8 2160.04,-3777.2"/>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="2160.04,-3777.2 2080.87,-3777.2 2080.87,-3720.8 2160.04,-3720.8 2160.04,-3777.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3755.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">賽局 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp5&#45;&gt;dp6 -->
 <g id="edge15" class="edge">

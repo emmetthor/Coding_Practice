@@ -105,8 +105,8 @@ digraph CompetitiveProgrammingSkillTree {
     dp2 [label="背包問題\n[!?]", style="dashed"];
     dp3 [label="分段 dp\n[✔]"];
     dp4 [label="二維地圖 dp\n[✔]"];
-    dp5 [label="區間 dp\n[?]", style="dotted"];
-    dp6 [label="賽局 dp\n[?]", style="dotted"];
+    dp5 [label="區間 dp\n[✔]"];
+    dp6 [label="賽局 dp\n[✔]"];
     dp7 [label="狀態壓縮 dp\n[?]", style="dotted"];
     dp8 [label="記憶化搜索\n[✔]"];
     dp9 [label="LCS\n[!?]", style="dashed"];
