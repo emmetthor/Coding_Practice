@@ -18,7 +18,6 @@
 | `bellman_ford` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `binary_lifting` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `binary_search` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
-| `binary_search_on_segment_tree` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `binary_search_on_sparse_table` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `binary_tree` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `bit_functions` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
@@ -26,7 +25,6 @@
 | `carry_system` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `cycle_dp` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `difference_on_tree` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
-| `digit_dp` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `discretization` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `distinct_value_queries` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `divide_and_conquer` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
@@ -68,7 +66,6 @@
 | `range_greedy` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `recursive_enumeration` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `rmq` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
-| `segment_tree` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `sliding_window` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `sparse_table` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
 | `state_compression` | 0 | 0 | - | - | - | - | - | 尚未使用 | - | - |
@@ -85,11 +82,11 @@
 | `graph_modeling` | 3 | 3 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-08 |
 | `bit_enumeration` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-01 |
 | `equation_optimize` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-09 |
+| `interactive` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | debugging_slow(1) | 2026-07-11 |
 | `bfs` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-05-31 |
 | `custom_containers` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-04-25 |
 | `different_side_two_pointer` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-04 |
 | `dijkstra` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | reading_misunderstanding(1), template_not_familiar(1) | 2026-06-11 |
-| `interactive` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-08 |
 | `knapsack_problems` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-09 |
 | `modulo` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-05-31 |
 | `muiti_source` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | reading_misunderstanding(1), template_not_familiar(1) | 2026-06-11 |
@@ -98,20 +95,24 @@
 | `stack` | 1 | 1 | 5.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 100.0% | 精通 | - | 2026-07-09 |
 | `lower_upper_bound` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 4.5/5 | 98.0% | 精通 | - | 2026-07-02 |
 | `sort` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 4.5/5 | 98.0% | 精通 | - | 2026-06-13 |
+| `same_side_two_pointer` | 3 | 3 | 5.0/5 | 4.7/5 | 5.0/5 | 4.7/5 | 97.0% | 精通 | debugging_slow(1), overcomplicated_solution(1), wrong_idea(1) | 2026-07-11 |
 | `dfs` | 8 | 8 | 5.0/5 | 4.8/5 | 4.6/5 | 5.0/5 | 96.9% | 精通 | reading_misunderstanding(1) | 2026-07-08 |
 | `difference` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 4.0/5 | 96.0% | 精通 | overcomplicated_solution(1) | 2026-06-13 |
-| `same_side_two_pointer` | 2 | 2 | 5.0/5 | 4.5/5 | 5.0/5 | 4.5/5 | 95.5% | 精通 | overcomplicated_solution(1), wrong_idea(1) | 2026-06-11 |
 | `greedy` | 14 | 14 | 4.8/5 | 4.6/5 | 4.7/5 | 4.9/5 | 95.2% | 精通 | debugging_slow(1), overcomplicated_solution(1), special_case_not_found(1) | 2026-07-09 |
 | `geometry` | 1 | 1 | 5.0/5 | 5.0/5 | 4.0/5 | 5.0/5 | 95.0% | 精通 | integer_overflow(1) | 2026-05-31 |
 | `monotonic_sequence` | 1 | 1 | 5.0/5 | 5.0/5 | 4.0/5 | 5.0/5 | 95.0% | 精通 | - | 2026-04-18 |
-| `associative_containers` | 3 | 3 | 4.3/5 | 4.7/5 | 4.7/5 | 4.7/5 | 91.3% | 精通 | - | 2026-05-16 |
+| `parity` | 1 | 1 | 4.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 94.0% | 精通 | debugging_slow(1), off_by_one(1), too_slow_solving(1) | 2026-07-11 |
+| `associative_containers` | 4 | 4 | 4.5/5 | 4.8/5 | 4.8/5 | 4.8/5 | 93.5% | 精通 | - | 2026-07-11 |
 | `find_cycle` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | - | 2026-05-02 |
 | `implementation` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | reading_misunderstanding(1) | 2026-06-12 |
+| `binary_search_on_segment_tree` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 88.0% | 熟練 | - | 2026-07-10 |
+| `digit_dp` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 88.0% | 熟練 | - | 2026-07-11 |
 | `counting_equivalent_states` | 2 | 2 | 4.0/5 | 5.0/5 | 4.0/5 | 4.5/5 | 87.0% | 熟練 | debugging_slow(1), overcomplicated_solution(1) | 2026-07-06 |
+| `dp` | 5 | 5 | 4.2/5 | 4.6/5 | 4.6/5 | 3.6/5 | 85.6% | 熟練 | wrong_idea(2), debugging_slow(1), not_learned(1) | 2026-07-11 |
+| `segment_tree` | 5 | 5 | 2.6/5 | 5.0/5 | 5.0/5 | 5.0/5 | 85.6% | 熟練 | */(1) | 2026-07-10 |
 | `complicated_implementation` | 1 | 1 | 5.0/5 | 4.0/5 | 3.0/5 | 5.0/5 | 85.0% | 熟練 | reading_misunderstanding(1) | 2026-06-12 |
 | `tree` | 1 | 1 | 5.0/5 | 4.0/5 | 3.0/5 | 5.0/5 | 85.0% | 熟練 | reading_misunderstanding(1) | 2026-06-12 |
 | `inclusion_exclusion` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 4.0/5 | 84.0% | 熟練 | - | 2026-04-26 |
-| `dp` | 4 | 4 | 4.2/5 | 4.5/5 | 4.5/5 | 3.2/5 | 83.5% | 熟練 | wrong_idea(2), not_learned(1), overcomplicated_solution(1) | 2026-07-06 |
 | `2d_map_implementation` | 4 | 4 | 4.0/5 | 4.0/5 | 4.0/5 | 4.8/5 | 83.0% | 熟練 | not_learned(1), overcomplicated_solution(1) | 2026-06-13 |
 | `1d_prefix_sum` | 3 | 3 | 3.7/5 | 3.7/5 | 3.7/5 | 4.3/5 | 76.0% | 熟練 | debugging_slow(1), not_learned(1), overcomplicated_solution(1) | 2026-07-01 |
 | `lca` | 1 | 1 | 5.0/5 | 3.0/5 | 5.0/5 | 1.0/5 | 74.0% | 可使用 | wrong_recognition(1) | 2026-07-04 |
@@ -126,13 +127,16 @@
 | 錯誤類型 | 次數 |
 | --- | ---: |
 | `overcomplicated_solution` | 6 |
+| `debugging_slow` | 4 |
 | `not_learned` | 3 |
 | `reading_misunderstanding` | 3 |
 | `wrong_idea` | 3 |
-| `debugging_slow` | 2 |
+| `*/` | 1 |
 | `integer_overflow` | 1 |
+| `off_by_one` | 1 |
 | `special_case_not_found` | 1 |
 | `template_not_familiar` | 1 |
+| `too_slow_solving` | 1 |
 | `wrong_greedy_choice` | 1 |
 | `wrong_recognition` | 1 |
 

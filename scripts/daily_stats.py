@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 # ------------------------
 # 讀題目檔案裡的日期
 # ------------------------
-problems_dir = Path("problems")
+problems_dir = Path("docs/problems")
 daily = defaultdict(int)
 
 for cpp_file in problems_dir.rglob("*.cpp"):
