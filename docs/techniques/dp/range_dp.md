@@ -35,7 +35,7 @@
 
 ## 常見錯誤
 
-TODO
+1. 使用 Memorized Search 與 Bottom-up 的時間會相差兩倍，因此，建議先使用 Memorized Search 確認 dp 正確，再轉成 Bottom-up 壓常數。
 
 ## 代表題目
 
