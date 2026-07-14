@@ -33,6 +33,22 @@
 
 這類區間 dp 的轉移通常由 $dp[l][k], dp[k][r]$ 這類需要再枚舉 $k$ 的狀態而來。
 
+### 凸多邊形三角化問題
+
+要把一個凸多邊形三角化，可以看成是：
+
+![凸多邊形三角化](.././../img/凸多邊形三角化.svg)
+
+在區間 $[l, r]$ 中的點挑一個，把整個凸多邊形拆成：多邊形1，三角形，多邊形2，再繼續遞迴下去。
+
+因此，一個簡單的 Memorized Search 實作如下：
+
+::: details 實作
+
+<<<@/problems/subjects/range_dp/1039.Minimum_Score_Triangulation_of_Polygon.cpp
+
+:::
+
 ## 常見錯誤
 
 1. 使用 Memorized Search 與 Bottom-up 的時間會相差兩倍，因此，建議先使用 Memorized Search 確認 dp 正確，再轉成 Bottom-up 壓常數。

@@ -1,13 +1,11 @@
 /*
 Date: 2026-07-14
 
-Tags:
-Independent:
-Understanding:
-Implementation:
-Recognition:
-
-Mistakes:
+Tags: range_dp
+Independent: 4
+Understanding: 5
+Implementation: 5
+Recognition: 5
 */
 #include <bits/stdc++.h>
 using namespace std;
