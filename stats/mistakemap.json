@@ -172,5 +172,11 @@
     "category": "thinking",
     "severity": 5,
     "description": "沒有想到特例，導致部分演算法錯誤。"
+    },
+    "constant": {
+    "name_zh": "卡常數",
+    "category": "thinking",
+    "severity": 3,
+    "description": "時間複雜度沒有考慮到常數的風險。"
     }
 }
