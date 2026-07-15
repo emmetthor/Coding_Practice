@@ -111,8 +111,8 @@ digraph CompetitiveProgrammingSkillTree {
     dp8 [label="記憶化搜索\n[✔]"];
     dp9 [label="LCS\n[!?]", style="dashed"];
     dp10 [label="環狀 dp\n[!?]", style="dashed"];
-    dp11 [label="樹 dp\n[?]", style="dotted"];
-    dp12 [label="子樹合併 dp\n[?]", style="dotted"];
+    dp11 [label="樹 dp\n[✔]"];
+    dp12 [label="子樹合併 dp\n[✔]"];
     dp13 [label="有權區間排程 dp\n[!?]", style="dashed"];
     dp14 [label="數位 dp\n[!?]", style="dashed"];
     dp15 [label="dp 狀態設計\n[✔]"];
@@ -179,7 +179,7 @@ digraph CompetitiveProgrammingSkillTree {
     tree4 [label="前中後序\n[!?]", style="dashed"];
     tree5 [label="二分樹\n[✔]"];
     tree6 [label="更難的樹論問題\n[!?]", style="dashed"];
-    tree7 [label="樹壓平\n[!?]", style="dashed"];
+    tree7 [label="樹壓平\n[✔]"];
     tree8 [label="樹上差分\n[?]", style="dotted"];
     tree9 [label="LCA\n[!?]", style="dashed"];
   }

@@ -520,9 +520,9 @@
 <!-- dp11 -->
 <g id="node29" class="node">
 <title>dp11</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="1,5" points="1956.37,-3969.2 1892.2,-3969.2 1892.2,-3912.8 1956.37,-3912.8 1956.37,-3969.2"/>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1956.37,-3969.2 1892.2,-3969.2 1892.2,-3912.8 1956.37,-3912.8 1956.37,-3969.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3947.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3926.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3926.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp8&#45;&gt;dp11 -->
 <g id="edge5" class="edge">
@@ -560,9 +560,9 @@
 <!-- dp12 -->
 <g id="node30" class="node">
 <title>dp12</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="1,5" points="2175.04,-3969.2 2065.87,-3969.2 2065.87,-3912.8 2175.04,-3912.8 2175.04,-3969.2"/>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="2175.04,-3969.2 2065.87,-3969.2 2065.87,-3912.8 2175.04,-3912.8 2175.04,-3969.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3947.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">子樹合併 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3926.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3926.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp11&#45;&gt;dp12 -->
 <g id="edge16" class="edge">
@@ -810,9 +810,9 @@
 <!-- tree7 -->
 <g id="node49" class="node">
 <title>tree7</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1763.58,-3424.2 1692.66,-3424.2 1692.66,-3367.8 1763.58,-3367.8 1763.58,-3424.2"/>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1763.58,-3424.2 1692.66,-3424.2 1692.66,-3367.8 1763.58,-3367.8 1763.58,-3424.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3402.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹壓平</text>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3381.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3381.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- tree6&#45;&gt;tree7 -->
 <g id="edge64" class="edge">
@@ -1229,9 +1229,9 @@
 <!-- ds8 -->
 <g id="node80" class="node">
 <title>ds8</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="1,5" points="1353.61,-1371.2 1282.69,-1371.2 1282.69,-1314.8 1353.61,-1314.8 1353.61,-1371.2"/>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1353.61,-1371.2 1282.69,-1371.2 1282.69,-1314.8 1353.61,-1314.8 1353.61,-1371.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1349.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">線段樹</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- ds5&#45;&gt;ds8 -->
 <g id="edge94" class="edge">
