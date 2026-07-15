@@ -259,7 +259,7 @@ digraph CompetitiveProgrammingSkillTree {
     ds5 [label="更複雜的資料結構\n[?]", style="dotted"];
     ds6 [label="樹狀陣列\n[?]", style="dotted"];
     ds7 [label="稀疏表\n[?]", style="dotted"];
-    ds8 [label="線段樹\n[?]", style="dotted"];
+    ds8 [label="線段樹\n[✔]"];
     ds9 [label="樹狀陣列上二分搜\n[?]", style="dotted"];
     ds10 [label="稀疏表上二分搜\n[?]", style="dotted"];
     ds11 [label="堆疊\n[✔]"];
