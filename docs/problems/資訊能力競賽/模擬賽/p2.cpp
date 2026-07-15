@@ -56,6 +56,23 @@ int main() {
     {
         ll k = (low + hi) / 2;
 
+        auto cost = [&](int l, int r) -> ll
+        {
+            int idx = (n - 1 - r) + (l - 0);
+
+            ll e = efficiency[idx % 4];
+            ll k_e = 1;
+            while (e--) k_e *= k;
+
+            ll res = 0;
+            for (int i = l; i <= r; i++)
+            {
+                res += p[idx][i] * k_e;
+            }
+
+            return res;
+        };
+
         vector<vector<ll>> dp(n, vector<ll>(n, 0));
 
         for (int len = 0; len <= n; len++)
