@@ -101,6 +101,7 @@ export default defineConfig({
                 { text: '分段 dp', link: '/techniques/dp/partition_dp' },
                 { text: '二維地圖 dp', link: '/techniques/dp/path_on_grid' },
                 { text: '區間 dp', link: '/techniques/dp/range_dp' },
+                { text: '樹 dp', link: '/techniques/dp/tree_dp' },
                 { text: '加權區間排程 dp', link: '/techniques/dp/weighted_interval_scheduling_dp' },
                 { text: '數位 dp', link: '/techniques/dp/digit_dp' },
                 { text: '定和賽局', link: '/techniques/dp/constant_sum_game' },
@@ -124,6 +125,14 @@ export default defineConfig({
                 { text: 'Floyd Warshall', link: '/techniques/shortest_path/floyd_warshall' },
                 { text: 'Dijkstra', link: '/techniques/shortest_path/dijkstra' },
                 { text: 'Bellman Ford', link: '/techniques/shortest_path/bellman_ford' },
+              ]
+            },
+
+            {
+              text: '樹論',
+              collapsed: true,
+              items: [
+                { text: '樹壓平', link: '/techniques/tree/euler_tour_technique' },
               ]
             },
 
