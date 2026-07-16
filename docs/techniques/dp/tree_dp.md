@@ -35,6 +35,10 @@
 
 一種思考方式為：想想**父節點的答案如何從子節點透過加總、取最大最小值... 轉移而來**。
 
+### 和父節點的父節點有關
+
+若子樹的狀態與「父節點的父節點」有關，就需要在 dp 狀態中多考慮「父節點的狀態」。
+
 ### 子樹合併 dp
 
 子樹合併 dp，指的是 dp 合併時，必須一邊合併子樹，一邊考慮其他子樹。可以將合併過程想像如：
@@ -58,6 +62,7 @@ TODO
 | 題目 | 重點 |
 | --- | --- |
 | ![Codeforces 263 (Div. 1) B. Appleman and Tree](https://codeforces.com/problemset/problem/461/B) | 子樹合併 dp |
+| ![2026 TOI 初選 E. 幾乎獨立的分店](https://codeforces.com/gym/677534/problem/E) | 與父節點的父節點有關 |
 
 ## Agent Prompt
 
