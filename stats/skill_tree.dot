@@ -341,6 +341,19 @@ digraph CompetitiveProgrammingSkillTree {
 
   geo1 -> geo2;
 
+  subgraph cluster_binary_lifting {
+    label="倍增";
+    color="#f9dc9ddc";
+    fontname="Microsoft JhengHei";
+    fontsize=18;
+    fontcolor="#fceacb";
+
+    node [fillcolor="transparent", color="#f9ce9d"];
+    bl1 [label="倍增\n[✔]"];
+  }
+
+  dp15 -> bl1;  
+
   root1 -> core1;
   core1 -> core2;
   core2 -> core3;

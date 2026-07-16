@@ -133,6 +133,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '樹壓平', link: '/techniques/tree/euler_tour_technique' },
+                { text: 'LCA', link: '/techniques/tree/LCA' },
               ]
             },
 
