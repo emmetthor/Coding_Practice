@@ -854,9 +854,9 @@
 <!-- tree9 -->
 <g id="node51" class="node">
 <title>tree9</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1755.12,-3616.2 1701.12,-3616.2 1701.12,-3559.8 1755.12,-3559.8 1755.12,-3616.2"/>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1755.12,-3616.2 1701.12,-3616.2 1701.12,-3559.8 1755.12,-3559.8 1755.12,-3616.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3594.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">LCA</text>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3573.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3573.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- tree6&#45;&gt;tree9 -->
 <g id="edge67" class="edge">
@@ -1234,9 +1234,9 @@
 <!-- ds7 -->
 <g id="node79" class="node">
 <title>ds7</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="1,5" points="1353.61,-1371.2 1282.69,-1371.2 1282.69,-1314.8 1353.61,-1314.8 1353.61,-1371.2"/>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1353.61,-1371.2 1282.69,-1371.2 1282.69,-1314.8 1353.61,-1314.8 1353.61,-1371.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1349.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">稀疏表</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- ds5&#45;&gt;ds7 -->
 <g id="edge94" class="edge">
@@ -1273,9 +1273,9 @@
 <!-- ds10 -->
 <g id="node82" class="node">
 <title>ds10</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="1,5" points="1594.03,-1371.2 1463.11,-1371.2 1463.11,-1314.8 1594.03,-1314.8 1594.03,-1371.2"/>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="5,2" points="1594.03,-1371.2 1463.11,-1371.2 1463.11,-1314.8 1594.03,-1314.8 1594.03,-1371.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1349.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">稀疏表上二分搜</text>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- ds7&#45;&gt;ds10 -->
 <g id="edge97" class="edge">

@@ -181,7 +181,7 @@ digraph CompetitiveProgrammingSkillTree {
     tree6 [label="更難的樹論問題\n[!?]", style="dashed"];
     tree7 [label="樹壓平\n[✔]"];
     tree8 [label="樹上差分\n[?]", style="dotted"];
-    tree9 [label="LCA\n[!?]", style="dashed"];
+    tree9 [label="LCA\n[✔]"];
   }
 
   subgraph cluster_number {
@@ -258,10 +258,10 @@ digraph CompetitiveProgrammingSkillTree {
     ds4 [label="哈希表\n[!?]", style="dashed"];
     ds5 [label="更複雜的資料結構\n[?]", style="dotted"];
     ds6 [label="樹狀陣列\n[?]", style="dotted"];
-    ds7 [label="稀疏表\n[?]", style="dotted"];
+    ds7 [label="稀疏表\n[✔]"];
     ds8 [label="線段樹\n[✔]"];
     ds9 [label="樹狀陣列上二分搜\n[?]", style="dotted"];
-    ds10 [label="稀疏表上二分搜\n[?]", style="dotted"];
+    ds10 [label="稀疏表上二分搜\n[!?]", style="dashed"];
     ds11 [label="堆疊\n[✔]"];
     ds12 [label="優先序列\n[✔]"];
   }
