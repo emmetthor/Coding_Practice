@@ -10,6 +10,18 @@ export default defineConfig({
     math: true
   },
 
+  head: [
+    [
+      'script',
+      {
+        type: 'module',
+        src: 'https://static.cloudflareinsights.com/beacon.min.js',
+        'data-cf-beacon':
+          '{"token":"15e598c9b544431da3fa523ae2830dc3"}'
+      }
+    ]
+  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
