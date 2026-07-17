@@ -182,7 +182,11 @@ digraph CompetitiveProgrammingSkillTree {
     tree7 [label="樹壓平\n[✔]"];
     tree8 [label="樹上差分\n[?]", style="dotted"];
     tree9 [label="LCA\n[✔]"];
+    tree10 [label="樹上前綴和\n[!?]", style="dashed"]
   }
+
+  tree9 -> tree8;
+  tree9 -> tree10;
 
   subgraph cluster_number {
     label="數論問題";
@@ -402,7 +406,6 @@ digraph CompetitiveProgrammingSkillTree {
   tree4 -> tree6;
   tree5 -> tree6;
   tree6 -> tree7;
-  tree6 -> tree8;
   tree6 -> tree9;
 
   num1 -> num2;

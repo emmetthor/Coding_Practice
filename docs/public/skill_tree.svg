@@ -45,8 +45,8 @@
 </g>
 <g id="clust8" class="cluster">
 <title>cluster_tree</title>
-<polygon fill="none" stroke="#a5b4fc" points="1059.4,-3312 1059.4,-3705 1779.08,-3705 1779.08,-3312 1059.4,-3312"/>
-<text xml:space="preserve" text-anchor="middle" x="1419.24" y="-3683.9" font-family="Microsoft JhengHei" font-size="18.00" fill="#e0e7ff">樹論</text>
+<polygon fill="none" stroke="#a5b4fc" points="1059.4,-3312 1059.4,-3705 1982.75,-3705 1982.75,-3312 1059.4,-3312"/>
+<text xml:space="preserve" text-anchor="middle" x="1521.07" y="-3683.9" font-family="Microsoft JhengHei" font-size="18.00" fill="#e0e7ff">樹論</text>
 </g>
 <g id="clust9" class="cluster">
 <title>cluster_number</title>
@@ -90,8 +90,8 @@
 </g>
 <g id="clust17" class="cluster">
 <title>cluster_binary_lifting</title>
-<polygon fill="none" stroke="#f9dc9d" stroke-opacity="0.862745" points="1888.33,-3600 1888.33,-3705 1960.25,-3705 1960.25,-3600 1888.33,-3600"/>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3683.9" font-family="Microsoft JhengHei" font-size="18.00" fill="#fceacb">倍增</text>
+<polygon fill="none" stroke="#f9dc9d" stroke-opacity="0.862745" points="1888.33,-4690 1888.33,-4795 1960.25,-4795 1960.25,-4690 1888.33,-4690"/>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-4773.9" font-family="Microsoft JhengHei" font-size="18.00" fill="#fceacb">倍增</text>
 </g>
 <!-- root1 -->
 <g id="node1" class="node">
@@ -107,7 +107,7 @@
 <text xml:space="preserve" text-anchor="middle" x="216.88" y="-2034.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✪]</text>
 </g>
 <!-- root1&#45;&gt;core1 -->
-<g id="edge25" class="edge">
+<g id="edge27" class="edge">
 <title>root1&#45;&gt;core1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M87.56,-2049C87.56,-2049 164.98,-2049 164.98,-2049"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="164.98,-2051.28 171.48,-2049 164.98,-2046.73 164.98,-2051.28"/>
@@ -120,7 +120,7 @@
 <text xml:space="preserve" text-anchor="middle" x="359.8" y="-2034.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✪]</text>
 </g>
 <!-- core1&#45;&gt;core2 -->
-<g id="edge26" class="edge">
+<g id="edge28" class="edge">
 <title>core1&#45;&gt;core2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M260.54,-2049C260.54,-2049 322.97,-2049 322.97,-2049"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="322.97,-2051.28 329.47,-2049 322.97,-2046.73 322.97,-2051.28"/>
@@ -133,7 +133,7 @@
 <text xml:space="preserve" text-anchor="middle" x="518.47" y="-2034.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✪]</text>
 </g>
 <!-- core2&#45;&gt;core3 -->
-<g id="edge27" class="edge">
+<g id="edge29" class="edge">
 <title>core2&#45;&gt;core3</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M388.53,-2049C388.53,-2049 450.74,-2049 450.74,-2049"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="450.74,-2051.28 457.24,-2049 450.74,-2046.73 450.74,-2051.28"/>
@@ -146,7 +146,7 @@
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-5129.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;sort1 -->
-<g id="edge28" class="edge">
+<g id="edge30" class="edge">
 <title>core3&#45;&gt;sort1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M479.04,-2077.66C479.04,-2389.68 479.04,-5144 479.04,-5144 479.04,-5144 640.19,-5144 640.19,-5144"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.19,-5146.28 646.69,-5144 640.19,-5141.73 640.19,-5146.28"/>
@@ -159,7 +159,7 @@
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-4920.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;impl1 -->
-<g id="edge29" class="edge">
+<g id="edge31" class="edge">
 <title>core3&#45;&gt;impl1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M499.04,-2077.56C499.04,-2377.29 499.04,-4935 499.04,-4935 499.04,-4935 647.96,-4935 647.96,-4935"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="647.96,-4937.28 654.46,-4935 647.96,-4932.73 647.96,-4937.28"/>
@@ -172,7 +172,7 @@
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-4711.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;count1 -->
-<g id="edge30" class="edge">
+<g id="edge32" class="edge">
 <title>core3&#45;&gt;count1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M518.04,-2077.7C518.04,-2365.81 518.04,-4726 518.04,-4726 518.04,-4726 640.34,-4726 640.34,-4726"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.34,-4728.28 646.84,-4726 640.34,-4723.73 640.34,-4728.28"/>
@@ -185,97 +185,97 @@
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-3228.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;g1 -->
-<g id="edge31" class="edge">
+<g id="edge33" class="edge">
 <title>core3&#45;&gt;g1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M538.04,-2077.92C538.04,-2260.27 538.04,-3243 538.04,-3243 538.04,-3243 640.08,-3243 640.08,-3243"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.08,-3245.28 646.58,-3243 640.08,-3240.73 640.08,-3245.28"/>
 </g>
 <!-- num1 -->
-<g id="node52" class="node">
+<g id="node53" class="node">
 <title>num1</title>
 <polygon fill="none" stroke="#fde68a" stroke-width="1.6" points="735.1,-2574.2 649.18,-2574.2 649.18,-2517.8 735.1,-2517.8 735.1,-2574.2"/>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-2552.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">數論問題</text>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-2531.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;num1 -->
-<g id="edge32" class="edge">
+<g id="edge34" class="edge">
 <title>core3&#45;&gt;num1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M558.04,-2077.87C558.04,-2183.94 558.04,-2546 558.04,-2546 558.04,-2546 640.29,-2546 640.29,-2546"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.29,-2548.28 646.79,-2546 640.29,-2543.73 640.29,-2548.28"/>
 </g>
 <!-- gr1 -->
-<g id="node62" class="node">
+<g id="node63" class="node">
 <title>gr1</title>
 <polygon fill="none" stroke="#86efac" stroke-width="1.6" points="735.1,-2077.2 649.18,-2077.2 649.18,-2020.8 735.1,-2020.8 735.1,-2077.2"/>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-2055.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">貪心問題</text>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-2034.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;gr1 -->
-<g id="edge33" class="edge">
+<g id="edge35" class="edge">
 <title>core3&#45;&gt;gr1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M577.75,-2049C577.75,-2049 640.16,-2049 640.16,-2049"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.16,-2051.28 646.66,-2049 640.16,-2046.73 640.16,-2051.28"/>
 </g>
 <!-- seq1 -->
-<g id="node69" class="node">
+<g id="node70" class="node">
 <title>seq1</title>
 <polygon fill="none" stroke="#67e8f9" stroke-width="1.6" points="735.1,-1714 649.18,-1714 649.18,-1678 735.1,-1678 735.1,-1714"/>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-1692.25" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">序列問題</text>
 </g>
 <!-- core3&#45;&gt;seq1 -->
-<g id="edge34" class="edge">
+<g id="edge36" class="edge">
 <title>core3&#45;&gt;seq1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M558.04,-2020.11C558.04,-1935.81 558.04,-1696 558.04,-1696 558.04,-1696 640.29,-1696 640.29,-1696"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.29,-1698.28 646.79,-1696 640.29,-1693.73 640.29,-1698.28"/>
 </g>
 <!-- ds1 -->
-<g id="node73" class="node">
+<g id="node74" class="node">
 <title>ds1</title>
 <polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="735.1,-1467.2 649.18,-1467.2 649.18,-1410.8 735.1,-1410.8 735.1,-1467.2"/>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-1445.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">資料結構</text>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-1424.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;ds1 -->
-<g id="edge35" class="edge">
+<g id="edge37" class="edge">
 <title>core3&#45;&gt;ds1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M538.04,-2020.4C538.04,-1899.8 538.04,-1439 538.04,-1439 538.04,-1439 640.08,-1439 640.08,-1439"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.08,-1441.28 646.58,-1439 640.08,-1436.73 640.08,-1441.28"/>
 </g>
 <!-- enum1 -->
-<g id="node85" class="node">
+<g id="node86" class="node">
 <title>enum1</title>
 <polygon fill="none" stroke="#fdba74" stroke-width="1.6" points="735.1,-1042.2 649.18,-1042.2 649.18,-985.8 735.1,-985.8 735.1,-1042.2"/>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-1020.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">枚舉問題</text>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-999.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;enum1 -->
-<g id="edge36" class="edge">
+<g id="edge38" class="edge">
 <title>core3&#45;&gt;enum1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M518.04,-2020.24C518.04,-1853.08 518.04,-1014 518.04,-1014 518.04,-1014 640.34,-1014 640.34,-1014"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.34,-1016.28 646.84,-1014 640.34,-1011.73 640.34,-1016.28"/>
 </g>
 <!-- bit1 -->
-<g id="node95" class="node">
+<g id="node96" class="node">
 <title>bit1</title>
 <polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="735.1,-665.2 649.18,-665.2 649.18,-608.8 735.1,-608.8 735.1,-665.2"/>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-643.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">位元問題</text>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-622.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;bit1 -->
-<g id="edge37" class="edge">
+<g id="edge39" class="edge">
 <title>core3&#45;&gt;bit1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M499.04,-2020.15C499.04,-1819.26 499.04,-637 499.04,-637 499.04,-637 640.49,-637 640.49,-637"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.49,-639.28 646.99,-637 640.49,-634.73 640.49,-639.28"/>
 </g>
 <!-- search1 -->
-<g id="node105" class="node">
+<g id="node106" class="node">
 <title>search1</title>
 <polygon fill="none" stroke="#fca5a5" stroke-width="1.6" points="735.1,-168.2 649.18,-168.2 649.18,-111.8 735.1,-111.8 735.1,-168.2"/>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-146.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">搜尋問題</text>
 <text xml:space="preserve" text-anchor="middle" x="692.14" y="-125.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- core3&#45;&gt;search1 -->
-<g id="edge38" class="edge">
+<g id="edge40" class="edge">
 <title>core3&#45;&gt;search1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M479.04,-2020.16C479.04,-1781.33 479.04,-140 479.04,-140 479.04,-140 640.19,-140 640.19,-140"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="640.19,-142.28 646.69,-140 640.19,-137.73 640.19,-142.28"/>
@@ -288,7 +288,7 @@
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-5129.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- sort1&#45;&gt;sort2 -->
-<g id="edge39" class="edge">
+<g id="edge41" class="edge">
 <title>sort1&#45;&gt;sort2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.81,-5144C735.81,-5144 820.66,-5144 820.66,-5144"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="820.66,-5146.28 827.16,-5144 820.66,-5141.73 820.66,-5146.28"/>
@@ -301,7 +301,7 @@
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-5129.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- sort2&#45;&gt;sort3 -->
-<g id="edge40" class="edge">
+<g id="edge42" class="edge">
 <title>sort2&#45;&gt;sort3</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.31,-5144C916.31,-5144 1043.39,-5144 1043.39,-5144"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.39,-5146.28 1049.89,-5144 1043.39,-5141.73 1043.39,-5146.28"/>
@@ -314,7 +314,7 @@
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-5225.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- sort2&#45;&gt;sort4 -->
-<g id="edge41" class="edge">
+<g id="edge43" class="edge">
 <title>sort2&#45;&gt;sort4</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M873.04,-5172.8C873.04,-5201.08 873.04,-5240 873.04,-5240 873.04,-5240 1043.38,-5240 1043.38,-5240"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.38,-5242.28 1049.88,-5240 1043.38,-5237.73 1043.38,-5242.28"/>
@@ -327,7 +327,7 @@
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-4920.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- impl1&#45;&gt;impl2 -->
-<g id="edge42" class="edge">
+<g id="edge44" class="edge">
 <title>impl1&#45;&gt;impl2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M728.22,-4935C728.22,-4935 805.5,-4935 805.5,-4935"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="805.5,-4937.28 812,-4935 805.5,-4932.73 805.5,-4937.28"/>
@@ -340,7 +340,7 @@
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-5016.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- impl1&#45;&gt;impl3 -->
-<g id="edge43" class="edge">
+<g id="edge45" class="edge">
 <title>impl1&#45;&gt;impl3</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M692.04,-4963.8C692.04,-4992.08 692.04,-5031 692.04,-5031 692.04,-5031 820.54,-5031 820.54,-5031"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="820.54,-5033.28 827.04,-5031 820.54,-5028.73 820.54,-5033.28"/>
@@ -379,7 +379,7 @@
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-4807.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- count1&#45;&gt;count2 -->
-<g id="edge44" class="edge">
+<g id="edge46" class="edge">
 <title>count1&#45;&gt;count2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M731.04,-4754.8C731.04,-4783.08 731.04,-4822 731.04,-4822 731.04,-4822 798.04,-4822 798.04,-4822"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="798.04,-4824.28 804.54,-4822 798.04,-4819.73 798.04,-4824.28"/>
@@ -392,7 +392,7 @@
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-4783.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- count2&#45;&gt;count3 -->
-<g id="edge45" class="edge">
+<g id="edge47" class="edge">
 <title>count2&#45;&gt;count3</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M938.8,-4810C938.8,-4810 1043.56,-4810 1043.56,-4810"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.56,-4812.28 1050.06,-4810 1043.56,-4807.73 1043.56,-4812.28"/>
@@ -405,7 +405,7 @@
 <text xml:space="preserve" text-anchor="middle" x="1318.15" y="-4759.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- count3&#45;&gt;count5 -->
-<g id="edge46" class="edge">
+<g id="edge48" class="edge">
 <title>count3&#45;&gt;count5</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1139.11,-4786C1139.11,-4786 1251.42,-4786 1251.42,-4786"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1251.42,-4788.28 1257.92,-4786 1251.42,-4783.73 1251.42,-4788.28"/>
@@ -418,7 +418,7 @@
 <text xml:space="preserve" text-anchor="middle" x="1528.57" y="-4759.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- count5&#45;&gt;div1 -->
-<g id="edge48" class="edge">
+<g id="edge50" class="edge">
 <title>count5&#45;&gt;div1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1376.76,-4774C1376.76,-4774 1491.56,-4774 1491.56,-4774"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1491.56,-4776.28 1498.06,-4774 1491.56,-4771.73 1491.56,-4776.28"/>
@@ -426,15 +426,15 @@
 <!-- dp1 -->
 <g id="node19" class="node">
 <title>dp1</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1571.53,-4353.2 1485.61,-4353.2 1485.61,-4296.8 1571.53,-4296.8 1571.53,-4353.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-4331.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">動態規劃</text>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-4310.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1571.53,-4449.2 1485.61,-4449.2 1485.61,-4392.8 1571.53,-4392.8 1571.53,-4449.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-4427.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">動態規劃</text>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-4406.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- count5&#45;&gt;dp1 -->
-<g id="edge47" class="edge">
+<g id="edge49" class="edge">
 <title>count5&#45;&gt;dp1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1369.04,-4745.23C1369.04,-4646.13 1369.04,-4325 1369.04,-4325 1369.04,-4325 1476.66,-4325 1476.66,-4325"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1476.66,-4327.28 1483.16,-4325 1476.66,-4322.73 1476.66,-4327.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1369.04,-4745.11C1369.04,-4660.81 1369.04,-4421 1369.04,-4421 1369.04,-4421 1476.66,-4421 1476.66,-4421"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1476.66,-4423.28 1483.16,-4421 1476.66,-4418.73 1476.66,-4423.28"/>
 </g>
 <!-- dp8 -->
 <g id="node26" class="node">
@@ -446,21 +446,21 @@
 <!-- dp1&#45;&gt;dp8 -->
 <g id="edge3" class="edge">
 <title>dp1&#45;&gt;dp8</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1529.04,-4296.14C1529.04,-4206.83 1529.04,-3941 1529.04,-3941 1529.04,-3941 1668.79,-3941 1668.79,-3941"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1529.04,-4392.05C1529.04,-4288.28 1529.04,-3941 1529.04,-3941 1529.04,-3941 1668.79,-3941 1668.79,-3941"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1668.79,-3943.28 1675.29,-3941 1668.79,-3938.73 1668.79,-3943.28"/>
 </g>
 <!-- dp15 -->
 <g id="node33" class="node">
 <title>dp15</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1782.7,-4353.2 1673.53,-4353.2 1673.53,-4296.8 1782.7,-4296.8 1782.7,-4353.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-4331.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">dp 狀態設計</text>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-4310.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1782.7,-4449.2 1673.53,-4449.2 1673.53,-4392.8 1782.7,-4392.8 1782.7,-4449.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-4427.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">dp 狀態設計</text>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-4406.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp1&#45;&gt;dp15 -->
 <g id="edge4" class="edge">
 <title>dp1&#45;&gt;dp15</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1571.87,-4325C1571.87,-4325 1664.43,-4325 1664.43,-4325"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1664.43,-4327.28 1670.93,-4325 1664.43,-4322.73 1664.43,-4327.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1571.87,-4421C1571.87,-4421 1664.43,-4421 1664.43,-4421"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1664.43,-4423.28 1670.93,-4421 1664.43,-4418.73 1664.43,-4423.28"/>
 </g>
 <!-- dp2 -->
 <g id="node20" class="node">
@@ -486,67 +486,67 @@
 <!-- dp5 -->
 <g id="node23" class="node">
 <title>dp5</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1963.87,-3969.2 1884.7,-3969.2 1884.7,-3912.8 1963.87,-3912.8 1963.87,-3969.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3947.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">區間 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3926.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1963.87,-3777.2 1884.7,-3777.2 1884.7,-3720.8 1963.87,-3720.8 1963.87,-3777.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3755.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">區間 dp</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp6 -->
 <g id="node24" class="node">
 <title>dp6</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="2160.04,-3969.2 2080.87,-3969.2 2080.87,-3912.8 2160.04,-3912.8 2160.04,-3969.2"/>
-<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3947.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">賽局 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3926.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="2160.04,-3777.2 2080.87,-3777.2 2080.87,-3720.8 2160.04,-3720.8 2160.04,-3777.2"/>
+<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3755.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">賽局 dp</text>
+<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp5&#45;&gt;dp6 -->
 <g id="edge15" class="edge">
 <title>dp5&#45;&gt;dp6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1964.46,-3941C1964.46,-3941 2072.02,-3941 2072.02,-3941"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="2072.02,-3943.28 2078.52,-3941 2072.02,-3938.73 2072.02,-3943.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1964.46,-3749C1964.46,-3749 2072.02,-3749 2072.02,-3749"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="2072.02,-3751.28 2078.52,-3749 2072.02,-3746.73 2072.02,-3751.28"/>
 </g>
 <!-- dp7 -->
 <g id="node25" class="node">
 <title>dp7</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="1,5" points="1978.87,-4065.2 1869.7,-4065.2 1869.7,-4008.8 1978.87,-4008.8 1978.87,-4065.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-4043.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">狀態壓縮 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-4022.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="1,5" points="1978.87,-3873.2 1869.7,-3873.2 1869.7,-3816.8 1978.87,-3816.8 1978.87,-3873.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3851.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">狀態壓縮 dp</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3830.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- dp8&#45;&gt;dp5 -->
 <g id="edge7" class="edge">
 <title>dp8&#45;&gt;dp5</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1779.14,-3931.6C1779.14,-3931.6 1875.71,-3931.6 1875.71,-3931.6"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1875.71,-3933.88 1882.21,-3931.6 1875.71,-3929.33 1875.71,-3933.88"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1771.04,-3912.26C1771.04,-3858.69 1771.04,-3749 1771.04,-3749 1771.04,-3749 1875.71,-3749 1875.71,-3749"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1875.71,-3751.28 1882.21,-3749 1875.71,-3746.73 1875.71,-3751.28"/>
 </g>
 <!-- dp8&#45;&gt;dp7 -->
 <g id="edge8" class="edge">
 <title>dp8&#45;&gt;dp7</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1779.37,-3950.4C1822.45,-3950.4 1877.04,-3950.4 1877.04,-3950.4 1877.04,-3950.4 1877.04,-3999.85 1877.04,-3999.85"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1874.77,-3999.85 1877.04,-4006.35 1879.32,-3999.85 1874.77,-3999.85"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1779.09,-3926.9C1821.53,-3926.9 1875.04,-3926.9 1875.04,-3926.9 1875.04,-3926.9 1875.04,-3881.96 1875.04,-3881.96"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1877.32,-3881.96 1875.04,-3875.46 1872.77,-3881.96 1877.32,-3881.96"/>
 </g>
 <!-- dp11 -->
 <g id="node29" class="node">
 <title>dp11</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1956.37,-3777.2 1892.2,-3777.2 1892.2,-3720.8 1956.37,-3720.8 1956.37,-3777.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3755.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="1956.37,-3969.2 1892.2,-3969.2 1892.2,-3912.8 1956.37,-3912.8 1956.37,-3969.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3947.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹 dp</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3926.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp8&#45;&gt;dp11 -->
 <g id="edge5" class="edge">
 <title>dp8&#45;&gt;dp11</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1774.04,-3912.26C1774.04,-3858.69 1774.04,-3749 1774.04,-3749 1774.04,-3749 1883.37,-3749 1883.37,-3749"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1883.37,-3751.28 1889.87,-3749 1883.37,-3746.73 1883.37,-3751.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1779.14,-3941C1779.14,-3941 1883.34,-3941 1883.34,-3941"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1883.34,-3943.28 1889.84,-3941 1883.34,-3938.73 1883.34,-3943.28"/>
 </g>
 <!-- dp14 -->
 <g id="node32" class="node">
 <title>dp14</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="5,2" points="1963.87,-3873.2 1884.7,-3873.2 1884.7,-3816.8 1963.87,-3816.8 1963.87,-3873.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3851.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">數位 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3830.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="5,2" points="1963.87,-4065.2 1884.7,-4065.2 1884.7,-4008.8 1963.87,-4008.8 1963.87,-4065.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-4043.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">數位 dp</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-4022.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- dp8&#45;&gt;dp14 -->
 <g id="edge6" class="edge">
 <title>dp8&#45;&gt;dp14</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1776.04,-3912.2C1776.04,-3883.92 1776.04,-3845 1776.04,-3845 1776.04,-3845 1875.85,-3845 1875.85,-3845"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1875.85,-3847.28 1882.35,-3845 1875.85,-3842.73 1875.85,-3847.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1779.16,-3955.1C1825.96,-3955.1 1888.04,-3955.1 1888.04,-3955.1 1888.04,-3955.1 1888.04,-4000.04 1888.04,-4000.04"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1885.77,-4000.04 1888.04,-4006.54 1890.32,-4000.04 1885.77,-4000.04"/>
 </g>
 <!-- dp9 -->
 <g id="node27" class="node">
@@ -565,15 +565,15 @@
 <!-- dp12 -->
 <g id="node30" class="node">
 <title>dp12</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="2175.04,-3777.2 2065.87,-3777.2 2065.87,-3720.8 2175.04,-3720.8 2175.04,-3777.2"/>
-<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3755.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">子樹合併 dp</text>
-<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" points="2175.04,-3969.2 2065.87,-3969.2 2065.87,-3912.8 2175.04,-3912.8 2175.04,-3969.2"/>
+<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3947.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">子樹合併 dp</text>
+<text xml:space="preserve" text-anchor="middle" x="2120.46" y="-3926.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp11&#45;&gt;dp12 -->
 <g id="edge16" class="edge">
 <title>dp11&#45;&gt;dp12</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1957.12,-3749C1957.12,-3749 2056.9,-3749 2056.9,-3749"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="2056.9,-3751.28 2063.4,-3749 2056.9,-3746.73 2056.9,-3751.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1957.12,-3941C1957.12,-3941 2056.9,-3941 2056.9,-3941"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="2056.9,-3943.28 2063.4,-3941 2056.9,-3938.73 2056.9,-3943.28"/>
 </g>
 <!-- dp13 -->
 <g id="node31" class="node">
@@ -585,58 +585,58 @@
 <!-- dp15&#45;&gt;dp2 -->
 <g id="edge9" class="edge">
 <title>dp15&#45;&gt;dp2</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1711.04,-4296.26C1711.04,-4242.69 1711.04,-4133 1711.04,-4133 1711.04,-4133 1872.3,-4133 1872.3,-4133"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1711.04,-4392.07C1711.04,-4319.03 1711.04,-4133 1711.04,-4133 1711.04,-4133 1872.3,-4133 1872.3,-4133"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1872.3,-4135.28 1878.8,-4133 1872.3,-4130.73 1872.3,-4135.28"/>
 </g>
 <!-- dp15&#45;&gt;dp3 -->
 <g id="edge10" class="edge">
 <title>dp15&#45;&gt;dp3</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1745.04,-4296.2C1745.04,-4267.92 1745.04,-4229 1745.04,-4229 1745.04,-4229 1875.74,-4229 1875.74,-4229"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1745.04,-4392.26C1745.04,-4338.69 1745.04,-4229 1745.04,-4229 1745.04,-4229 1875.74,-4229 1875.74,-4229"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1875.74,-4231.28 1882.24,-4229 1875.74,-4226.73 1875.74,-4231.28"/>
 </g>
 <!-- dp15&#45;&gt;dp4 -->
 <g id="edge11" class="edge">
 <title>dp15&#45;&gt;dp4</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1783.28,-4325C1783.28,-4325 1860.88,-4325 1860.88,-4325"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1860.88,-4327.28 1867.38,-4325 1860.88,-4322.73 1860.88,-4327.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1783.15,-4404.08C1825.57,-4404.08 1877.04,-4404.08 1877.04,-4404.08 1877.04,-4404.08 1877.04,-4362.31 1877.04,-4362.31"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1879.32,-4362.31 1877.04,-4355.81 1874.77,-4362.31 1879.32,-4362.31"/>
 </g>
 <!-- dp15&#45;&gt;dp9 -->
 <g id="edge12" class="edge">
 <title>dp15&#45;&gt;dp9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1746.04,-4353.8C1746.04,-4382.08 1746.04,-4421 1746.04,-4421 1746.04,-4421 1888.51,-4421 1888.51,-4421"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1888.51,-4423.28 1895.01,-4421 1888.51,-4418.73 1888.51,-4423.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1783.28,-4415.36C1783.28,-4415.36 1888.29,-4415.36 1888.29,-4415.36"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1888.29,-4417.64 1894.79,-4415.36 1888.29,-4413.09 1888.29,-4417.64"/>
 </g>
 <!-- dp15&#45;&gt;dp10 -->
 <g id="edge13" class="edge">
 <title>dp15&#45;&gt;dp10</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1710.04,-4353.74C1710.04,-4407.31 1710.04,-4517 1710.04,-4517 1710.04,-4517 1875.67,-4517 1875.67,-4517"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1875.67,-4519.28 1882.17,-4517 1875.67,-4514.73 1875.67,-4519.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1783.27,-4426.64C1830.54,-4426.64 1891.04,-4426.64 1891.04,-4426.64 1891.04,-4426.64 1891.04,-4480.09 1891.04,-4480.09"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1888.77,-4480.09 1891.04,-4486.59 1893.32,-4480.09 1888.77,-4480.09"/>
 </g>
 <!-- dp15&#45;&gt;dp13 -->
 <g id="edge14" class="edge">
 <title>dp15&#45;&gt;dp13</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1783.41,-4339.1C1821.41,-4339.1 1865.04,-4339.1 1865.04,-4339.1 1865.04,-4339.1 1865.04,-4575.89 1865.04,-4575.89"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1862.77,-4575.89 1865.04,-4582.39 1867.32,-4575.89 1862.77,-4575.89"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1783.36,-4437.92C1820.25,-4437.92 1862.04,-4437.92 1862.04,-4437.92 1862.04,-4437.92 1862.04,-4575.77 1862.04,-4575.77"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1859.77,-4575.77 1862.04,-4582.27 1864.32,-4575.77 1859.77,-4575.77"/>
 </g>
 <!-- bl1 -->
-<g id="node111" class="node">
+<g id="node112" class="node">
 <title>bl1</title>
-<polygon fill="none" stroke="#f9ce9d" stroke-width="1.6" points="1952.25,-3664.2 1896.33,-3664.2 1896.33,-3607.8 1952.25,-3607.8 1952.25,-3664.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3642.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">倍增</text>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3621.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#f9ce9d" stroke-width="1.6" points="1952.25,-4754.2 1896.33,-4754.2 1896.33,-4697.8 1952.25,-4697.8 1952.25,-4754.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-4732.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">倍增</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-4711.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- dp15&#45;&gt;bl1 -->
-<g id="edge24" class="edge">
+<g id="edge26" class="edge">
 <title>dp15&#45;&gt;bl1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1783.3,-4310.9C1819.45,-4310.9 1860.04,-4310.9 1860.04,-4310.9 1860.04,-4310.9 1860.04,-3640.2 1860.04,-3640.2 1860.04,-3640.2 1887.23,-3640.2 1887.23,-3640.2"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1887.23,-3642.48 1893.73,-3640.2 1887.23,-3637.93 1887.23,-3642.48"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1728.04,-4449.84C1728.04,-4525.13 1728.04,-4721.8 1728.04,-4721.8 1728.04,-4721.8 1887.43,-4721.8 1887.43,-4721.8"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1887.43,-4724.08 1893.93,-4721.8 1887.43,-4719.53 1887.43,-4724.08"/>
 </g>
 <!-- dp16 -->
 <g id="node34" class="node">
 <title>dp16</title>
-<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="1,5" points="1568.16,-4545.2 1488.99,-4545.2 1488.99,-4488.8 1568.16,-4488.8 1568.16,-4545.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-4523.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">dp 優化</text>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-4502.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<polygon fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-dasharray="1,5" points="1568.16,-4593.2 1488.99,-4593.2 1488.99,-4536.8 1568.16,-4536.8 1568.16,-4593.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-4571.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">dp 優化</text>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-4550.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- g2 -->
 <g id="node36" class="node">
@@ -646,7 +646,7 @@
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-3228.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- g1&#45;&gt;g2 -->
-<g id="edge49" class="edge">
+<g id="edge51" class="edge">
 <title>g1&#45;&gt;g2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.81,-3233.6C735.81,-3233.6 836.68,-3233.6 836.68,-3233.6"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="836.68,-3235.88 843.18,-3233.6 836.68,-3231.33 836.68,-3235.88"/>
@@ -659,7 +659,7 @@
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-3324.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- g1&#45;&gt;g3 -->
-<g id="edge50" class="edge">
+<g id="edge52" class="edge">
 <title>g1&#45;&gt;g3</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.74,-3252.4C769.67,-3252.4 811.04,-3252.4 811.04,-3252.4 811.04,-3252.4 811.04,-3339 811.04,-3339 811.04,-3339 836.72,-3339 836.72,-3339"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="836.72,-3341.28 843.22,-3339 836.72,-3336.73 836.72,-3341.28"/>
@@ -672,7 +672,7 @@
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-3172.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- g2&#45;&gt;sp1 -->
-<g id="edge51" class="edge">
+<g id="edge53" class="edge">
 <title>g2&#45;&gt;sp1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M900.14,-3239.2C949.77,-3239.2 1049.04,-3239.2 1049.04,-3239.2 1049.04,-3239.2 1049.04,-3224.16 1049.04,-3224.16"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1051.32,-3224.16 1049.04,-3217.66 1046.77,-3224.16 1051.32,-3224.16"/>
@@ -685,13 +685,13 @@
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-3381.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- g2&#45;&gt;tree1 -->
-<g id="edge52" class="edge">
+<g id="edge54" class="edge">
 <title>g2&#45;&gt;tree1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M900.14,-3267.2C961.72,-3267.2 1105.04,-3267.2 1105.04,-3267.2 1105.04,-3267.2 1105.04,-3358.78 1105.04,-3358.78"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1102.77,-3358.78 1105.04,-3365.28 1107.32,-3358.78 1102.77,-3358.78"/>
 </g>
 <!-- g3&#45;&gt;tree1 -->
-<g id="edge53" class="edge">
+<g id="edge55" class="edge">
 <title>g3&#45;&gt;tree1</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M900.03,-3343.5C957.69,-3343.5 1086.04,-3343.5 1086.04,-3343.5 1086.04,-3343.5 1086.04,-3358.98 1086.04,-3358.98"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1083.77,-3358.98 1086.04,-3365.48 1088.32,-3358.98 1083.77,-3358.98"/>
@@ -706,93 +706,93 @@
 <!-- sp2 -->
 <g id="node40" class="node">
 <title>sp2</title>
-<polygon fill="none" stroke="#bfdbfe" stroke-width="1.6" points="1357.36,-3167.2 1278.94,-3167.2 1278.94,-3110.8 1357.36,-3110.8 1357.36,-3167.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3145.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">Dijkstra</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3124.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#bfdbfe" stroke-width="1.6" points="1357.36,-3071.2 1278.94,-3071.2 1278.94,-3014.8 1357.36,-3014.8 1357.36,-3071.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3049.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">Dijkstra</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3028.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- sp1&#45;&gt;sp2 -->
-<g id="edge54" class="edge">
+<g id="edge56" class="edge">
 <title>sp1&#45;&gt;sp2</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1146.47,-3164.4C1146.47,-3164.4 1270.06,-3164.4 1270.06,-3164.4"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1270.06,-3166.68 1276.56,-3164.4 1270.06,-3162.13 1270.06,-3166.68"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1065.04,-3158.21C1065.04,-3116.18 1065.04,-3043 1065.04,-3043 1065.04,-3043 1270.01,-3043 1270.01,-3043"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1270.01,-3045.28 1276.51,-3043 1270.01,-3040.73 1270.01,-3045.28"/>
 </g>
 <!-- sp3 -->
 <g id="node41" class="node">
 <title>sp3</title>
-<polygon fill="none" stroke="#bfdbfe" stroke-width="1.6" stroke-dasharray="5,2" points="1377.24,-3263.2 1259.07,-3263.2 1259.07,-3206.8 1377.24,-3206.8 1377.24,-3263.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3241.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">Bellman Ford</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3220.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<polygon fill="none" stroke="#bfdbfe" stroke-width="1.6" stroke-dasharray="5,2" points="1377.24,-3167.2 1259.07,-3167.2 1259.07,-3110.8 1377.24,-3110.8 1377.24,-3167.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3145.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">Bellman Ford</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3124.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- sp1&#45;&gt;sp3 -->
-<g id="edge55" class="edge">
+<g id="edge57" class="edge">
 <title>sp1&#45;&gt;sp3</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1146.47,-3211C1146.47,-3211 1250.28,-3211 1250.28,-3211"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1250.28,-3213.28 1256.78,-3211 1250.28,-3208.73 1250.28,-3213.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1146.47,-3163C1146.47,-3163 1250.28,-3163 1250.28,-3163"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1250.28,-3165.28 1256.78,-3163 1250.28,-3160.73 1250.28,-3165.28"/>
 </g>
 <!-- sp4 -->
 <g id="node42" class="node">
 <title>sp4</title>
-<polygon fill="none" stroke="#bfdbfe" stroke-width="1.6" points="1382.49,-3071.2 1253.82,-3071.2 1253.82,-3014.8 1382.49,-3014.8 1382.49,-3071.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3049.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">Floyd Warshall</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3028.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#bfdbfe" stroke-width="1.6" points="1382.49,-3263.2 1253.82,-3263.2 1253.82,-3206.8 1382.49,-3206.8 1382.49,-3263.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3241.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">Floyd Warshall</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3220.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- sp1&#45;&gt;sp4 -->
-<g id="edge56" class="edge">
+<g id="edge58" class="edge">
 <title>sp1&#45;&gt;sp4</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1146.53,-3161.6C1197.76,-3161.6 1269.04,-3161.6 1269.04,-3161.6 1269.04,-3161.6 1269.04,-3080.03 1269.04,-3080.03"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1271.32,-3080.03 1269.04,-3073.53 1266.77,-3080.03 1271.32,-3080.03"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1146.47,-3211C1146.47,-3211 1244.97,-3211 1244.97,-3211"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1244.97,-3213.28 1251.47,-3211 1244.97,-3208.73 1244.97,-3213.28"/>
 </g>
 <!-- tree2 -->
 <g id="node44" class="node">
 <title>tree2</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1352.86,-3472.2 1283.44,-3472.2 1283.44,-3415.8 1352.86,-3415.8 1352.86,-3472.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3450.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">BFS 樹</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3429.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1352.86,-3376.2 1283.44,-3376.2 1283.44,-3319.8 1352.86,-3319.8 1352.86,-3376.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3354.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">BFS 樹</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3333.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- tree1&#45;&gt;tree2 -->
-<g id="edge57" class="edge">
+<g id="edge59" class="edge">
 <title>tree1&#45;&gt;tree2</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.03,-3418.6C1124.03,-3418.6 1274.67,-3418.6 1274.67,-3418.6"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1274.67,-3420.88 1281.17,-3418.6 1274.67,-3416.33 1274.67,-3420.88"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.03,-3372C1124.03,-3372 1274.67,-3372 1274.67,-3372"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1274.67,-3374.28 1281.17,-3372 1274.67,-3369.73 1274.67,-3374.28"/>
 </g>
 <!-- tree3 -->
 <g id="node45" class="node">
 <title>tree3</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1353.99,-3568.2 1282.32,-3568.2 1282.32,-3511.8 1353.99,-3511.8 1353.99,-3568.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3546.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">DFS 樹</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3525.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1353.99,-3472.2 1282.32,-3472.2 1282.32,-3415.8 1353.99,-3415.8 1353.99,-3472.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3450.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">DFS 樹</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3429.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- tree1&#45;&gt;tree3 -->
-<g id="edge58" class="edge">
+<g id="edge60" class="edge">
 <title>tree1&#45;&gt;tree3</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1095.04,-3424.79C1095.04,-3466.82 1095.04,-3540 1095.04,-3540 1095.04,-3540 1273.49,-3540 1273.49,-3540"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1273.49,-3542.28 1279.99,-3540 1273.49,-3537.73 1273.49,-3542.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.03,-3418.6C1124.03,-3418.6 1273.52,-3418.6 1273.52,-3418.6"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1273.52,-3420.88 1280.02,-3418.6 1273.52,-3416.33 1273.52,-3420.88"/>
 </g>
 <!-- tree4 -->
 <g id="node46" class="node">
 <title>tree4</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1361.11,-3664.2 1275.19,-3664.2 1275.19,-3607.8 1361.11,-3607.8 1361.11,-3664.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3642.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">前中後序</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3621.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1361.11,-3568.2 1275.19,-3568.2 1275.19,-3511.8 1361.11,-3511.8 1361.11,-3568.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3546.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">前中後序</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3525.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- tree1&#45;&gt;tree4 -->
-<g id="edge59" class="edge">
+<g id="edge61" class="edge">
 <title>tree1&#45;&gt;tree4</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.06,-3421.4C1175.72,-3421.4 1279.04,-3421.4 1279.04,-3421.4 1279.04,-3421.4 1279.04,-3598.74 1279.04,-3598.74"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1276.77,-3598.74 1279.04,-3605.24 1281.32,-3598.74 1276.77,-3598.74"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.06,-3421.4C1175.72,-3421.4 1279.04,-3421.4 1279.04,-3421.4 1279.04,-3421.4 1279.04,-3502.97 1279.04,-3502.97"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1276.77,-3502.97 1279.04,-3509.47 1281.32,-3502.97 1276.77,-3502.97"/>
 </g>
 <!-- tree5 -->
 <g id="node47" class="node">
 <title>tree5</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1353.61,-3376.2 1282.69,-3376.2 1282.69,-3319.8 1353.61,-3319.8 1353.61,-3376.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3354.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">二分樹</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3333.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1353.61,-3664.2 1282.69,-3664.2 1282.69,-3607.8 1353.61,-3607.8 1353.61,-3664.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3642.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">二分樹</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-3621.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- tree1&#45;&gt;tree5 -->
-<g id="edge60" class="edge">
+<g id="edge62" class="edge">
 <title>tree1&#45;&gt;tree5</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.03,-3372C1124.03,-3372 1273.91,-3372 1273.91,-3372"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1273.91,-3374.28 1280.41,-3372 1273.91,-3369.73 1273.91,-3374.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1095.04,-3424.95C1095.04,-3488.78 1095.04,-3636 1095.04,-3636 1095.04,-3636 1273.99,-3636 1273.99,-3636"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1273.99,-3638.28 1280.49,-3636 1273.99,-3633.73 1273.99,-3638.28"/>
 </g>
 <!-- tree6 -->
 <g id="node48" class="node">
@@ -802,818 +802,831 @@
 <text xml:space="preserve" text-anchor="middle" x="1528.57" y="-3477.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- tree2&#45;&gt;tree6 -->
-<g id="edge61" class="edge">
+<g id="edge63" class="edge">
 <title>tree2&#45;&gt;tree6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1353.37,-3468C1353.37,-3468 1454.26,-3468 1454.26,-3468"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1454.26,-3470.28 1460.76,-3468 1454.26,-3465.73 1454.26,-3470.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1353.45,-3348C1413.48,-3348 1529.04,-3348 1529.04,-3348 1529.04,-3348 1529.04,-3454.89 1529.04,-3454.89"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1526.77,-3454.89 1529.04,-3461.39 1531.32,-3454.89 1526.77,-3454.89"/>
 </g>
 <!-- tree3&#45;&gt;tree6 -->
-<g id="edge62" class="edge">
+<g id="edge64" class="edge">
 <title>tree3&#45;&gt;tree6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1354.32,-3514.6C1354.32,-3514.6 1454,-3514.6 1454,-3514.6"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1454,-3516.88 1460.5,-3514.6 1454,-3512.33 1454,-3516.88"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1354.32,-3468C1354.32,-3468 1454,-3468 1454,-3468"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1454,-3470.28 1460.5,-3468 1454,-3465.73 1454,-3470.28"/>
 </g>
 <!-- tree4&#45;&gt;tree6 -->
-<g id="edge63" class="edge">
+<g id="edge65" class="edge">
 <title>tree4&#45;&gt;tree6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1358.04,-3607.29C1358.04,-3572.19 1358.04,-3517.4 1358.04,-3517.4 1358.04,-3517.4 1454.32,-3517.4 1454.32,-3517.4"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1454.32,-3519.68 1460.82,-3517.4 1454.32,-3515.13 1454.32,-3519.68"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1361.75,-3516C1361.75,-3516 1454.31,-3516 1454.31,-3516"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1454.31,-3518.28 1460.81,-3516 1454.31,-3513.73 1454.31,-3518.28"/>
 </g>
 <!-- tree5&#45;&gt;tree6 -->
-<g id="edge64" class="edge">
+<g id="edge66" class="edge">
 <title>tree5&#45;&gt;tree6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1354.12,-3372C1408.93,-3372 1507.04,-3372 1507.04,-3372 1507.04,-3372 1507.04,-3454.94 1507.04,-3454.94"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1504.77,-3454.94 1507.04,-3461.44 1509.32,-3454.94 1504.77,-3454.94"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1354.31,-3612C1400.36,-3612 1474.04,-3612 1474.04,-3612 1474.04,-3612 1474.04,-3529.06 1474.04,-3529.06"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1476.32,-3529.06 1474.04,-3522.56 1471.77,-3529.06 1476.32,-3529.06"/>
 </g>
 <!-- tree7 -->
 <g id="node49" class="node">
 <title>tree7</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1763.58,-3424.2 1692.66,-3424.2 1692.66,-3367.8 1763.58,-3367.8 1763.58,-3424.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3402.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹壓平</text>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3381.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1763.58,-3472.2 1692.66,-3472.2 1692.66,-3415.8 1763.58,-3415.8 1763.58,-3472.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3450.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹壓平</text>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3429.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- tree6&#45;&gt;tree7 -->
-<g id="edge65" class="edge">
+<g id="edge67" class="edge">
 <title>tree6&#45;&gt;tree7</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1550.04,-3463.13C1550.04,-3443.1 1550.04,-3420 1550.04,-3420 1550.04,-3420 1683.76,-3420 1683.76,-3420"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1683.76,-3422.28 1690.26,-3420 1683.76,-3417.73 1683.76,-3422.28"/>
-</g>
-<!-- tree8 -->
-<g id="node50" class="node">
-<title>tree8</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="1,5" points="1771.08,-3520.2 1685.16,-3520.2 1685.16,-3463.8 1771.08,-3463.8 1771.08,-3520.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3498.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹上差分</text>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3477.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
-</g>
-<!-- tree6&#45;&gt;tree8 -->
-<g id="edge66" class="edge">
-<title>tree6&#45;&gt;tree8</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1594.74,-3492C1594.74,-3492 1676.11,-3492 1676.11,-3492"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1676.11,-3494.28 1682.61,-3492 1676.11,-3489.73 1676.11,-3494.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1594.74,-3468C1594.74,-3468 1683.74,-3468 1683.74,-3468"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1683.74,-3470.28 1690.24,-3468 1683.74,-3465.73 1683.74,-3470.28"/>
 </g>
 <!-- tree9 -->
 <g id="node51" class="node">
 <title>tree9</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1755.12,-3616.2 1701.12,-3616.2 1701.12,-3559.8 1755.12,-3559.8 1755.12,-3616.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3594.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">LCA</text>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3573.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1755.12,-3568.2 1701.12,-3568.2 1701.12,-3511.8 1755.12,-3511.8 1755.12,-3568.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3546.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">LCA</text>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-3525.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- tree6&#45;&gt;tree9 -->
-<g id="edge67" class="edge">
+<g id="edge68" class="edge">
 <title>tree6&#45;&gt;tree9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1583.04,-3520.87C1583.04,-3540.9 1583.04,-3564 1583.04,-3564 1583.04,-3564 1692.17,-3564 1692.17,-3564"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1692.17,-3566.28 1698.67,-3564 1692.17,-3561.73 1692.17,-3566.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1594.74,-3516C1594.74,-3516 1692.15,-3516 1692.15,-3516"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1692.15,-3518.28 1698.65,-3516 1692.14,-3513.73 1692.15,-3518.28"/>
+</g>
+<!-- tree8 -->
+<g id="node50" class="node">
+<title>tree8</title>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="1,5" points="1967.25,-3520.2 1881.33,-3520.2 1881.33,-3463.8 1967.25,-3463.8 1967.25,-3520.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3498.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹上差分</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3477.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+</g>
+<!-- tree9&#45;&gt;tree8 -->
+<g id="edge17" class="edge">
+<title>tree9&#45;&gt;tree8</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1755.81,-3516C1755.81,-3516 1872.53,-3516 1872.53,-3516"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1872.53,-3518.28 1879.03,-3516 1872.53,-3513.73 1872.53,-3518.28"/>
+</g>
+<!-- tree10 -->
+<g id="node52" class="node">
+<title>tree10</title>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1974.75,-3616.2 1873.83,-3616.2 1873.83,-3559.8 1974.75,-3559.8 1974.75,-3616.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3594.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹上前綴和</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3573.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+</g>
+<!-- tree9&#45;&gt;tree10 -->
+<g id="edge18" class="edge">
+<title>tree9&#45;&gt;tree10</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1755.81,-3564C1755.81,-3564 1864.91,-3564 1864.91,-3564"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1864.91,-3566.28 1871.41,-3564 1864.91,-3561.73 1864.91,-3566.28"/>
 </g>
 <!-- num2 -->
-<g id="node53" class="node">
-<title>num2</title>
-<polygon fill="none" stroke="#fde68a" stroke-width="1.6" points="900.52,-2766.2 844.6,-2766.2 844.6,-2709.8 900.52,-2709.8 900.52,-2766.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2744.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">取餘</text>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2723.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
-</g>
-<!-- num1&#45;&gt;num2 -->
-<g id="edge68" class="edge">
-<title>num1&#45;&gt;num2</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M714.04,-2574.74C714.04,-2628.31 714.04,-2738 714.04,-2738 714.04,-2738 835.54,-2738 835.54,-2738"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="835.54,-2740.28 842.04,-2738 835.54,-2735.73 835.54,-2740.28"/>
-</g>
-<!-- num3 -->
 <g id="node54" class="node">
-<title>num3</title>
-<polygon fill="none" stroke="#fde68a" stroke-width="1.6" points="900.52,-2862.2 844.6,-2862.2 844.6,-2805.8 900.52,-2805.8 900.52,-2862.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2840.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">篩法</text>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2819.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
-</g>
-<!-- num1&#45;&gt;num3 -->
-<g id="edge69" class="edge">
-<title>num1&#45;&gt;num3</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M692.04,-2574.93C692.04,-2647.97 692.04,-2834 692.04,-2834 692.04,-2834 835.64,-2834 835.64,-2834"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="835.64,-2836.28 842.14,-2834 835.64,-2831.73 835.64,-2836.28"/>
-</g>
-<!-- num4 -->
-<g id="node55" class="node">
-<title>num4</title>
-<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="5,2" points="923.02,-2958.2 822.1,-2958.2 822.1,-2901.8 923.02,-2901.8 923.02,-2958.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2936.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">質因數分解</text>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2915.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
-</g>
-<!-- num1&#45;&gt;num4 -->
-<g id="edge70" class="edge">
-<title>num1&#45;&gt;num4</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M671.04,-2574.86C671.04,-2664.17 671.04,-2930 671.04,-2930 671.04,-2930 813.13,-2930 813.13,-2930"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="813.13,-2932.28 819.63,-2930 813.13,-2927.73 813.13,-2932.28"/>
-</g>
-<!-- num5 -->
-<g id="node56" class="node">
-<title>num5</title>
-<polygon fill="none" stroke="#fde68a" stroke-width="1.6" points="930.52,-2286.2 814.6,-2286.2 814.6,-2229.8 930.52,-2229.8 930.52,-2286.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2264.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">因數倍數問題</text>
+<title>num2</title>
+<polygon fill="none" stroke="#fde68a" stroke-width="1.6" points="900.52,-2286.2 844.6,-2286.2 844.6,-2229.8 900.52,-2229.8 900.52,-2286.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2264.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">取餘</text>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-2243.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
-<!-- num1&#45;&gt;num5 -->
+<!-- num1&#45;&gt;num2 -->
+<g id="edge69" class="edge">
+<title>num1&#45;&gt;num2</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M671.04,-2517.07C671.04,-2444.03 671.04,-2258 671.04,-2258 671.04,-2258 835.8,-2258 835.8,-2258"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="835.8,-2260.28 842.3,-2258 835.8,-2255.73 835.8,-2260.28"/>
+</g>
+<!-- num3 -->
+<g id="node55" class="node">
+<title>num3</title>
+<polygon fill="none" stroke="#fde68a" stroke-width="1.6" points="900.52,-2382.2 844.6,-2382.2 844.6,-2325.8 900.52,-2325.8 900.52,-2382.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2360.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">篩法</text>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2339.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+</g>
+<!-- num1&#45;&gt;num3 -->
+<g id="edge70" class="edge">
+<title>num1&#45;&gt;num3</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M692.04,-2517.26C692.04,-2463.69 692.04,-2354 692.04,-2354 692.04,-2354 835.64,-2354 835.64,-2354"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="835.64,-2356.28 842.14,-2354 835.64,-2351.73 835.64,-2356.28"/>
+</g>
+<!-- num4 -->
+<g id="node56" class="node">
+<title>num4</title>
+<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="5,2" points="923.02,-2478.2 822.1,-2478.2 822.1,-2421.8 923.02,-2421.8 923.02,-2478.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2456.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">質因數分解</text>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2435.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+</g>
+<!-- num1&#45;&gt;num4 -->
 <g id="edge71" class="edge">
+<title>num1&#45;&gt;num4</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M714.04,-2517.2C714.04,-2488.92 714.04,-2450 714.04,-2450 714.04,-2450 813.21,-2450 813.21,-2450"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="813.21,-2452.28 819.71,-2450 813.21,-2447.73 813.21,-2452.28"/>
+</g>
+<!-- num5 -->
+<g id="node57" class="node">
+<title>num5</title>
+<polygon fill="none" stroke="#fde68a" stroke-width="1.6" points="930.52,-2574.2 814.6,-2574.2 814.6,-2517.8 930.52,-2517.8 930.52,-2574.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2552.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">因數倍數問題</text>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2531.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+</g>
+<!-- num1&#45;&gt;num5 -->
+<g id="edge72" class="edge">
 <title>num1&#45;&gt;num5</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M678.04,-2517.07C678.04,-2444.03 678.04,-2258 678.04,-2258 678.04,-2258 805.62,-2258 805.62,-2258"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="805.62,-2260.28 812.12,-2258 805.62,-2255.73 805.62,-2260.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.81,-2546C735.81,-2546 805.63,-2546 805.63,-2546"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="805.63,-2548.28 812.13,-2546 805.63,-2543.73 805.63,-2548.28"/>
 </g>
 <!-- num6 -->
-<g id="node57" class="node">
+<g id="node58" class="node">
 <title>num6</title>
-<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="1,5" points="915.52,-2382.2 829.6,-2382.2 829.6,-2325.8 915.52,-2325.8 915.52,-2382.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2360.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">進制系統</text>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2339.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="1,5" points="915.52,-2670.2 829.6,-2670.2 829.6,-2613.8 915.52,-2613.8 915.52,-2670.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2648.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">進制系統</text>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2627.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- num1&#45;&gt;num6 -->
-<g id="edge72" class="edge">
+<g id="edge73" class="edge">
 <title>num1&#45;&gt;num6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M706.04,-2517.26C706.04,-2463.69 706.04,-2354 706.04,-2354 706.04,-2354 820.49,-2354 820.49,-2354"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="820.49,-2356.28 826.99,-2354 820.49,-2351.73 820.49,-2356.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M718.04,-2574.8C718.04,-2603.08 718.04,-2642 718.04,-2642 718.04,-2642 820.79,-2642 820.79,-2642"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="820.79,-2644.28 827.29,-2642 820.79,-2639.73 820.79,-2644.28"/>
 </g>
 <!-- num7 -->
-<g id="node58" class="node">
+<g id="node59" class="node">
 <title>num7</title>
-<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="1,5" points="915.52,-2478.2 829.6,-2478.2 829.6,-2421.8 915.52,-2421.8 915.52,-2478.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2456.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">大數運算</text>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2435.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="1,5" points="915.52,-2766.2 829.6,-2766.2 829.6,-2709.8 915.52,-2709.8 915.52,-2766.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2744.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">大數運算</text>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2723.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- num1&#45;&gt;num7 -->
-<g id="edge73" class="edge">
+<g id="edge74" class="edge">
 <title>num1&#45;&gt;num7</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.56,-2531.9C776.96,-2531.9 833.04,-2531.9 833.04,-2531.9 833.04,-2531.9 833.04,-2486.96 833.04,-2486.96"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="835.32,-2486.96 833.04,-2480.46 830.77,-2486.96 835.32,-2486.96"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M701.04,-2574.74C701.04,-2628.31 701.04,-2738 701.04,-2738 701.04,-2738 820.52,-2738 820.52,-2738"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="820.52,-2740.28 827.02,-2738 820.52,-2735.73 820.52,-2740.28"/>
 </g>
 <!-- num8 -->
-<g id="node59" class="node">
+<g id="node60" class="node">
 <title>num8</title>
-<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="5,2" points="900.52,-2574.2 844.6,-2574.2 844.6,-2517.8 900.52,-2517.8 900.52,-2574.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2552.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">機率</text>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2531.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="5,2" points="900.52,-2862.2 844.6,-2862.2 844.6,-2805.8 900.52,-2805.8 900.52,-2862.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2840.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">機率</text>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2819.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- num1&#45;&gt;num8 -->
-<g id="edge17" class="edge">
+<g id="edge19" class="edge">
 <title>num1&#45;&gt;num8</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.81,-2546C735.81,-2546 835.6,-2546 835.6,-2546"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="835.6,-2548.28 842.1,-2546 835.6,-2543.73 835.6,-2548.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M684.04,-2574.93C684.04,-2647.97 684.04,-2834 684.04,-2834 684.04,-2834 835.61,-2834 835.61,-2834"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="835.61,-2836.28 842.11,-2834 835.61,-2831.73 835.61,-2836.28"/>
 </g>
 <!-- num9 -->
-<g id="node60" class="node">
+<g id="node61" class="node">
 <title>num9</title>
-<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="5,2" points="908.02,-2670.2 837.1,-2670.2 837.1,-2613.8 908.02,-2613.8 908.02,-2670.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2648.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">期望值</text>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2627.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<polygon fill="none" stroke="#fde68a" stroke-width="1.6" stroke-dasharray="5,2" points="908.02,-2958.2 837.1,-2958.2 837.1,-2901.8 908.02,-2901.8 908.02,-2958.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2936.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">期望值</text>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-2915.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- num1&#45;&gt;num9 -->
-<g id="edge18" class="edge">
+<g id="edge20" class="edge">
 <title>num1&#45;&gt;num9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.61,-2560.1C779.56,-2560.1 841.04,-2560.1 841.04,-2560.1 841.04,-2560.1 841.04,-2605.04 841.04,-2605.04"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="838.77,-2605.04 841.04,-2611.54 843.32,-2605.04 838.77,-2605.04"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M666.04,-2574.86C666.04,-2664.17 666.04,-2930 666.04,-2930 666.04,-2930 828.27,-2930 828.27,-2930"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="828.27,-2932.28 834.77,-2930 828.27,-2927.73 828.27,-2932.28"/>
 </g>
 <!-- math1 -->
-<g id="node61" class="node">
+<g id="node62" class="node">
 <title>math1</title>
 <polygon fill="none" stroke="#fde68a" stroke-width="1.6" points="1145.82,-2622.2 1044.9,-2622.2 1044.9,-2565.8 1145.82,-2565.8 1145.82,-2622.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-2600.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">數學式化簡</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-2579.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- num2&#45;&gt;math1 -->
-<g id="edge74" class="edge">
+<g id="edge75" class="edge">
 <title>num2&#45;&gt;math1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M901.13,-2738C957.59,-2738 1078.04,-2738 1078.04,-2738 1078.04,-2738 1078.04,-2631.11 1078.04,-2631.11"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1080.32,-2631.11 1078.04,-2624.61 1075.77,-2631.11 1080.32,-2631.11"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M901.08,-2258C951.24,-2258 1050.04,-2258 1050.04,-2258 1050.04,-2258 1050.04,-2556.75 1050.04,-2556.75"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1047.77,-2556.75 1050.04,-2563.25 1052.32,-2556.75 1047.77,-2556.75"/>
 </g>
 <!-- num3&#45;&gt;math1 -->
-<g id="edge75" class="edge">
-<title>num3&#45;&gt;math1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M900.97,-2834C964.41,-2834 1112.04,-2834 1112.04,-2834 1112.04,-2834 1112.04,-2631.27 1112.04,-2631.27"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1114.32,-2631.27 1112.04,-2624.77 1109.77,-2631.27 1114.32,-2631.27"/>
-</g>
-<!-- num4&#45;&gt;math1 -->
 <g id="edge76" class="edge">
-<title>num4&#45;&gt;math1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M919.04,-2901.06C919.04,-2823.95 919.04,-2619.4 919.04,-2619.4 919.04,-2619.4 1036.04,-2619.4 1036.04,-2619.4"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1036.04,-2621.68 1042.54,-2619.4 1036.04,-2617.13 1036.04,-2621.68"/>
-</g>
-<!-- num5&#45;&gt;math1 -->
-<g id="edge77" class="edge">
-<title>num5&#45;&gt;math1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M927.04,-2286.88C927.04,-2363.81 927.04,-2567.9 927.04,-2567.9 927.04,-2567.9 1036.08,-2567.9 1036.08,-2567.9"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1036.08,-2570.18 1042.58,-2567.9 1036.08,-2565.63 1036.08,-2570.18"/>
-</g>
-<!-- num6&#45;&gt;math1 -->
-<g id="edge78" class="edge">
-<title>num6&#45;&gt;math1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.18,-2354C968.45,-2354 1049.04,-2354 1049.04,-2354 1049.04,-2354 1049.04,-2556.73 1049.04,-2556.73"/>
+<title>num3&#45;&gt;math1</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M901.31,-2354C951.32,-2354 1049.04,-2354 1049.04,-2354 1049.04,-2354 1049.04,-2556.73 1049.04,-2556.73"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1046.77,-2556.73 1049.04,-2563.23 1051.32,-2556.73 1046.77,-2556.73"/>
 </g>
-<!-- num7&#45;&gt;math1 -->
+<!-- num4&#45;&gt;math1 -->
+<g id="edge77" class="edge">
+<title>num4&#45;&gt;math1</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M923.5,-2450C975,-2450 1047.04,-2450 1047.04,-2450 1047.04,-2450 1047.04,-2556.89 1047.04,-2556.89"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1044.77,-2556.89 1047.04,-2563.39 1049.32,-2556.89 1044.77,-2556.89"/>
+</g>
+<!-- num5&#45;&gt;math1 -->
+<g id="edge78" class="edge">
+<title>num5&#45;&gt;math1</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M931.1,-2570C931.1,-2570 1036.09,-2570 1036.09,-2570"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1036.09,-2572.28 1042.59,-2570 1036.09,-2567.73 1036.09,-2572.28"/>
+</g>
+<!-- num6&#45;&gt;math1 -->
 <g id="edge79" class="edge">
+<title>num6&#45;&gt;math1</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.31,-2618C916.31,-2618 1035.97,-2618 1035.97,-2618"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1035.97,-2620.28 1042.47,-2618 1035.97,-2615.73 1035.97,-2620.28"/>
+</g>
+<!-- num7&#45;&gt;math1 -->
+<g id="edge80" class="edge">
 <title>num7&#45;&gt;math1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M912.04,-2478.74C912.04,-2514.24 912.04,-2570 912.04,-2570 912.04,-2570 1035.98,-2570 1035.98,-2570"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1035.98,-2572.28 1042.48,-2570 1035.98,-2567.73 1035.98,-2572.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.07,-2738C978.24,-2738 1085.04,-2738 1085.04,-2738 1085.04,-2738 1085.04,-2631.11 1085.04,-2631.11"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1087.32,-2631.11 1085.04,-2624.61 1082.77,-2631.11 1087.32,-2631.11"/>
 </g>
 <!-- num8&#45;&gt;math1 -->
-<g id="edge19" class="edge">
+<g id="edge21" class="edge">
 <title>num8&#45;&gt;math1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M901.23,-2572.1C901.23,-2572.1 1035.95,-2572.1 1035.95,-2572.1"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1035.95,-2574.38 1042.45,-2572.1 1035.95,-2569.83 1035.95,-2574.38"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M901.07,-2834C963.15,-2834 1105.04,-2834 1105.04,-2834 1105.04,-2834 1105.04,-2631.27 1105.04,-2631.27"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1107.32,-2631.27 1105.04,-2624.77 1102.77,-2631.27 1107.32,-2631.27"/>
 </g>
 <!-- num9&#45;&gt;math1 -->
-<g id="edge20" class="edge">
+<g id="edge22" class="edge">
 <title>num9&#45;&gt;math1</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M908.36,-2616.6C908.36,-2616.6 1035.97,-2616.6 1035.97,-2616.6"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1035.97,-2618.88 1042.47,-2616.6 1035.97,-2614.33 1035.97,-2618.88"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M908.61,-2930C978.59,-2930 1126.04,-2930 1126.04,-2930 1126.04,-2930 1126.04,-2631.25 1126.04,-2631.25"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1128.32,-2631.25 1126.04,-2624.75 1123.77,-2631.25 1128.32,-2631.25"/>
 </g>
 <!-- gr2 -->
-<g id="node63" class="node">
+<g id="node64" class="node">
 <title>gr2</title>
 <polygon fill="none" stroke="#86efac" stroke-width="1.6" points="930.52,-2029.2 814.6,-2029.2 814.6,-1972.8 930.52,-1972.8 930.52,-2029.2"/>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-2007.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">貪心基本思維</text>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-1986.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- gr1&#45;&gt;gr2 -->
-<g id="edge80" class="edge">
+<g id="edge81" class="edge">
 <title>gr1&#45;&gt;gr2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.81,-2025C735.81,-2025 805.63,-2025 805.63,-2025"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="805.63,-2027.28 812.13,-2025 805.63,-2022.73 805.63,-2027.28"/>
 </g>
 <!-- gr3 -->
-<g id="node64" class="node">
+<g id="node65" class="node">
 <title>gr3</title>
 <polygon fill="none" stroke="#86efac" stroke-width="1.6" stroke-dasharray="5,2" points="915.52,-2125.2 829.6,-2125.2 829.6,-2068.8 915.52,-2068.8 915.52,-2125.2"/>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-2103.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">貪心證明</text>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-2082.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- gr1&#45;&gt;gr3 -->
-<g id="edge81" class="edge">
+<g id="edge82" class="edge">
 <title>gr1&#45;&gt;gr3</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.81,-2073C735.81,-2073 820.66,-2073 820.66,-2073"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="820.66,-2075.28 827.16,-2073 820.66,-2070.73 820.66,-2075.28"/>
 </g>
 <!-- gr4 -->
-<g id="node65" class="node">
+<g id="node66" class="node">
 <title>gr4</title>
 <polygon fill="none" stroke="#86efac" stroke-width="1.6" stroke-dasharray="1,5" points="1138.32,-1885.2 1052.4,-1885.2 1052.4,-1828.8 1138.32,-1828.8 1138.32,-1885.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1863.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">區間貪心</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1842.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- gr2&#45;&gt;gr4 -->
-<g id="edge82" class="edge">
+<g id="edge83" class="edge">
 <title>gr2&#45;&gt;gr4</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M923.04,-1972.21C923.04,-1930.18 923.04,-1857 923.04,-1857 923.04,-1857 1043.56,-1857 1043.56,-1857"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.56,-1859.28 1050.06,-1857 1043.56,-1854.73 1043.56,-1859.28"/>
 </g>
 <!-- gr5 -->
-<g id="node66" class="node">
+<g id="node67" class="node">
 <title>gr5</title>
 <polygon fill="none" stroke="#86efac" stroke-width="1.6" stroke-dasharray="5,2" points="1160.82,-1981.2 1029.9,-1981.2 1029.9,-1924.8 1160.82,-1924.8 1160.82,-1981.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1959.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">構造上下界問題</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1938.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- gr2&#45;&gt;gr5 -->
-<g id="edge83" class="edge">
+<g id="edge84" class="edge">
 <title>gr2&#45;&gt;gr5</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M931.1,-1977C931.1,-1977 1021.03,-1977 1021.03,-1977"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1021.03,-1979.28 1027.53,-1977 1021.03,-1974.73 1021.03,-1979.28"/>
 </g>
 <!-- gr6 -->
-<g id="node67" class="node">
+<g id="node68" class="node">
 <title>gr6</title>
 <polygon fill="none" stroke="#86efac" stroke-width="1.6" stroke-dasharray="1,5" points="1145.82,-2077.2 1044.9,-2077.2 1044.9,-2020.8 1145.82,-2020.8 1145.82,-2077.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-2055.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">子序列貪心</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-2034.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- gr2&#45;&gt;gr6 -->
-<g id="edge84" class="edge">
+<g id="edge85" class="edge">
 <title>gr2&#45;&gt;gr6</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M931.1,-2025C931.1,-2025 1036.09,-2025 1036.09,-2025"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1036.09,-2027.28 1042.59,-2025 1036.09,-2022.73 1036.09,-2027.28"/>
 </g>
 <!-- gr7 -->
-<g id="node68" class="node">
+<g id="node69" class="node">
 <title>gr7</title>
 <polygon fill="none" stroke="#86efac" stroke-width="1.6" stroke-dasharray="5,2" points="1138.32,-2173.2 1052.4,-2173.2 1052.4,-2116.8 1138.32,-2116.8 1138.32,-2173.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-2151.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">配對問題</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-2130.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- gr2&#45;&gt;gr7 -->
-<g id="edge85" class="edge">
+<g id="edge86" class="edge">
 <title>gr2&#45;&gt;gr7</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M923.04,-2029.74C923.04,-2065.24 923.04,-2121 923.04,-2121 923.04,-2121 1043.56,-2121 1043.56,-2121"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.56,-2123.28 1050.06,-2121 1043.56,-2118.73 1043.56,-2123.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M927.04,-2029.74C927.04,-2065.24 927.04,-2121 927.04,-2121 927.04,-2121 1043.69,-2121 1043.69,-2121"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.69,-2123.28 1050.19,-2121 1043.69,-2118.73 1043.69,-2123.28"/>
 </g>
 <!-- seq2 -->
-<g id="node70" class="node">
-<title>seq2</title>
-<polygon fill="none" stroke="#67e8f9" stroke-width="1.6" points="908.02,-1676.2 837.1,-1676.2 837.1,-1619.8 908.02,-1619.8 908.02,-1676.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1654.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">雙指標</text>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1633.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
-</g>
-<!-- seq1&#45;&gt;seq2 -->
-<g id="edge86" class="edge">
-<title>seq1&#45;&gt;seq2</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.69,-1690C792.3,-1690 884.04,-1690 884.04,-1690 884.04,-1690 884.04,-1685.03 884.04,-1685.03"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="886.32,-1685.03 884.04,-1678.53 881.77,-1685.03 886.32,-1685.03"/>
-</g>
-<!-- seq3 -->
 <g id="node71" class="node">
-<title>seq3</title>
-<polygon fill="none" stroke="#67e8f9" stroke-width="1.6" points="908.02,-1772.2 837.1,-1772.2 837.1,-1715.8 908.02,-1715.8 908.02,-1772.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1750.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">前綴和</text>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1729.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
-</g>
-<!-- seq1&#45;&gt;seq3 -->
-<g id="edge87" class="edge">
-<title>seq1&#45;&gt;seq3</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.64,-1702C785.68,-1702 861.04,-1702 861.04,-1702 861.04,-1702 861.04,-1706.97 861.04,-1706.97"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="858.77,-1706.97 861.04,-1713.47 863.32,-1706.97 858.77,-1706.97"/>
-</g>
-<!-- seq4 -->
-<g id="node72" class="node">
-<title>seq4</title>
-<polygon fill="none" stroke="#67e8f9" stroke-width="1.6" points="900.52,-1580.2 844.6,-1580.2 844.6,-1523.8 900.52,-1523.8 900.52,-1580.2"/>
-<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1558.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">差分</text>
+<title>seq2</title>
+<polygon fill="none" stroke="#67e8f9" stroke-width="1.6" points="908.02,-1580.2 837.1,-1580.2 837.1,-1523.8 908.02,-1523.8 908.02,-1580.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1558.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">雙指標</text>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-1537.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
-<!-- seq1&#45;&gt;seq4 -->
+<!-- seq1&#45;&gt;seq2 -->
+<g id="edge87" class="edge">
+<title>seq1&#45;&gt;seq2</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M692.04,-1677.47C692.04,-1638.58 692.04,-1552 692.04,-1552 692.04,-1552 828.15,-1552 828.15,-1552"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="828.15,-1554.28 834.65,-1552 828.15,-1549.73 828.15,-1554.28"/>
+</g>
+<!-- seq3 -->
+<g id="node72" class="node">
+<title>seq3</title>
+<polygon fill="none" stroke="#67e8f9" stroke-width="1.6" points="908.02,-1676.2 837.1,-1676.2 837.1,-1619.8 908.02,-1619.8 908.02,-1676.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1654.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">前綴和</text>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1633.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+</g>
+<!-- seq1&#45;&gt;seq3 -->
 <g id="edge88" class="edge">
+<title>seq1&#45;&gt;seq3</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.61,-1690C779.56,-1690 841.04,-1690 841.04,-1690 841.04,-1690 841.04,-1685.03 841.04,-1685.03"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="843.32,-1685.03 841.04,-1678.53 838.77,-1685.03 843.32,-1685.03"/>
+</g>
+<!-- seq4 -->
+<g id="node73" class="node">
+<title>seq4</title>
+<polygon fill="none" stroke="#67e8f9" stroke-width="1.6" points="900.52,-1772.2 844.6,-1772.2 844.6,-1715.8 900.52,-1715.8 900.52,-1772.2"/>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1750.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">差分</text>
+<text xml:space="preserve" text-anchor="middle" x="872.56" y="-1729.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+</g>
+<!-- seq1&#45;&gt;seq4 -->
+<g id="edge89" class="edge">
 <title>seq1&#45;&gt;seq4</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M692.04,-1677.47C692.04,-1638.58 692.04,-1552 692.04,-1552 692.04,-1552 835.64,-1552 835.64,-1552"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="835.64,-1554.28 842.14,-1552 835.64,-1549.73 835.64,-1554.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.47,-1702C788.99,-1702 873.04,-1702 873.04,-1702 873.04,-1702 873.04,-1706.97 873.04,-1706.97"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="870.77,-1706.97 873.04,-1713.47 875.32,-1706.97 870.77,-1706.97"/>
 </g>
 <!-- ds2 -->
-<g id="node74" class="node">
+<g id="node75" class="node">
 <title>ds2</title>
 <polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="915.52,-1371.2 829.6,-1371.2 829.6,-1314.8 915.52,-1314.8 915.52,-1371.2"/>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-1349.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">序列容器</text>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- ds1&#45;&gt;ds2 -->
-<g id="edge89" class="edge">
+<g id="edge90" class="edge">
 <title>ds1&#45;&gt;ds2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M692.04,-1410.2C692.04,-1381.92 692.04,-1343 692.04,-1343 692.04,-1343 820.54,-1343 820.54,-1343"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="820.54,-1345.28 827.04,-1343 820.54,-1340.73 820.54,-1345.28"/>
 </g>
 <!-- ds3 -->
-<g id="node75" class="node">
+<g id="node76" class="node">
 <title>ds3</title>
 <polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="915.52,-1467.2 829.6,-1467.2 829.6,-1410.8 915.52,-1410.8 915.52,-1467.2"/>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-1445.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">關聯容器</text>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-1424.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- ds1&#45;&gt;ds3 -->
-<g id="edge90" class="edge">
+<g id="edge91" class="edge">
 <title>ds1&#45;&gt;ds3</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.81,-1439C735.81,-1439 820.66,-1439 820.66,-1439"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="820.66,-1441.28 827.16,-1439 820.66,-1436.73 820.66,-1441.28"/>
 </g>
 <!-- ds5 -->
-<g id="node77" class="node">
+<g id="node78" class="node">
 <title>ds5</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="1,5" points="1168.32,-1275.2 1022.4,-1275.2 1022.4,-1218.8 1168.32,-1218.8 1168.32,-1275.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1253.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">更複雜的資料結構</text>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1232.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="1,5" points="1168.32,-1179.2 1022.4,-1179.2 1022.4,-1122.8 1168.32,-1122.8 1168.32,-1179.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1157.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">更複雜的資料結構</text>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1136.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- ds2&#45;&gt;ds5 -->
-<g id="edge91" class="edge">
+<g id="edge92" class="edge">
 <title>ds2&#45;&gt;ds5</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.13,-1333.6C961.51,-1333.6 1026.04,-1333.6 1026.04,-1333.6 1026.04,-1333.6 1026.04,-1284.15 1026.04,-1284.15"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1028.32,-1284.15 1026.04,-1277.65 1023.77,-1284.15 1028.32,-1284.15"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.13,-1333.6C961.51,-1333.6 1026.04,-1333.6 1026.04,-1333.6 1026.04,-1333.6 1026.04,-1188.25 1026.04,-1188.25"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1028.32,-1188.25 1026.04,-1181.75 1023.77,-1188.25 1028.32,-1188.25"/>
 </g>
 <!-- ds11 -->
-<g id="node83" class="node">
+<g id="node84" class="node">
 <title>ds11</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1123.32,-1371.2 1067.4,-1371.2 1067.4,-1314.8 1123.32,-1314.8 1123.32,-1371.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1349.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">堆疊</text>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1123.32,-1275.2 1067.4,-1275.2 1067.4,-1218.8 1123.32,-1218.8 1123.32,-1275.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1253.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">堆疊</text>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1232.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- ds2&#45;&gt;ds11 -->
-<g id="edge21" class="edge">
+<g id="edge23" class="edge">
 <title>ds2&#45;&gt;ds11</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.31,-1352.4C916.31,-1352.4 1058.58,-1352.4 1058.58,-1352.4"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1058.58,-1354.68 1065.08,-1352.4 1058.58,-1350.13 1058.58,-1354.68"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M873.04,-1314.2C873.04,-1285.92 873.04,-1247 873.04,-1247 873.04,-1247 1058.43,-1247 1058.43,-1247"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1058.43,-1249.28 1064.93,-1247 1058.43,-1244.73 1058.43,-1249.28"/>
 </g>
 <!-- ds12 -->
-<g id="node84" class="node">
+<g id="node85" class="node">
 <title>ds12</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1138.32,-1179.2 1052.4,-1179.2 1052.4,-1122.8 1138.32,-1122.8 1138.32,-1179.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1157.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">優先序列</text>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1136.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1138.32,-1371.2 1052.4,-1371.2 1052.4,-1314.8 1138.32,-1314.8 1138.32,-1371.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1349.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">優先序列</text>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- ds2&#45;&gt;ds12 -->
-<g id="edge22" class="edge">
+<g id="edge24" class="edge">
 <title>ds2&#45;&gt;ds12</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M873.04,-1314.26C873.04,-1260.69 873.04,-1151 873.04,-1151 873.04,-1151 1043.38,-1151 1043.38,-1151"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.38,-1153.28 1049.88,-1151 1043.38,-1148.73 1043.38,-1153.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.31,-1352.4C916.31,-1352.4 1043.39,-1352.4 1043.39,-1352.4"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.39,-1354.68 1049.89,-1352.4 1043.39,-1350.13 1043.39,-1354.68"/>
 </g>
 <!-- ds4 -->
-<g id="node76" class="node">
+<g id="node77" class="node">
 <title>ds4</title>
 <polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="5,2" points="1130.82,-1467.2 1059.9,-1467.2 1059.9,-1410.8 1130.82,-1410.8 1130.82,-1467.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1445.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">哈希表</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1424.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- ds3&#45;&gt;ds4 -->
-<g id="edge92" class="edge">
+<g id="edge93" class="edge">
 <title>ds3&#45;&gt;ds4</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.31,-1439C916.31,-1439 1051.1,-1439 1051.1,-1439"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1051.1,-1441.28 1057.6,-1439 1051.1,-1436.73 1051.1,-1441.28"/>
 </g>
 <!-- ds6 -->
-<g id="node78" class="node">
+<g id="node79" class="node">
 <title>ds6</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="1,5" points="1361.11,-1275.2 1275.19,-1275.2 1275.19,-1218.8 1361.11,-1218.8 1361.11,-1275.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1253.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹狀陣列</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1232.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="1,5" points="1361.11,-1179.2 1275.19,-1179.2 1275.19,-1122.8 1361.11,-1122.8 1361.11,-1179.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1157.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹狀陣列</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1136.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- ds5&#45;&gt;ds6 -->
-<g id="edge93" class="edge">
+<g id="edge94" class="edge">
 <title>ds5&#45;&gt;ds6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1168.92,-1247C1168.92,-1247 1266.24,-1247 1266.24,-1247"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1266.24,-1249.28 1272.74,-1247 1266.24,-1244.73 1266.24,-1249.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1168.92,-1151C1168.92,-1151 1266.24,-1151 1266.24,-1151"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1266.24,-1153.28 1272.74,-1151 1266.24,-1148.73 1266.24,-1153.28"/>
 </g>
 <!-- ds7 -->
-<g id="node79" class="node">
+<g id="node80" class="node">
 <title>ds7</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1353.61,-1371.2 1282.69,-1371.2 1282.69,-1314.8 1353.61,-1314.8 1353.61,-1371.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1349.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">稀疏表</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1353.61,-1275.2 1282.69,-1275.2 1282.69,-1218.8 1353.61,-1218.8 1353.61,-1275.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1253.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">稀疏表</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1232.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- ds5&#45;&gt;ds7 -->
-<g id="edge94" class="edge">
+<g id="edge95" class="edge">
 <title>ds5&#45;&gt;ds7</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1165.04,-1275.8C1165.04,-1304.08 1165.04,-1343 1165.04,-1343 1165.04,-1343 1273.94,-1343 1273.94,-1343"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1273.94,-1345.28 1280.44,-1343 1273.94,-1340.73 1273.94,-1345.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1166.04,-1179.8C1166.04,-1208.08 1166.04,-1247 1166.04,-1247 1166.04,-1247 1273.79,-1247 1273.79,-1247"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1273.79,-1249.28 1280.29,-1247 1273.79,-1244.73 1273.79,-1249.28"/>
 </g>
 <!-- ds8 -->
-<g id="node80" class="node">
+<g id="node81" class="node">
 <title>ds8</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1353.61,-1179.2 1282.69,-1179.2 1282.69,-1122.8 1353.61,-1122.8 1353.61,-1179.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1157.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">線段樹</text>
-<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1136.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" points="1353.61,-1371.2 1282.69,-1371.2 1282.69,-1314.8 1353.61,-1314.8 1353.61,-1371.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1349.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">線段樹</text>
+<text xml:space="preserve" text-anchor="middle" x="1318.15" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- ds5&#45;&gt;ds8 -->
-<g id="edge95" class="edge">
+<g id="edge96" class="edge">
 <title>ds5&#45;&gt;ds8</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1157.04,-1218.2C1157.04,-1189.92 1157.04,-1151 1157.04,-1151 1157.04,-1151 1273.68,-1151 1273.68,-1151"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1273.68,-1153.28 1280.18,-1151 1273.68,-1148.73 1273.68,-1153.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1163.04,-1179.74C1163.04,-1233.31 1163.04,-1343 1163.04,-1343 1163.04,-1343 1273.86,-1343 1273.86,-1343"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1273.86,-1345.28 1280.36,-1343 1273.86,-1340.73 1273.86,-1345.28"/>
 </g>
 <!-- ds9 -->
-<g id="node81" class="node">
+<g id="node82" class="node">
 <title>ds9</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="1,5" points="1601.53,-1275.2 1455.61,-1275.2 1455.61,-1218.8 1601.53,-1218.8 1601.53,-1275.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1253.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹狀陣列上二分搜</text>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1232.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="1,5" points="1601.53,-1179.2 1455.61,-1179.2 1455.61,-1122.8 1601.53,-1122.8 1601.53,-1179.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1157.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹狀陣列上二分搜</text>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1136.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- ds6&#45;&gt;ds9 -->
-<g id="edge96" class="edge">
+<g id="edge97" class="edge">
 <title>ds6&#45;&gt;ds9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1361.75,-1247C1361.75,-1247 1446.88,-1247 1446.88,-1247"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1446.88,-1249.28 1453.38,-1247 1446.88,-1244.73 1446.88,-1249.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1361.75,-1151C1361.75,-1151 1446.88,-1151 1446.88,-1151"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1446.88,-1153.28 1453.38,-1151 1446.88,-1148.73 1446.88,-1153.28"/>
 </g>
 <!-- ds10 -->
-<g id="node82" class="node">
+<g id="node83" class="node">
 <title>ds10</title>
-<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="5,2" points="1594.03,-1371.2 1463.11,-1371.2 1463.11,-1314.8 1594.03,-1314.8 1594.03,-1371.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1349.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">稀疏表上二分搜</text>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1328.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<polygon fill="none" stroke="#f9a8d4" stroke-width="1.6" stroke-dasharray="5,2" points="1594.03,-1275.2 1463.11,-1275.2 1463.11,-1218.8 1594.03,-1218.8 1594.03,-1275.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1253.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">稀疏表上二分搜</text>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1232.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- ds7&#45;&gt;ds10 -->
-<g id="edge97" class="edge">
+<g id="edge98" class="edge">
 <title>ds7&#45;&gt;ds10</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1354.32,-1343C1354.32,-1343 1454,-1343 1454,-1343"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1454,-1345.28 1460.5,-1343 1454,-1340.73 1454,-1345.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1354.32,-1247C1354.32,-1247 1454,-1247 1454,-1247"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1454,-1249.28 1460.5,-1247 1454,-1244.73 1454,-1249.28"/>
 </g>
 <!-- enum2 -->
-<g id="node86" class="node">
+<g id="node87" class="node">
 <title>enum2</title>
 <polygon fill="none" stroke="#fdba74" stroke-width="1.6" points="915.52,-1018.2 829.6,-1018.2 829.6,-961.8 915.52,-961.8 915.52,-1018.2"/>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-996.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">暴力枚舉</text>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-975.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- enum1&#45;&gt;enum2 -->
-<g id="edge98" class="edge">
+<g id="edge99" class="edge">
 <title>enum1&#45;&gt;enum2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.81,-1002C735.81,-1002 820.66,-1002 820.66,-1002"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="820.66,-1004.28 827.16,-1002 820.66,-999.73 820.66,-1004.28"/>
 </g>
 <!-- enum3 -->
-<g id="node87" class="node">
+<g id="node88" class="node">
 <title>enum3</title>
-<polygon fill="none" stroke="#fdba74" stroke-width="1.6" points="1138.32,-970.2 1052.4,-970.2 1052.4,-913.8 1138.32,-913.8 1138.32,-970.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-948.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">二元枚舉</text>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-927.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#fdba74" stroke-width="1.6" points="1138.32,-874.2 1052.4,-874.2 1052.4,-817.8 1138.32,-817.8 1138.32,-874.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-852.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">二元枚舉</text>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-831.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- enum2&#45;&gt;enum3 -->
-<g id="edge99" class="edge">
+<g id="edge100" class="edge">
 <title>enum2&#45;&gt;enum3</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.31,-967.4C916.31,-967.4 1043.39,-967.4 1043.39,-967.4"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.39,-969.68 1049.89,-967.4 1043.39,-965.13 1043.39,-969.68"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M912.04,-961.21C912.04,-919.18 912.04,-846 912.04,-846 912.04,-846 1043.6,-846 1043.6,-846"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.6,-848.28 1050.1,-846 1043.6,-843.73 1043.6,-848.28"/>
 </g>
 <!-- enum4 -->
-<g id="node88" class="node">
+<g id="node89" class="node">
 <title>enum4</title>
-<polygon fill="none" stroke="#fdba74" stroke-width="1.6" points="1145.82,-1066.2 1044.9,-1066.2 1044.9,-1009.8 1145.82,-1009.8 1145.82,-1066.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1044.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">全排列枚舉</text>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1023.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#fdba74" stroke-width="1.6" points="1145.82,-970.2 1044.9,-970.2 1044.9,-913.8 1145.82,-913.8 1145.82,-970.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-948.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">全排列枚舉</text>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-927.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- enum2&#45;&gt;enum4 -->
-<g id="edge100" class="edge">
+<g id="edge101" class="edge">
 <title>enum2&#45;&gt;enum4</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.31,-966C916.31,-966 1035.97,-966 1035.97,-966"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1035.97,-968.28 1042.47,-966 1035.97,-963.73 1035.97,-968.28"/>
+</g>
+<!-- enum5 -->
+<g id="node90" class="node">
+<title>enum5</title>
+<polygon fill="none" stroke="#fdba74" stroke-width="1.6" stroke-dasharray="5,2" points="1145.82,-1066.2 1044.9,-1066.2 1044.9,-1009.8 1145.82,-1009.8 1145.82,-1066.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1044.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">聰明的枚舉</text>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-1023.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+</g>
+<!-- enum2&#45;&gt;enum5 -->
+<g id="edge102" class="edge">
+<title>enum2&#45;&gt;enum5</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.31,-1014C916.31,-1014 1035.97,-1014 1035.97,-1014"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1035.97,-1016.28 1042.47,-1014 1035.97,-1011.73 1035.97,-1016.28"/>
 </g>
-<!-- enum5 -->
-<g id="node89" class="node">
-<title>enum5</title>
-<polygon fill="none" stroke="#fdba74" stroke-width="1.6" stroke-dasharray="5,2" points="1145.82,-874.2 1044.9,-874.2 1044.9,-817.8 1145.82,-817.8 1145.82,-874.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-852.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">聰明的枚舉</text>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-831.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
-</g>
-<!-- enum2&#45;&gt;enum5 -->
-<g id="edge101" class="edge">
-<title>enum2&#45;&gt;enum5</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M916.18,-964.6C968.45,-964.6 1049.04,-964.6 1049.04,-964.6 1049.04,-964.6 1049.04,-883.03 1049.04,-883.03"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1051.32,-883.03 1049.04,-876.53 1046.77,-883.03 1051.32,-883.03"/>
-</g>
 <!-- enum6 -->
-<g id="node90" class="node">
+<g id="node91" class="node">
 <title>enum6</title>
 <polygon fill="none" stroke="#fdba74" stroke-width="1.6" points="1383.61,-970.2 1252.69,-970.2 1252.69,-913.8 1383.61,-913.8 1383.61,-970.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1318.15" y="-948.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">更難的枚舉問題</text>
 <text xml:space="preserve" text-anchor="middle" x="1318.15" y="-927.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- enum3&#45;&gt;enum6 -->
-<g id="edge102" class="edge">
+<g id="edge103" class="edge">
 <title>enum3&#45;&gt;enum6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1139.11,-942C1139.11,-942 1243.78,-942 1243.78,-942"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1243.78,-944.28 1250.28,-942 1243.78,-939.73 1243.78,-944.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1138.8,-836.6C1188.78,-836.6 1264.04,-836.6 1264.04,-836.6 1264.04,-836.6 1264.04,-904.88 1264.04,-904.88"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1261.77,-904.88 1264.04,-911.38 1266.32,-904.88 1261.77,-904.88"/>
 </g>
 <!-- enum4&#45;&gt;enum6 -->
-<g id="edge103" class="edge">
+<g id="edge104" class="edge">
 <title>enum4&#45;&gt;enum6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1143.04,-1009.36C1143.04,-985.74 1143.04,-956.1 1143.04,-956.1 1143.04,-956.1 1243.63,-956.1 1243.63,-956.1"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1243.63,-958.38 1250.13,-956.1 1243.63,-953.83 1243.63,-958.38"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1146.47,-942C1146.47,-942 1243.73,-942 1243.73,-942"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1243.73,-944.28 1250.23,-942 1243.73,-939.73 1243.73,-944.28"/>
 </g>
 <!-- enum5&#45;&gt;enum6 -->
-<g id="edge104" class="edge">
+<g id="edge105" class="edge">
 <title>enum5&#45;&gt;enum6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1141.04,-874.64C1141.04,-898.26 1141.04,-927.9 1141.04,-927.9 1141.04,-927.9 1243.63,-927.9 1243.63,-927.9"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1243.63,-930.18 1250.13,-927.9 1243.63,-925.63 1243.63,-930.18"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1146.4,-1028.6C1197.01,-1028.6 1267.04,-1028.6 1267.04,-1028.6 1267.04,-1028.6 1267.04,-979.15 1267.04,-979.15"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1269.32,-979.15 1267.04,-972.65 1264.77,-979.15 1269.32,-979.15"/>
 </g>
 <!-- enum7 -->
-<g id="node91" class="node">
+<g id="node92" class="node">
 <title>enum7</title>
-<polygon fill="none" stroke="#fdba74" stroke-width="1.6" points="1571.53,-970.2 1485.61,-970.2 1485.61,-913.8 1571.53,-913.8 1571.53,-970.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-948.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">遞迴枚舉</text>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-927.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+<polygon fill="none" stroke="#fdba74" stroke-width="1.6" points="1571.53,-874.2 1485.61,-874.2 1485.61,-817.8 1571.53,-817.8 1571.53,-874.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-852.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">遞迴枚舉</text>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-831.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- enum6&#45;&gt;enum7 -->
-<g id="edge105" class="edge">
+<g id="edge106" class="edge">
 <title>enum6&#45;&gt;enum7</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1372.04,-913.16C1372.04,-887.97 1372.04,-855.4 1372.04,-855.4 1372.04,-855.4 1476.65,-855.4 1476.65,-855.4"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1476.65,-857.68 1483.15,-855.4 1476.65,-853.13 1476.65,-857.68"/>
+</g>
+<!-- enum8 -->
+<g id="node93" class="node">
+<title>enum8</title>
+<polygon fill="none" stroke="#fdba74" stroke-width="1.6" stroke-dasharray="5,2" points="1571.53,-970.2 1485.61,-970.2 1485.61,-913.8 1571.53,-913.8 1571.53,-970.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-948.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">折半枚舉</text>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-927.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+</g>
+<!-- enum6&#45;&gt;enum8 -->
+<g id="edge107" class="edge">
+<title>enum6&#45;&gt;enum8</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1384.15,-942C1384.15,-942 1476.74,-942 1476.74,-942"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1476.74,-944.28 1483.24,-942 1476.74,-939.73 1476.74,-944.28"/>
 </g>
-<!-- enum8 -->
-<g id="node92" class="node">
-<title>enum8</title>
+<!-- enum10 -->
+<g id="node95" class="node">
+<title>enum10</title>
 <polygon fill="none" stroke="#fdba74" stroke-width="1.6" stroke-dasharray="5,2" points="1571.53,-1066.2 1485.61,-1066.2 1485.61,-1009.8 1571.53,-1009.8 1571.53,-1066.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1044.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">折半枚舉</text>
+<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1044.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">枚舉倍數</text>
 <text xml:space="preserve" text-anchor="middle" x="1528.57" y="-1023.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
-<!-- enum6&#45;&gt;enum8 -->
-<g id="edge106" class="edge">
-<title>enum6&#45;&gt;enum8</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1372.04,-970.8C1372.04,-999.08 1372.04,-1038 1372.04,-1038 1372.04,-1038 1476.65,-1038 1476.65,-1038"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1476.65,-1040.28 1483.15,-1038 1476.65,-1035.73 1476.65,-1040.28"/>
-</g>
-<!-- enum10 -->
-<g id="node94" class="node">
-<title>enum10</title>
-<polygon fill="none" stroke="#fdba74" stroke-width="1.6" stroke-dasharray="5,2" points="1571.53,-874.2 1485.61,-874.2 1485.61,-817.8 1571.53,-817.8 1571.53,-874.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-852.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">枚舉倍數</text>
-<text xml:space="preserve" text-anchor="middle" x="1528.57" y="-831.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
-</g>
 <!-- enum6&#45;&gt;enum10 -->
-<g id="edge107" class="edge">
+<g id="edge108" class="edge">
 <title>enum6&#45;&gt;enum10</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1372.04,-913.2C1372.04,-884.92 1372.04,-846 1372.04,-846 1372.04,-846 1476.65,-846 1476.65,-846"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1476.65,-848.28 1483.15,-846 1476.65,-843.73 1476.65,-848.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1369.04,-970.8C1369.04,-1002.01 1369.04,-1047.4 1369.04,-1047.4 1369.04,-1047.4 1476.66,-1047.4 1476.66,-1047.4"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1476.66,-1049.68 1483.16,-1047.4 1476.66,-1045.13 1476.66,-1049.68"/>
 </g>
 <!-- enum9 -->
-<g id="node93" class="node">
+<g id="node94" class="node">
 <title>enum9</title>
-<polygon fill="none" stroke="#fdba74" stroke-width="1.6" stroke-dasharray="5,2" points="1756.08,-970.2 1700.16,-970.2 1700.16,-913.8 1756.08,-913.8 1756.08,-970.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-948.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">剪枝</text>
-<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-927.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<polygon fill="none" stroke="#fdba74" stroke-width="1.6" stroke-dasharray="5,2" points="1756.08,-874.2 1700.16,-874.2 1700.16,-817.8 1756.08,-817.8 1756.08,-874.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-852.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">剪枝</text>
+<text xml:space="preserve" text-anchor="middle" x="1728.12" y="-831.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- enum7&#45;&gt;enum9 -->
-<g id="edge108" class="edge">
+<g id="edge109" class="edge">
 <title>enum7&#45;&gt;enum9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1571.87,-942C1571.87,-942 1691.05,-942 1691.05,-942"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1691.05,-944.28 1697.55,-942 1691.05,-939.73 1691.05,-944.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1571.87,-846C1571.87,-846 1691.05,-846 1691.05,-846"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1691.05,-848.28 1697.55,-846 1691.05,-843.73 1691.05,-848.28"/>
 </g>
 <!-- bit2 -->
-<g id="node96" class="node">
+<g id="node97" class="node">
 <title>bit2</title>
 <polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="900.52,-569.2 844.6,-569.2 844.6,-512.8 900.52,-512.8 900.52,-569.2"/>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-547.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">位元</text>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-526.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- bit1&#45;&gt;bit2 -->
-<g id="edge109" class="edge">
+<g id="edge110" class="edge">
 <title>bit1&#45;&gt;bit2</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.56,-646.4C785.01,-646.4 859.04,-646.4 859.04,-646.4 859.04,-646.4 859.04,-578.12 859.04,-578.12"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="861.32,-578.12 859.04,-571.62 856.77,-578.12 861.32,-578.12"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.71,-637C786.34,-637 863.04,-637 863.04,-637 863.04,-637 863.04,-578.12 863.04,-578.12"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="865.32,-578.12 863.04,-571.62 860.77,-578.12 865.32,-578.12"/>
 </g>
 <!-- bit3 -->
-<g id="node97" class="node">
-<title>bit3</title>
-<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1122.36,-665.2 1068.36,-665.2 1068.36,-608.8 1122.36,-608.8 1122.36,-665.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-643.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">OR</text>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-622.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
-</g>
-<!-- bit2&#45;&gt;bit3 -->
-<g id="edge110" class="edge">
-<title>bit2&#45;&gt;bit3</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M886.04,-569.84C886.04,-595.03 886.04,-627.6 886.04,-627.6 886.04,-627.6 1059.24,-627.6 1059.24,-627.6"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1059.24,-629.88 1065.74,-627.6 1059.24,-625.33 1059.24,-629.88"/>
-</g>
-<!-- bit4 -->
 <g id="node98" class="node">
-<title>bit4</title>
-<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1125.19,-761.2 1065.52,-761.2 1065.52,-704.8 1125.19,-704.8 1125.19,-761.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-739.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">AND</text>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-718.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
-</g>
-<!-- bit2&#45;&gt;bit4 -->
-<g id="edge111" class="edge">
-<title>bit2&#45;&gt;bit4</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M873.04,-569.74C873.04,-623.31 873.04,-733 873.04,-733 873.04,-733 1056.59,-733 1056.59,-733"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1056.59,-735.28 1063.09,-733 1056.59,-730.73 1056.59,-735.28"/>
-</g>
-<!-- bit5 -->
-<g id="node99" class="node">
-<title>bit5</title>
-<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1124.07,-281.2 1066.65,-281.2 1066.65,-224.8 1124.07,-224.8 1124.07,-281.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-259.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">XOR</text>
+<title>bit3</title>
+<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1122.36,-281.2 1068.36,-281.2 1068.36,-224.8 1122.36,-224.8 1122.36,-281.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-259.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">OR</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-238.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
-<!-- bit2&#45;&gt;bit5 -->
-<g id="edge112" class="edge">
-<title>bit2&#45;&gt;bit5</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M859.04,-512.07C859.04,-439.03 859.04,-253 859.04,-253 859.04,-253 1057.59,-253 1057.59,-253"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1057.59,-255.28 1064.09,-253 1057.59,-250.73 1057.59,-255.28"/>
+<!-- bit2&#45;&gt;bit3 -->
+<g id="edge111" class="edge">
+<title>bit2&#45;&gt;bit3</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M859.04,-512.07C859.04,-439.03 859.04,-253 859.04,-253 859.04,-253 1059.47,-253 1059.47,-253"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1059.47,-255.28 1065.97,-253 1059.47,-250.73 1059.47,-255.28"/>
 </g>
-<!-- bit6 -->
-<g id="node100" class="node">
-<title>bit6</title>
-<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1124.44,-377.2 1066.27,-377.2 1066.27,-320.8 1124.44,-320.8 1124.44,-377.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-355.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">NOT</text>
+<!-- bit4 -->
+<g id="node99" class="node">
+<title>bit4</title>
+<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1125.19,-377.2 1065.52,-377.2 1065.52,-320.8 1125.19,-320.8 1125.19,-377.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-355.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">AND</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-334.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
-<!-- bit2&#45;&gt;bit6 -->
-<g id="edge113" class="edge">
-<title>bit2&#45;&gt;bit6</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M873.04,-512.26C873.04,-458.69 873.04,-349 873.04,-349 873.04,-349 1057.52,-349 1057.52,-349"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1057.52,-351.28 1064.02,-349 1057.52,-346.73 1057.52,-351.28"/>
+<!-- bit2&#45;&gt;bit4 -->
+<g id="edge112" class="edge">
+<title>bit2&#45;&gt;bit4</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M873.04,-512.26C873.04,-458.69 873.04,-349 873.04,-349 873.04,-349 1056.59,-349 1056.59,-349"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1056.59,-351.28 1063.09,-349 1056.59,-346.73 1056.59,-351.28"/>
 </g>
-<!-- bit7 -->
-<g id="node101" class="node">
-<title>bit7</title>
-<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1138.32,-473.2 1052.4,-473.2 1052.4,-416.8 1138.32,-416.8 1138.32,-473.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-451.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">位元左移</text>
+<!-- bit5 -->
+<g id="node100" class="node">
+<title>bit5</title>
+<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1124.07,-473.2 1066.65,-473.2 1066.65,-416.8 1124.07,-416.8 1124.07,-473.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-451.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">XOR</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-430.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
-<!-- bit2&#45;&gt;bit7 -->
-<g id="edge114" class="edge">
-<title>bit2&#45;&gt;bit7</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M886.04,-512.2C886.04,-483.92 886.04,-445 886.04,-445 886.04,-445 1043.41,-445 1043.41,-445"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.41,-447.28 1049.91,-445 1043.41,-442.73 1043.41,-447.28"/>
+<!-- bit2&#45;&gt;bit5 -->
+<g id="edge113" class="edge">
+<title>bit2&#45;&gt;bit5</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M886.04,-512.2C886.04,-483.92 886.04,-445 886.04,-445 886.04,-445 1057.93,-445 1057.93,-445"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1057.93,-447.28 1064.43,-445 1057.93,-442.73 1057.93,-447.28"/>
 </g>
-<!-- bit8 -->
-<g id="node102" class="node">
-<title>bit8</title>
-<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1138.32,-569.2 1052.4,-569.2 1052.4,-512.8 1138.32,-512.8 1138.32,-569.2"/>
-<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-547.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">位元右移</text>
+<!-- bit6 -->
+<g id="node101" class="node">
+<title>bit6</title>
+<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1124.44,-569.2 1066.27,-569.2 1066.27,-512.8 1124.44,-512.8 1124.44,-569.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-547.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">NOT</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-526.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
-<!-- bit2&#45;&gt;bit8 -->
+<!-- bit2&#45;&gt;bit6 -->
+<g id="edge114" class="edge">
+<title>bit2&#45;&gt;bit6</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M901.23,-531.6C901.23,-531.6 1057.41,-531.6 1057.41,-531.6"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1057.41,-533.88 1063.91,-531.6 1057.41,-529.33 1057.41,-533.88"/>
+</g>
+<!-- bit7 -->
+<g id="node102" class="node">
+<title>bit7</title>
+<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1138.32,-665.2 1052.4,-665.2 1052.4,-608.8 1138.32,-608.8 1138.32,-665.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-643.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">位元左移</text>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-622.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+</g>
+<!-- bit2&#45;&gt;bit7 -->
 <g id="edge115" class="edge">
+<title>bit2&#45;&gt;bit7</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M901.23,-550.4C952.83,-550.4 1056.04,-550.4 1056.04,-550.4 1056.04,-550.4 1056.04,-599.85 1056.04,-599.85"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1053.77,-599.85 1056.04,-606.35 1058.32,-599.85 1053.77,-599.85"/>
+</g>
+<!-- bit8 -->
+<g id="node103" class="node">
+<title>bit8</title>
+<polygon fill="none" stroke="#c084fc" stroke-width="1.6" points="1138.32,-761.2 1052.4,-761.2 1052.4,-704.8 1138.32,-704.8 1138.32,-761.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-739.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">位元右移</text>
+<text xml:space="preserve" text-anchor="middle" x="1095.36" y="-718.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
+</g>
+<!-- bit2&#45;&gt;bit8 -->
+<g id="edge116" class="edge">
 <title>bit2&#45;&gt;bit8</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M901.23,-541C901.23,-541 1043.55,-541 1043.55,-541"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.55,-543.28 1050.05,-541 1043.55,-538.73 1043.55,-543.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M882.04,-569.74C882.04,-623.31 882.04,-733 882.04,-733 882.04,-733 1043.36,-733 1043.36,-733"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1043.36,-735.28 1049.86,-733 1043.36,-730.73 1043.36,-735.28"/>
 </g>
 <!-- bit9 -->
-<g id="node103" class="node">
+<g id="node104" class="node">
 <title>bit9</title>
 <polygon fill="none" stroke="#c084fc" stroke-width="1.6" stroke-dasharray="5,2" points="1361.11,-521.2 1275.19,-521.2 1275.19,-464.8 1361.11,-464.8 1361.11,-521.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1318.15" y="-499.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">位元函式</text>
 <text xml:space="preserve" text-anchor="middle" x="1318.15" y="-478.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- bit3&#45;&gt;bit9 -->
-<g id="edge116" class="edge">
-<title>bit3&#45;&gt;bit9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1123.07,-637C1179.83,-637 1304.04,-637 1304.04,-637 1304.04,-637 1304.04,-530.11 1304.04,-530.11"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1306.32,-530.11 1304.04,-523.61 1301.77,-530.11 1306.32,-530.11"/>
-</g>
-<!-- bit4&#45;&gt;bit9 -->
 <g id="edge117" class="edge">
-<title>bit4&#45;&gt;bit9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1125.81,-733C1189.74,-733 1332.04,-733 1332.04,-733 1332.04,-733 1332.04,-530.27 1332.04,-530.27"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1334.32,-530.27 1332.04,-523.77 1329.77,-530.27 1334.32,-530.27"/>
-</g>
-<!-- bit5&#45;&gt;bit9 -->
-<g id="edge118" class="edge">
-<title>bit5&#45;&gt;bit9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.85,-253C1188.3,-253 1332.04,-253 1332.04,-253 1332.04,-253 1332.04,-455.73 1332.04,-455.73"/>
+<title>bit3&#45;&gt;bit9</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1122.97,-253C1185.4,-253 1332.04,-253 1332.04,-253 1332.04,-253 1332.04,-455.73 1332.04,-455.73"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1329.77,-455.73 1332.04,-462.23 1334.32,-455.73 1329.77,-455.73"/>
 </g>
-<!-- bit6&#45;&gt;bit9 -->
-<g id="edge119" class="edge">
-<title>bit6&#45;&gt;bit9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.81,-349C1182.34,-349 1304.04,-349 1304.04,-349 1304.04,-349 1304.04,-455.89 1304.04,-455.89"/>
+<!-- bit4&#45;&gt;bit9 -->
+<g id="edge118" class="edge">
+<title>bit4&#45;&gt;bit9</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1125.7,-349C1183.58,-349 1304.04,-349 1304.04,-349 1304.04,-349 1304.04,-455.89 1304.04,-455.89"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1301.77,-455.89 1304.04,-462.39 1306.32,-455.89 1301.77,-455.89"/>
 </g>
-<!-- bit7&#45;&gt;bit9 -->
+<!-- bit5&#45;&gt;bit9 -->
+<g id="edge119" class="edge">
+<title>bit5&#45;&gt;bit9</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.48,-469C1124.48,-469 1266.13,-469 1266.13,-469"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1266.13,-471.28 1272.63,-469 1266.13,-466.73 1266.13,-471.28"/>
+</g>
+<!-- bit6&#45;&gt;bit9 -->
 <g id="edge120" class="edge">
+<title>bit6&#45;&gt;bit9</title>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1124.94,-515.6C1124.94,-515.6 1266.33,-515.6 1266.33,-515.6"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1266.33,-517.88 1272.83,-515.6 1266.33,-513.33 1266.33,-517.88"/>
+</g>
+<!-- bit7&#45;&gt;bit9 -->
+<g id="edge121" class="edge">
 <title>bit7&#45;&gt;bit9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1139.11,-469C1139.11,-469 1266.18,-469 1266.18,-469"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1266.18,-471.28 1272.68,-469 1266.18,-466.73 1266.18,-471.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1135.04,-608.29C1135.04,-573.19 1135.04,-518.4 1135.04,-518.4 1135.04,-518.4 1266.44,-518.4 1266.44,-518.4"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1266.44,-520.68 1272.94,-518.4 1266.44,-516.13 1266.44,-520.68"/>
 </g>
 <!-- bit8&#45;&gt;bit9 -->
-<g id="edge121" class="edge">
+<g id="edge122" class="edge">
 <title>bit8&#45;&gt;bit9</title>
-<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1139.11,-517C1139.11,-517 1266.18,-517 1266.18,-517"/>
-<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1266.18,-519.28 1272.68,-517 1266.18,-514.73 1266.18,-519.28"/>
+<path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1139.08,-733C1203.94,-733 1318.04,-733 1318.04,-733 1318.04,-733 1318.04,-530.27 1318.04,-530.27"/>
+<polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1320.32,-530.27 1318.04,-523.77 1315.77,-530.27 1320.32,-530.27"/>
 </g>
 <!-- bit10 -->
-<g id="node104" class="node">
+<g id="node105" class="node">
 <title>bit10</title>
 <polygon fill="none" stroke="#c084fc" stroke-width="1.6" stroke-dasharray="5,2" points="1571.53,-521.2 1485.61,-521.2 1485.61,-464.8 1571.53,-464.8 1571.53,-521.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1528.57" y="-499.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">狀態壓縮</text>
 <text xml:space="preserve" text-anchor="middle" x="1528.57" y="-478.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- bit9&#45;&gt;bit10 -->
-<g id="edge122" class="edge">
+<g id="edge123" class="edge">
 <title>bit9&#45;&gt;bit10</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M1361.75,-493C1361.75,-493 1476.71,-493 1476.71,-493"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1476.71,-495.28 1483.21,-493 1476.71,-490.73 1476.71,-495.28"/>
 </g>
 <!-- search2 -->
-<g id="node106" class="node">
+<g id="node107" class="node">
 <title>search2</title>
 <polygon fill="none" stroke="#fca5a5" stroke-width="1.6" points="908.02,-168.2 837.1,-168.2 837.1,-111.8 908.02,-111.8 908.02,-168.2"/>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-146.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">二分搜</text>
 <text xml:space="preserve" text-anchor="middle" x="872.56" y="-125.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- search1&#45;&gt;search2 -->
-<g id="edge123" class="edge">
+<g id="edge124" class="edge">
 <title>search1&#45;&gt;search2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M735.81,-140C735.81,-140 828.25,-140 828.25,-140"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="828.25,-142.28 834.75,-140 828.25,-137.73 828.25,-142.28"/>
 </g>
 <!-- search3 -->
-<g id="node107" class="node">
+<g id="node108" class="node">
 <title>search3</title>
 <polygon fill="none" stroke="#fca5a5" stroke-width="1.6" points="1180.69,-72.2 1010.02,-72.2 1010.02,-15.8 1180.69,-15.8 1180.69,-72.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-50.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">lower / upper bound</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-29.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- search2&#45;&gt;search3 -->
-<g id="edge124" class="edge">
+<g id="edge125" class="edge">
 <title>search2&#45;&gt;search3</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M908.77,-130.6C951.27,-130.6 1016.04,-130.6 1016.04,-130.6 1016.04,-130.6 1016.04,-81.15 1016.04,-81.15"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1018.32,-81.15 1016.04,-74.65 1013.77,-81.15 1018.32,-81.15"/>
 </g>
 <!-- search4 -->
-<g id="node108" class="node">
+<g id="node109" class="node">
 <title>search4</title>
 <polygon fill="none" stroke="#fca5a5" stroke-width="1.6" stroke-dasharray="5,2" points="1130.82,-168.2 1059.9,-168.2 1059.9,-111.8 1130.82,-111.8 1130.82,-168.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-146.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">三分搜</text>
 <text xml:space="preserve" text-anchor="middle" x="1095.36" y="-125.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
 </g>
 <!-- search2&#45;&gt;search4 -->
-<g id="edge125" class="edge">
+<g id="edge126" class="edge">
 <title>search2&#45;&gt;search4</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M908.36,-149.4C908.36,-149.4 1050.96,-149.4 1050.96,-149.4"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="1050.96,-151.68 1057.46,-149.4 1050.96,-147.13 1050.96,-151.68"/>
 </g>
 <!-- geo1 -->
-<g id="node109" class="node">
+<g id="node110" class="node">
 <title>geo1</title>
 <polygon fill="none" stroke="#d9f99d" stroke-width="1.6" stroke-dasharray="1,5" points="101.92,-3777.2 16,-3777.2 16,-3720.8 101.92,-3720.8 101.92,-3777.2"/>
 <text xml:space="preserve" text-anchor="middle" x="58.96" y="-3755.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">幾何問題</text>
 <text xml:space="preserve" text-anchor="middle" x="58.96" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- geo2 -->
-<g id="node110" class="node">
+<g id="node111" class="node">
 <title>geo2</title>
 <polygon fill="none" stroke="#d9f99d" stroke-width="1.6" stroke-dasharray="1,5" points="252.34,-3777.2 181.42,-3777.2 181.42,-3720.8 252.34,-3720.8 252.34,-3777.2"/>
 <text xml:space="preserve" text-anchor="middle" x="216.88" y="-3755.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">掃描線</text>
 <text xml:space="preserve" text-anchor="middle" x="216.88" y="-3734.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
 </g>
 <!-- geo1&#45;&gt;geo2 -->
-<g id="edge23" class="edge">
+<g id="edge25" class="edge">
 <title>geo1&#45;&gt;geo2</title>
 <path fill="none" stroke="#bacae0" stroke-width="1.2" d="M102.53,-3749C102.53,-3749 172.34,-3749 172.34,-3749"/>
 <polygon fill="#bacae0" stroke="#bacae0" stroke-width="1.2" points="172.34,-3751.28 178.84,-3749 172.34,-3746.73 172.34,-3751.28"/>

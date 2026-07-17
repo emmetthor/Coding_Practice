@@ -119,11 +119,34 @@ struct LCA
 
 ### 樹上前綴和
 
-TODO
+樹上前綴和可以快速求出一條路徑上的 XX 總和，一種好寫的想法是：
+
+$$pre[x] = pre[parent[x]] + w[x]$$
+
+這是把**父節點的前綴和推給子節點**，而查詢時就可以利用 LCA 將路徑拆成兩段：
+
+$$sum(lca, u) + sum(lca, v)$$
+
+而 $sum(lca, p)$ 有兩種可能。
+
+1. 權重在點上，則：
+$$sum(lca, u) + sum(lca, v) = (pre[u] - pre[lca]) + (pre[v] - pre[lca]) + w[lca]$$
+2. 權重在邊上，則：
+$$sum(lca, u) + sum(lca, v) = (pre[u] - pre[lca]) + (pre[v] - pre[lca])$$
+
+::: info 為何權重在點上與在邊上有差？
+
+這是點上權重的示意圖：
+
+![點前綴和](../../img/點前綴和.svg)
+
+這是邊上權重的示意圖：
+
+![邊前綴和](../../img/邊前綴和.svg)
+
+:::
 
 ### 樹上差分
-
-TODO
 
 ### 點是否在路徑上
 
