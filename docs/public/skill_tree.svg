@@ -854,9 +854,9 @@
 <!-- tree8 -->
 <g id="node50" class="node">
 <title>tree8</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="1,5" points="1967.25,-3520.2 1881.33,-3520.2 1881.33,-3463.8 1967.25,-3463.8 1967.25,-3520.2"/>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1967.25,-3520.2 1881.33,-3520.2 1881.33,-3463.8 1967.25,-3463.8 1967.25,-3520.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3498.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹上差分</text>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3477.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[?]</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3477.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- tree9&#45;&gt;tree8 -->
 <g id="edge17" class="edge">
@@ -867,9 +867,9 @@
 <!-- tree10 -->
 <g id="node52" class="node">
 <title>tree10</title>
-<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" stroke-dasharray="5,2" points="1974.75,-3616.2 1873.83,-3616.2 1873.83,-3559.8 1974.75,-3559.8 1974.75,-3616.2"/>
+<polygon fill="none" stroke="#a5b4fc" stroke-width="1.6" points="1974.75,-3616.2 1873.83,-3616.2 1873.83,-3559.8 1974.75,-3559.8 1974.75,-3616.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3594.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">樹上前綴和</text>
-<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3573.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[!?]</text>
+<text xml:space="preserve" text-anchor="middle" x="1924.29" y="-3573.75" font-family="Microsoft JhengHei" font-size="15.00" fill="#ffffff">[✔]</text>
 </g>
 <!-- tree9&#45;&gt;tree10 -->
 <g id="edge18" class="edge">

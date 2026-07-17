@@ -180,9 +180,9 @@ digraph CompetitiveProgrammingSkillTree {
     tree5 [label="二分樹\n[✔]"];
     tree6 [label="更難的樹論問題\n[!?]", style="dashed"];
     tree7 [label="樹壓平\n[✔]"];
-    tree8 [label="樹上差分\n[?]", style="dotted"];
+    tree8 [label="樹上差分\n[✔]"];
     tree9 [label="LCA\n[✔]"];
-    tree10 [label="樹上前綴和\n[!?]", style="dashed"]
+    tree10 [label="樹上前綴和\n[✔]"]
   }
 
   tree9 -> tree8;
