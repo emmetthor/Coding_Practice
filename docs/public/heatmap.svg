@@ -326,5 +326,9 @@
     <title>2026-07-16: 2 problem(s)</title>
   </rect>
   <text x="324.0" y="105.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">2</text>
-  <text x="341" y="91.0" font-size="18" fill="white">Total: 189</text>
+  <rect x="314" y="116" width="20" height="20" fill="#223400">
+    <title>2026-07-17: 1 problem(s)</title>
+  </rect>
+  <text x="324.0" y="127.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
+  <text x="341" y="91.0" font-size="18" fill="white">Total: 190</text>
 </svg>
