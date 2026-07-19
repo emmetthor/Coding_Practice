@@ -154,6 +154,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '線段樹', link: '/techniques/data_structures/segment_tree' },
+                { text: '樹狀陣列', link: '/techniques/data_structures/binary_indexed_tree' },
               ]
             },
 
