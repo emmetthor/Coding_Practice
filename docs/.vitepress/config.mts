@@ -66,6 +66,14 @@ export default defineConfig({
             },
 
             {
+              text: '幾何',
+              collapsed: true,
+              items: [
+                { text: '向量', link: '/techniques/geometry/vector' },
+              ]
+            },
+
+            {
               text: '序列演算法',
               collapsed: true,
               items: [
