@@ -158,6 +158,15 @@ export default defineConfig({
             },
 
             {
+              text: '合併',
+              collapsed: true,
+              items: [
+                { text: '併查集', link: '/techniques/merge_techniques/DSU' },
+                { text: '最小生成樹', link: '/techniques/merge_techniques/MST' },
+              ]
+            },
+
+            {
               text: '資料結構',
               collapsed: true,
               items: [
