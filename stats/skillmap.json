@@ -123,6 +123,7 @@
   ],
 
   "mathematics": [
+    "math",
     "matrix",
     "gcd",
     "lcm",
