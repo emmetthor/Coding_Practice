@@ -157,13 +157,15 @@
   "unclassified": [
     "2d_map_implementation",
     "hex_map_implementation",
-    "custom_containers"
+    "custom_containers",
+    "observation"
   ],
 
   "implementation": [
     "implementation",
     "complicated_implementation",
     "swap_linked_technique",
-    "interactive"
+    "interactive",
+    "constructive"
   ]
 }
