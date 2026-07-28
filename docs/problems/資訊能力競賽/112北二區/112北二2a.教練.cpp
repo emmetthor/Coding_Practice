@@ -1,13 +1,11 @@
 /*
 Date: 2026-07-27
 
-Tags:
-Independent:
-Understanding:
-Implementation:
-Recognition:
-
-Mistakes:
+Tags: vector
+Independent: 5
+Understanding: 5
+Implementation: 5
+Recognition: 5
 */
 #include <bits/stdc++.h>
 using namespace std;
