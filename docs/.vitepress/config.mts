@@ -48,6 +48,7 @@ export default defineConfig({
           text: '解題知識與技巧',
           items: [
             { text: '首頁', link: '/techniques/index' },
+            { text: '考試速讀', link: `/techniques/cheat_sheet` },
 
             {
               text: '數學',
