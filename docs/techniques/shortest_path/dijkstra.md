@@ -23,7 +23,6 @@ struct Dijkstra {
     const int INF = 1e9;
     vector<vector<pair<int, int>>> e;
     vector<int> dis;
-    vector<int> visi;
     int n;
 
     // 建構子初始化
@@ -31,7 +30,6 @@ struct Dijkstra {
         n = _n;
         e.resize(n);
         dis.resize(n);
-        visi.resize(n);
     }
 
     // 新增正權邊
@@ -43,7 +41,6 @@ struct Dijkstra {
         // pool 紀錄目前距離原點最近的點
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pool;
         dis.assign(n, INF);
-        visi.assign(n, 0);
 
         dis[st] = 0;
         pool.push({0, st});
@@ -51,10 +48,7 @@ struct Dijkstra {
             auto [v, x] = pool.top();
             pool.pop();
 
-            if (visi[x])
-                continue;
-            visi[x] = 1;
-            // 能夠進來這裡的都是最短路
+            if (v > dis[x]) continue;
 
             for (auto [y, v2] : e[x]) {
                 if (dis[y] > v + v2) {
@@ -91,7 +85,30 @@ Dijstra 不只能解最短路，如果運算式滿足**最佳子結構（即最�
 
 如果 `dis[]` 陣列不只存最短的路徑長，還**存前 k 短的所有路徑長**，就可以算出前 k 短的所有路徑長。
 
+### 紀錄相同距離的最短路個數
+
+若要記錄最短路的個數，可以利用 dijkstra 的性質：**一定會走完所有 $<k$ 的最短路，才會走 $>k$ 的最短路**。
+
+因此可以額外紀錄 `cnt[x]` 代表到點 x 有幾條最短路。
+
+從點 x 走向點 y 時，
+當 dijkstra 遇到更短的路，就要覆蓋此點的最短路徑數。也就是：
+
+```c++
+cnt[y] = cnt[x];
+```
+
+而若遇到一樣長的路，就是把經過此點的最短路徑數直接加上新的。也就是：
+
+```c++
+cnt[y] += cnt[x]
+```
+
+需要注意，**當路徑一樣長時，只需更新 cnt 即可，不須將此點加入 `pool`**。
+
 ### 分層圖與圖論建模
+
+TODO
 
 ### 多源最短路
 
@@ -101,6 +118,7 @@ Dijstra 不只能解最短路，如果運算式滿足**最佳子結構（即最�
 
 - 未發現其實有**負權邊**。
 - 未發現圖**不一定完全相連** 或 未發現是多源最短路。
+- **未把過時的點去掉**。也就是忘記加上 `if (v > dis[x]) continue;`。
 
 ## 代表題目
 

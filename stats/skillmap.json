@@ -140,6 +140,10 @@
     "parity"
   ],
 
+  "geometry" : [
+    "vector"
+  ],
+
   "ordering": [
     "sort",
     "topological_sort",
