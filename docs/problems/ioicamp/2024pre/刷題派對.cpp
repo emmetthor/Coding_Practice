@@ -1,13 +1,11 @@
 /*
 Date: 2026-07-29
 
-Tags:
-Independent:
-Understanding:
-Implementation:
-Recognition:
-
-Mistakes:
+Tags: 1d_prefix_sum 
+Independent: 5
+Understanding: 5
+Implementation: 5
+Recognition: 5
 */
 #include <bits/stdc++.h>
 #include <numeric>
