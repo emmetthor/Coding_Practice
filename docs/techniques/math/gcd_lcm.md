@@ -22,6 +22,77 @@ $gcd(a, b)$ 代表 $a, b$ 的最大公因數，而 $lcm(a, b)$ 代表 $a, b$ 的
 
 ## 常見模型
 
+### gcd(x, y) 與 x, y 關係
+
+若 $d \mid \gcd(x, y)$，則 $d \mid x \wedge d \mid y$。也因此 $x, y$ 的線性組合也必定可被 $d$ 整除。也就是：
+
+$$d \mid (px + qy) \text{ if } p, q \in \mathbb{Z}$$
+
+::: details 證明
+
+由於 $d = \gcd(x, y)$，因此 $x, y$ 可以表示成：$x = kd, y = td \text{ if } k, t \in \mathbb{Z} \wedge \gcd(k, t) = 1$
+
+當 $x, y$ 線性組合後，就會變成：$pkd + qtd = d(pk + qt)$，這必定是 $d$ 的倍數。
+
+故得證。
+
+:::
+
+### gcd(ka, kb) = k gcd(a, b)
+
+$$ \gcd(ka, kb) = k \gcd(a, b) $$
+
+::: details 證明
+
+GCD 可把相同的因數提出，又因為 $ka, kb$ 中皆有因數 $k$，因此可以提出。
+
+:::
+
+### 輾轉相除法（Euclidean algorithm）
+
+$$
+\gcd(a, b) = \gcd(a, b + ka) \text{ if } k \in \mathbb{Z}
+$$
+
+::: details 證明
+
+若令 $\gcd(a, b) = d$，則 $a = pd, b = qd \text{ if } p, q \in \mathbb{Z} \wedge \gcd(p, q) = 1$。這時帶入 $\gcd(a, b + ka)$ 可得：
+$$\gcd(pd, qd + kpd)$$
+
+可將 $d$ 提出，得到：
+$$d \gcd(p, q + kp)$$
+
+令 $g = \gcd(p, q + kp)，則可知：
+$$g \mid p \wedge g \mid q + kp$$
+
+又因為 $g \mid p$，所以 $g \mid kp$，也因此 $g \mid q$。
+
+這時，由於 $g \mid p \wedge g \mid q \wedge \gcd(p, q) = 1$，因此 $g = 1$。
+
+故 $d\gcd(p, q + kp) = d$，也因此：
+
+$$\gcd(a, b) = d = \gcd(a, b + ka)$$
+
+得證。
+
+:::
+
+### gcd(a, b) = a
+
+若 $\gcd(a, b) = a$，則可以推出：$a \mid b$。
+
+::: details 證明
+
+因為 $a = \gcd(a, b)$，則 $b = ka \text{ if } k \in \mathbb{Z}$，也因此必定是 $a$ 的倍數。
+
+故得證。
+
+### ax + by = c 的整數解
+
+若 $ax + by = c$ 有整數解，當且僅當：
+
+$$\gcd(a, b) \mid c$$$
+
 TODO
 
 ---
