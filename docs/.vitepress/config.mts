@@ -209,6 +209,18 @@ export default defineConfig({
                 { text: 'LeetCode2033', link: 'problem_solutions/LeetCode/LeetCode2033' },
               ]
             },
+
+            {
+              text: 'NTUCPCPC',
+              items: [
+                {
+                  text: '2026 NTUCPCPC',
+                  items: [
+                    { text: 'pH. 除草', link: 'problem_solutions/NTUCPCPC/NTUCPCPC2026/pH除草' }
+                  ]
+                }
+              ]
+            }
           ]
         }
       ],
