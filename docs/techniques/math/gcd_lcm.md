@@ -62,7 +62,7 @@ $$\gcd(pd, qd + kpd)$$
 可將 $d$ 提出，得到：
 $$d \gcd(p, q + kp)$$
 
-令 $g = \gcd(p, q + kp)，則可知：
+令 $g = \gcd(p, q + kp)$，則可知：
 $$g \mid p \wedge g \mid q + kp$$
 
 又因為 $g \mid p$，所以 $g \mid kp$，也因此 $g \mid q$。
@@ -86,6 +86,8 @@ $$\gcd(a, b) = d = \gcd(a, b + ka)$$
 因為 $a = \gcd(a, b)$，則 $b = ka \text{ if } k \in \mathbb{Z}$，也因此必定是 $a$ 的倍數。
 
 故得證。
+
+:::
 
 ### ax + by = c 的整數解
 
