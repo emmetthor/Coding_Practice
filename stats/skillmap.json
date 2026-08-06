@@ -162,7 +162,8 @@
     "2d_map_implementation",
     "hex_map_implementation",
     "custom_containers",
-    "observation"
+    "observation",
+    "rolling_hash"
   ],
 
   "implementation": [
