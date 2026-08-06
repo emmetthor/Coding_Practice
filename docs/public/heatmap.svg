@@ -327,9 +327,13 @@
   <rect x="314" y="50" width="20" height="20" fill="#1D2320">
     <title>2026-08-04: 0 problem(s)</title>
   </rect>
-  <rect x="314" y="72" width="20" height="20" fill="#223400">
-    <title>2026-08-05: 1 problem(s)</title>
+  <rect x="314" y="72" width="20" height="20" fill="#13490b">
+    <title>2026-08-05: 2 problem(s)</title>
   </rect>
-  <text x="324.0" y="83.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
-  <text x="341" y="91.0" font-size="18" fill="white">Total: 239</text>
+  <text x="324.0" y="83.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">2</text>
+  <rect x="314" y="94" width="20" height="20" fill="#223400">
+    <title>2026-08-06: 1 problem(s)</title>
+  </rect>
+  <text x="324.0" y="105.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
+  <text x="341" y="91.0" font-size="18" fill="white">Total: 241</text>
 </svg>
