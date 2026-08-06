@@ -97,7 +97,7 @@
 | `same_side_two_pointer` | 3 | 3 | 5.0/5 | 4.7/5 | 5.0/5 | 4.7/5 | 97.0% | 精通 | debugging_slow(1), overcomplicated_solution(1), wrong_idea(1) | 2026-07-11 |
 | `dfs` | 8 | 8 | 5.0/5 | 4.8/5 | 4.6/5 | 5.0/5 | 96.9% | 精通 | reading_misunderstanding(1) | 2026-07-08 |
 | `dijkstra` | 3 | 3 | 4.7/5 | 4.7/5 | 5.0/5 | 5.0/5 | 96.3% | 精通 | reading_misunderstanding(1), template_not_familiar(1) | 2026-07-29 |
-| `greedy` | 18 | 18 | 4.8/5 | 4.7/5 | 4.8/5 | 4.9/5 | 96.3% | 精通 | debugging_slow(1), overcomplicated_solution(1), special_case_not_found(1) | 2026-07-27 |
+| `greedy` | 19 | 19 | 4.7/5 | 4.7/5 | 4.8/5 | 4.9/5 | 95.6% | 精通 | debugging_slow(1), overcomplicated_solution(1), special_case_not_found(1) | 2026-08-05 |
 | `monotonic_sequence` | 1 | 1 | 5.0/5 | 5.0/5 | 4.0/5 | 5.0/5 | 95.0% | 精通 | - | 2026-04-18 |
 | `associative_containers` | 5 | 5 | 4.6/5 | 4.8/5 | 4.8/5 | 4.8/5 | 94.8% | 精通 | - | 2026-07-28 |
 | `geometry` | 2 | 2 | 4.5/5 | 5.0/5 | 4.5/5 | 5.0/5 | 94.5% | 精通 | integer_overflow(1) | 2026-07-24 |
@@ -113,8 +113,8 @@
 | `binary_search_on_segment_tree` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 88.0% | 熟練 | - | 2026-07-10 |
 | `digit_dp` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 88.0% | 熟練 | - | 2026-07-11 |
 | `1d_prefix_sum` | 6 | 6 | 4.3/5 | 4.3/5 | 4.3/5 | 4.7/5 | 88.0% | 熟練 | debugging_slow(1), not_learned(1), overcomplicated_solution(1) | 2026-07-29 |
-| `dp` | 6 | 6 | 4.2/5 | 4.7/5 | 4.7/5 | 3.8/5 | 87.0% | 熟練 | wrong_idea(2), debugging_slow(1), not_learned(1) | 2026-07-12 |
 | `counting_equivalent_states` | 2 | 2 | 4.0/5 | 5.0/5 | 4.0/5 | 4.5/5 | 87.0% | 熟練 | debugging_slow(1), overcomplicated_solution(1) | 2026-07-06 |
+| `dp` | 7 | 7 | 4.0/5 | 4.7/5 | 4.7/5 | 3.9/5 | 86.6% | 熟練 | wrong_idea(2), debugging_slow(1), not_learned(1) | 2026-08-05 |
 | `segment_tree` | 5 | 5 | 2.6/5 | 5.0/5 | 5.0/5 | 5.0/5 | 85.6% | 熟練 | */(1) | 2026-07-10 |
 | `complicated_implementation` | 1 | 1 | 5.0/5 | 4.0/5 | 3.0/5 | 5.0/5 | 85.0% | 熟練 | reading_misunderstanding(1) | 2026-06-12 |
 | `inclusion_exclusion` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 4.0/5 | 84.0% | 熟練 | - | 2026-04-26 |
