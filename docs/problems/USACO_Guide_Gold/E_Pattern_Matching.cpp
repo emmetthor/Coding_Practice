@@ -1,6 +1,6 @@
 // Date: 2026-03-13
 /*
-Tags: 拓鋪排序, 二元枚舉
+Tags: topological_sort, multiple_enumeration
 
 解法：
 發現 pattern 可以推出先後順序，

@@ -1,5 +1,5 @@
 // Date: 2026-04-05
-// Tags: 取餘, 前綴和
+// Tags: modulo, 1d_prefix_sum
 
 // 解法：
 // 對於 i mod j，可以轉換成 i - j * floor(i / j)

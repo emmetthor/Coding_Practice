@@ -1,5 +1,5 @@
 // Date: 2026-03-22
-// Tags: 組合數, 區間 DP
+// Tags: combinatorics, range_dp
 /*
 解法：使用區間 dp[l][r] := 把 [l, r] 清空有幾種操作，
 每次把 s[l] 與 s[i] (l <= i <= r) 配對，如果 s[l] == s[i] (同字)

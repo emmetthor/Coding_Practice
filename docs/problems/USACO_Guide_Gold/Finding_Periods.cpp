@@ -1,6 +1,6 @@
 // Date: 2026-03-13
 /*
-Tags: 字串Hash, 枚舉所有因數(公式)
+Tags: rolling_hash, answer_enumeration
 
 解法：發現只要可以快速比較區間字串是否相同，就可以暴力枚舉題目的方法求解，因此使用 字串 Hash
 */

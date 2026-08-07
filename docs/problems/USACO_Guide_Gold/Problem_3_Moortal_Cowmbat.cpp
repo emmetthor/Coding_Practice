@@ -1,5 +1,5 @@
 // Date: 2026-04-01
-// Tags: Floyd Warshall, 分段 dp
+// Tags: Floyd Warshall, partition_dp
 //
 // 解法：
 // 可以先把字元的轉移算出來，使用 Floyd Warshall

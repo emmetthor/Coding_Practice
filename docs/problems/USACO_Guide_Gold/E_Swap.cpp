@@ -1,5 +1,5 @@
 // Date: 2026-03-20
-// Tags: 交換 dp, 交換
+// Tags: dp, swap_linked_technique
 /*
 解法：將題目轉換成：
 > 使用 cnt[k] 個 k，cnt[e] 個 E，cnt[y] 個 Y，若湊出的字串 T 需要以 S 交換 tt 次得出，

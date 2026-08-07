@@ -1,5 +1,5 @@
 // Date: 2026-03-22
-// Tags: 排容原理, 數學
+// Tags: inclusion_exclusion, math
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,6 +1,6 @@
 // Date: 2026-03-14
 /*
-Tags: 幾何, 區間
+Tags: geometry, multiple_enumeration
 
 解法：用 O(n) 枚舉 x 座標，再對 y 座標分段討論
 可以使用排容原理，分別對塗黑的整段 (inside_all) 和在外側的黑格 (total_even - inside_even) 討論

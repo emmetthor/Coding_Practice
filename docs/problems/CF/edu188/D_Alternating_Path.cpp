@@ -1,5 +1,5 @@
 // Date: 2026-03-22
-// Tags: 二分圖, 塗色問題, 圖論建模
+// Tags: graph, dfs, graph_modeling
 /*
 解法：
 會發現若要有盡可能多的 alternate path，就要使此點的每一邊都指出或指入，

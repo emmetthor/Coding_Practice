@@ -1,5 +1,5 @@
 // Date: 2026-03-22
-// Tags: 暴力, 觀察
+// Tags: multiple_enumeration, observation
 /*
 解法：請見 ChatGPT
 */

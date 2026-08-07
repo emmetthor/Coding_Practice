@@ -1,6 +1,6 @@
 // Date: 2026-03-13
 /*
-Tags: 折半枚舉, 位元
+Tags: meet_in_the_middle_enumeration, bitwise_operators
 
 解法：直接折半枚舉所有可能
 要確定是否 a = b = c，可以使用

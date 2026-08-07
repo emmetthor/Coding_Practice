@@ -1,5 +1,5 @@
 // Date: 2026-04-05
-// Tags: 遞迴枚舉, 暴力
+// Tags: recursive_enumeration, multiple_enumeration
 //
 // 解法：
 // 發現輸入 1099898 時的答案已經接近 10^9，就可以猜猜看答案其實不會太大

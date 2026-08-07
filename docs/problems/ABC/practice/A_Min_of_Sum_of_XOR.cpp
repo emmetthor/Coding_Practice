@@ -1,5 +1,5 @@
 // Date: 2026-04-14
-// Tags: XOR, 構造
+// Tags: XOR, constructive
 //
 // 解法：
 // 1. 看到 XOR 就先把每個數依照 bit 拆開來看

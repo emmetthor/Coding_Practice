@@ -1,6 +1,6 @@
 // Date: 2026-03-15
 /*
-Tags: 等價類計數, 簡易樹論
+Tags: counting_equivalent_states, tree
 
 解法：由於樹上的 path 是固定的，因此可以直接 DFS 並回滾紀錄所有出現數的次數
 注意若只看最新加入的數，會讓已經有重複 interger 的點被忽視，因此若父節點可行，其子樹皆可以

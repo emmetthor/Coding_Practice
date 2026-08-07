@@ -1,6 +1,6 @@
 // Date: 2026-03-14
 /*
-Tags: 前綴和, 斜率二分搜
+Tags: 1d_prefix_sum, binary_search
 
 解法：發現 waste 函式可以拆成 左 與 右，並且必定是凸函數，
 於是可以使用特殊的前綴和計算所有位置 左/右邊的 haybale 距離總和

@@ -1,6 +1,6 @@
 // Date: 2026-03-14
 /*
-Tags: BIT, 循環節
+Tags: BIT, observation
 
 解法：對每個數字的出現高度找一次可能的循環節，最後再用 BIT 求出前綴 kth small number 求解
 
