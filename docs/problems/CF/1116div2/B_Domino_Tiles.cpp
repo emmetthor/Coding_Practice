@@ -1,13 +1,11 @@
 /*
 Date: 2026-08-09
 
-Tags:
-Independent:
-Understanding:
-Implementation:
-Recognition:
-
-Mistakes:
+Tags: observation
+Independent: 5
+Understanding: 5
+Implementation: 5
+Recognition: 5
 */
 #include <bits/stdc++.h>
 using namespace std;

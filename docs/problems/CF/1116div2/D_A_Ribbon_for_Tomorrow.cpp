@@ -1,13 +1,11 @@
 /*
 Date: 2026-08-10
 
-Tags:
-Independent:
-Understanding:
-Implementation:
-Recognition:
-
-Mistakes:
+Tags: math, observation
+Independent: 3
+Understanding: 5
+Implementation: 5
+Recognition: 5
 */
 #include <bits/stdc++.h>
 #include <ostream>
