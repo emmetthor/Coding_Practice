@@ -106,6 +106,7 @@
 | `find_cycle` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | - | 2026-05-02 |
 | `implementation` | 1 | 1 | 5.0/5 | 4.0/5 | 4.0/5 | 5.0/5 | 90.0% | 精通 | reading_misunderstanding(1) | 2026-06-12 |
 | `binary_search_on_segment_tree` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 88.0% | 熟練 | - | 2026-07-10 |
+| `delayed_greedy` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 88.0% | 熟練 | - | 2026-08-07 |
 | `digit_dp` | 1 | 1 | 3.0/5 | 5.0/5 | 5.0/5 | 5.0/5 | 88.0% | 熟練 | - | 2026-07-11 |
 | `1d_prefix_sum` | 10 | 6 | 4.3/5 | 4.3/5 | 4.3/5 | 4.7/5 | 88.0% | 熟練 | debugging_slow(1), not_learned(1), overcomplicated_solution(1) | 2026-07-29 |
 | `counting_equivalent_states` | 3 | 2 | 4.0/5 | 5.0/5 | 4.0/5 | 4.5/5 | 87.0% | 熟練 | debugging_slow(1), overcomplicated_solution(1) | 2026-07-06 |
