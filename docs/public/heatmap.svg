@@ -304,13 +304,14 @@
     <title>2026-08-09: 4 problem(s)</title>
   </rect>
   <text x="280.0" y="171.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">4</text>
-  <rect x="292" y="28" width="20" height="20" fill="#223400">
-    <title>2026-08-10: 1 problem(s)</title>
+  <rect x="292" y="28" width="20" height="20" fill="#13490b">
+    <title>2026-08-10: 2 problem(s)</title>
   </rect>
-  <text x="302.0" y="39.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">1</text>
-  <rect x="292" y="50" width="20" height="20" fill="#1D2320">
-    <title>2026-08-11: 0 problem(s)</title>
+  <text x="302.0" y="39.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">2</text>
+  <rect x="292" y="50" width="20" height="20" fill="#13490b">
+    <title>2026-08-11: 2 problem(s)</title>
   </rect>
+  <text x="302.0" y="61.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">2</text>
   <rect x="292" y="72" width="20" height="20" fill="#1D2320">
     <title>2026-08-12: 0 problem(s)</title>
   </rect>
@@ -323,14 +324,19 @@
   <rect x="292" y="138" width="20" height="20" fill="#1D2320">
     <title>2026-08-15: 0 problem(s)</title>
   </rect>
-  <rect x="292" y="160" width="20" height="20" fill="#1D2320">
-    <title>2026-08-16: 0 problem(s)</title>
+  <rect x="292" y="160" width="20" height="20" fill="#13490b">
+    <title>2026-08-16: 2 problem(s)</title>
   </rect>
-  <rect x="314" y="28" width="20" height="20" fill="#1D2320">
-    <title>2026-08-17: 0 problem(s)</title>
+  <text x="302.0" y="171.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">2</text>
+  <rect x="314" y="28" width="20" height="20" fill="#116522">
+    <title>2026-08-17: 3 problem(s)</title>
   </rect>
+  <text x="324.0" y="39.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">3</text>
   <rect x="314" y="50" width="20" height="20" fill="#1D2320">
     <title>2026-08-18: 0 problem(s)</title>
   </rect>
-  <text x="341" y="91.0" font-size="18" fill="white">Total: 257</text>
+  <rect x="314" y="72" width="20" height="20" fill="#1D2320">
+    <title>2026-08-19: 0 problem(s)</title>
+  </rect>
+  <text x="341" y="91.0" font-size="18" fill="white">Total: 265</text>
 </svg>
