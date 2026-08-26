@@ -318,9 +318,10 @@
   <rect x="292" y="116" width="20" height="20" fill="#1D2320">
     <title>2026-08-21: 0 problem(s)</title>
   </rect>
-  <rect x="292" y="138" width="20" height="20" fill="#1D2320">
-    <title>2026-08-22: 0 problem(s)</title>
+  <rect x="292" y="138" width="20" height="20" fill="#3BCB58">
+    <title>2026-08-22: 5 problem(s)</title>
   </rect>
+  <text x="302.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">5</text>
   <rect x="292" y="160" width="20" height="20" fill="#1D2320">
     <title>2026-08-23: 0 problem(s)</title>
   </rect>
@@ -330,8 +331,9 @@
   <rect x="314" y="50" width="20" height="20" fill="#1D2320">
     <title>2026-08-25: 0 problem(s)</title>
   </rect>
-  <rect x="314" y="72" width="20" height="20" fill="#1D2320">
-    <title>2026-08-26: 0 problem(s)</title>
+  <rect x="314" y="72" width="20" height="20" fill="#116522">
+    <title>2026-08-26: 3 problem(s)</title>
   </rect>
-  <text x="341" y="91.0" font-size="18" fill="white">Total: 265</text>
+  <text x="324.0" y="83.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">3</text>
+  <text x="341" y="91.0" font-size="18" fill="white">Total: 273</text>
 </svg>
