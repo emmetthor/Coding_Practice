@@ -86,12 +86,12 @@
 | `lower_upper_bound` | 3 | 3 | 5.0/5 | 5.0/5 | 5.0/5 | 4.7/5 | 98.7% | 精通 | - | 2026-07-23 |
 | `observation` | 9 | 7 | 4.7/5 | 5.0/5 | 5.0/5 | 5.0/5 | 98.3% | 精通 | wrong_idea(1), wrong_proof(1) | 2026-08-10 |
 | `sort` | 2 | 2 | 5.0/5 | 5.0/5 | 5.0/5 | 4.5/5 | 98.0% | 精通 | - | 2026-06-13 |
-| `math` | 5 | 4 | 4.5/5 | 5.0/5 | 5.0/5 | 5.0/5 | 97.0% | 精通 | - | 2026-08-10 |
 | `same_side_two_pointer` | 3 | 3 | 5.0/5 | 4.7/5 | 5.0/5 | 4.7/5 | 97.0% | 精通 | debugging_slow(1), overcomplicated_solution(1), wrong_idea(1) | 2026-07-11 |
 | `dfs` | 9 | 8 | 5.0/5 | 4.8/5 | 4.6/5 | 5.0/5 | 96.9% | 精通 | reading_misunderstanding(1) | 2026-07-08 |
 | `dijkstra` | 3 | 3 | 4.7/5 | 4.7/5 | 5.0/5 | 5.0/5 | 96.3% | 精通 | reading_misunderstanding(1), template_not_familiar(1) | 2026-07-29 |
 | `associative_containers` | 7 | 7 | 4.7/5 | 4.9/5 | 4.9/5 | 4.9/5 | 96.3% | 精通 | wrong_proof(1) | 2026-08-06 |
-| `greedy` | 21 | 21 | 4.8/5 | 4.8/5 | 4.8/5 | 4.9/5 | 96.0% | 精通 | debugging_slow(1), overcomplicated_solution(1), special_case_not_found(1) | 2026-08-09 |
+| `math` | 6 | 5 | 4.6/5 | 5.0/5 | 5.0/5 | 4.6/5 | 96.0% | 精通 | - | 2026-08-29 |
+| `greedy` | 22 | 22 | 4.8/5 | 4.8/5 | 4.8/5 | 4.8/5 | 95.9% | 精通 | debugging_slow(1), overcomplicated_solution(1), special_case_not_found(1) | 2026-08-29 |
 | `difference` | 4 | 4 | 4.5/5 | 5.0/5 | 5.0/5 | 4.5/5 | 95.0% | 精通 | */(1), overcomplicated_solution(1) | 2026-08-07 |
 | `monotonic_sequence` | 1 | 1 | 5.0/5 | 5.0/5 | 4.0/5 | 5.0/5 | 95.0% | 精通 | - | 2026-04-18 |
 | `geometry` | 3 | 2 | 4.5/5 | 5.0/5 | 4.5/5 | 5.0/5 | 94.5% | 精通 | integer_overflow(1) | 2026-07-24 |
