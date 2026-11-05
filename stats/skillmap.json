@@ -51,7 +51,8 @@
     "binary_tree",
     "binary_lifting",
     "lca",
-    "difference_on_tree"
+    "difference_on_tree",
+    "euler_tour_techique"
   ],
 
   "graph_traversal": [
