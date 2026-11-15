@@ -261,9 +261,10 @@
   <rect x="270" y="116" width="20" height="20" fill="#1D2320">
     <title>2026-11-06: 0 problem(s)</title>
   </rect>
-  <rect x="270" y="138" width="20" height="20" fill="#1D2320">
-    <title>2026-11-07: 0 problem(s)</title>
+  <rect x="270" y="138" width="20" height="20" fill="#3BCB58">
+    <title>2026-11-07: 5 problem(s)</title>
   </rect>
+  <text x="280.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">5</text>
   <rect x="270" y="160" width="20" height="20" fill="#1D2320">
     <title>2026-11-08: 0 problem(s)</title>
   </rect>
@@ -282,8 +283,12 @@
   <rect x="292" y="116" width="20" height="20" fill="#1D2320">
     <title>2026-11-13: 0 problem(s)</title>
   </rect>
-  <rect x="292" y="138" width="20" height="20" fill="#1D2320">
-    <title>2026-11-14: 0 problem(s)</title>
+  <rect x="292" y="138" width="20" height="20" fill="#13490b">
+    <title>2026-11-14: 2 problem(s)</title>
   </rect>
-  <text x="319" y="91.0" font-size="18" fill="white">Total: 299</text>
+  <text x="302.0" y="149.0" font-size="10" fill="white" text-anchor="middle" dominant-baseline="middle" pointer-events="none">2</text>
+  <rect x="292" y="160" width="20" height="20" fill="#1D2320">
+    <title>2026-11-15: 0 problem(s)</title>
+  </rect>
+  <text x="319" y="91.0" font-size="18" fill="white">Total: 306</text>
 </svg>
